@@ -73,7 +73,7 @@
     <div>形态<b>Aime Agent Skill + 定时任务</b></div>
     <div>触发<b>工作日 12:15 / 12:30</b></div>
     <div>数据源<b>飞书「深圳湾餐饮话题群③」</b></div>
-    <div>状态<b>已配置定时任务，跑在我的助理里</b></div>
+    <div>状态<b>Skill 已上线 · 12:15 / 12:30 定时任务已配置</b></div>
   </div>
 </header>
 
@@ -205,6 +205,15 @@
 
     <div class="two" style="margin-top:32px;">
       <div>
+        <div class="eyebrow" style="margin-bottom:12px;">真实数据长什么样（上线前实测三天）</div>
+        <div class="steps" style="grid-template-columns:1fr;">
+          <div class="step olive"><div class="num">01</div><div><h4>预告不是一条，而是一堆话题</h4><p>它是话题群，每天 11:32–11:59 由餐厅客服分楼层发多张卡片。所以定位方式不是「找最新一条」，而是按当天时间窗口捞主流里的全部预告。</p></div></div>
+          <div class="step pink"><div class="num">02</div><div><h4>32F 根本没有独立卡片</h4><p>它混在「B7/32/47 餐厅-午餐预告」这一张卡里。这条发现直接改了实现方式：楼层判断必须下沉到段落级（如 <b>32F-B区-「自选粉面」</b>），按卡片分类会全错。</p></div></div>
+          <div class="step apricot"><div class="num">03</div><div><h4>「自选」有三种叫法</h4><p>自选餐线 / 自选粉面 / 轻食自助。规则里写死一个词就会漏，所以按关键词族匹配，而不是全等判断。</p></div></div>
+          <div class="step sky"><div class="num">04</div><div><h4>有些楼层只发图片</h4><p>21F、A7 的菜单是纯图。这种情况下我选择<b>标注「图片菜单，见原文」</b>，而不是断言「今天没有你爱吃的」——宁可承认看不见，也不给假结论。</p></div></div>
+        </div>
+      </div>
+      <div>
         <div class="eyebrow" style="margin-bottom:12px;">Skill 定义（节选）</div>
         <div class="panel"><div class="panel-body" style="font-family:'JetBrains Mono',monospace;font-size:12.5px;line-height:1.85;white-space:pre-wrap;">FAVORITES = [美蛙鱼, 小龙虾, 酸菜鱼, 肥肠, 冬阴功, 椰子鸡]
 HOME_FLOOR = 32F
@@ -219,10 +228,8 @@ SOURCE = 飞书群「深圳湾餐饮话题群③」
 
 12:30 → if 未确认吃饭 and 工作日
       → 「哪层楼有你爱吃的什么」+ 催一句</div></div>
-      </div>
-      <div>
-        <div class="eyebrow" style="margin-bottom:12px;">为什么做成 Skill，而不是做个网页</div>
-        <p style="font-size:14.5px;">
+        <div class="eyebrow" style="margin:24px 0 12px;">为什么做成 Skill，而不是做个网页</div>
+        <p style="font-size:14.5px;margin-top:0;">
           中午 12:15 我不会主动打开任何网页，<b>信息必须来找我</b>。做成 Agent Skill 的好处是：
           触发时机、数据源、消息通道全在同一条链路里，规则改一行就能生效，不需要发版。
         </p>
