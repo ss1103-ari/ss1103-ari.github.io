@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>万象智绘 · AI 国画生成与修复平台 | 冯本爽作品集</title>
+<meta name="description" content="万象智绘：面向国画创作与教学的垂类 AI 产品，0→1 立项复盘——用户访谈、功能矩阵、免费+会员商业模式，获第十八届「赢在中大」创新创业大赛优胜奖。" />
+<link rel="stylesheet" href="../../assets/style.css" />
+<style>
+  .cover { width: 100%; aspect-ratio: 21/8; border: 1.5px solid var(--ink); border-radius: var(--radius); display: block; margin-top: 26px; box-shadow: var(--shadow); }
+  .matrix { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .cell { border: 1.5px solid var(--ink); border-radius: var(--radius); overflow: hidden; }
+  .cell-h { padding: 12px 16px; border-bottom: 1.5px solid var(--ink); font-weight: 900; font-size: 16px; display: flex; justify-content: space-between; align-items: center; }
+  .cell-b { padding: 14px 16px; font-size: 14px; line-height: 1.8; background: var(--paper-2); }
+  .cell-b ul { margin: 0; padding-left: 18px; }
+  .cell-b li { margin-bottom: 5px; }
+  .tagline { font-family: "Inter", sans-serif; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; border: 1px solid var(--ink); border-radius: 5px; padding: 2px 7px; background: rgba(255,255,255,.55); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+  .findings { border-left: 3px solid var(--ink); padding-left: 18px; }
+  .findings div { margin-bottom: 16px; }
+  .findings b { display: block; font-size: 16px; margin-bottom: 3px; }
+  .findings p { margin: 0; font-size: 14px; }
+  @media (max-width: 900px) { .matrix, .two { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="wrap nav-in">
+  <a class="back" href="../../">← 返回作品集</a>
+  <div class="nav-links"><a href="#research">调研</a><a href="#product">产品方案</a><a href="#result">结果与复盘</a></div>
+</div></nav>
+
+<header class="page-hero wrap">
+  <div class="eyebrow">Work 04 · 0→1 立项 · 2024.07 – 2025.12</div>
+  <h1 class="display" style="font-size:clamp(34px,6vw,74px);">万象智绘</h1>
+  <p class="en-sub">AI 国画生成与修复平台 — 让 AI 懂一点笔墨。</p>
+  <hr class="rule-thick" />
+
+  <svg class="cover" viewBox="0 0 1050 400" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="万象智绘封面">
+    <rect width="1050" height="400" fill="#F8F4EA"/>
+    <path d="M0 300 C 150 250, 250 300, 380 262 C 520 224, 600 268, 730 240 C 860 212, 950 250, 1050 224 L1050 400 L0 400 Z" fill="#BFD1DE"/>
+    <path d="M0 340 C 180 302, 300 348, 460 316 C 620 284, 740 324, 880 298 C 960 284, 1010 292, 1050 288 L1050 400 L0 400 Z" fill="#8FA9BA" opacity=".72"/>
+    <circle cx="880" cy="98" r="44" fill="#F1CBD4"/>
+    <g stroke="#14130D" stroke-width="3.6" fill="none" stroke-linecap="round">
+      <path d="M120 236 C 152 168, 168 132, 202 96"/>
+      <path d="M202 96 C 228 122, 250 136, 284 144"/>
+      <path d="M202 96 C 182 126, 164 140, 138 152"/>
+      <path d="M420 240 C 442 196, 448 172, 470 142"/>
+      <path d="M470 142 C 490 162, 506 172, 532 180"/>
+      <path d="M640 250 C 656 214, 662 194, 678 168"/>
+    </g>
+    <g font-family="Noto Serif SC, serif" fill="#14130D">
+      <text x="70" y="76" font-size="40" font-weight="900">万象智绘</text>
+      <text x="70" y="104" font-size="13" opacity=".6" font-family="Inter, sans-serif" letter-spacing="4">GUOHUA AIGC · CREATE &amp; RESTORE · 2024–2025</text>
+    </g>
+  </svg>
+
+  <div class="two" style="margin-top:28px;">
+    <p style="margin:0;">
+      国际主流 AI 绘画工具在国画领域几乎全线失灵：<b>「文化失真」</b>（把水墨画成水彩、把留白填满）、
+      <b>看不懂专业技法</b>（皴法、没骨、界画说了也不认）、<b>普及门槛高</b>（提示词像咒语）。
+      我作为项目总负责人立项并主导了这款面向国画创作与教学的垂类 AI 产品。
+    </p>
+    <p style="margin:0;">
+      产品的核心判断是：<b>国画的 AI 化不该只做「生成」，还要做「修复」</b>。
+      生成解决爱好者的表达门槛，修复解决文博机构的真实预算，两条腿共用一套模型能力与技法知识库，
+      也让商业模式从第一天就有 B 端落点。
+    </p>
+  </div>
+
+  <div class="meta-row">
+    <div>我的角色<b>项目总负责人 · 立项 / 调研 / 产品设计</b></div>
+    <div>调研样本<b>50+ 爱好者 · 10+ 创作者 · 3 家文博机构</b></div>
+    <div>成果<b>第十八届「赢在中大」创新创业大赛优胜奖</b></div>
+    <div>进展<b>500 名种子用户 · 2 家 B 端机构试点</b></div>
+  </div>
+</header>
+
+<hr class="rule" />
+
+<section id="research">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Research · 需求调研</div>
+        <h2 class="display">三类人，三种「难」</h2>
+        <p class="en-sub">What 60+ interviews actually told us.</p>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="findings">
+        <div><b>爱好者：不是不会画，是不会「说」</b>
+          <p>想画一幅「远山淡影、留白三分」的画，却只能输入「中国画 山 水墨」，出来的东西不对味。他们缺的是把审美翻译成指令的能力。</p></div>
+        <div><b>创作者：缺灵感草图，不缺笔</b>
+          <p>专业创作者拒绝「AI 代笔」，但欢迎「AI 出十版构图」。这决定了产品定位是<b>创作前的发散工具</b>，不是替代笔墨。</p></div>
+        <div><b>文博端：修复效率低到反常识</b>
+          <p>三家机构反馈，古画修复严重依赖少数专家、周期极长。这是最愿意付费、也最容不得幻觉的一端。</p></div>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:14px;">由此确定的三个产品原则</div>
+        <div class="steps" style="grid-template-columns:1fr;">
+          <div class="step pink"><div class="num">01</div><div><h4>技法即提示词</h4><p>把皴法、没骨、青绿、界画等技法做成可点选的「专业档位」，让用户不用学提示词工程，也能表达专业意图。</p></div></div>
+          <div class="step olive"><div class="num">02</div><div><h4>留白是功能，不是空白</h4><p>构图阶段显式控制留白比例与题跋位置——这是国画和通用绘画模型最大的审美差异点。</p></div></div>
+          <div class="step apricot"><div class="num">03</div><div><h4>修复必须可追溯</h4><p>B 端场景下，任何生成结果都要能对照原图分层查看、逐步回退，否则不可能进专业工作流。</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="product">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Product · 功能矩阵</div>
+        <h2 class="display">生成与修复，<br />共用同一套底层</h2>
+        <p class="en-sub">One core, two user paths.</p>
+      </div>
+    </div>
+
+    <div class="matrix">
+      <div class="cell">
+        <div class="cell-h" style="background:var(--pink);">创作线 · C 端<span class="tagline">免费 + 会员</span></div>
+        <div class="cell-b">
+          <ul>
+            <li><b>技法选择器</b>：按流派 / 技法 / 朝代风格出图，替代提示词</li>
+            <li><b>构图与留白控制</b>：主体位置、留白比例、题跋落款区域</li>
+            <li><b>集体创作</b>：多人接力同一张长卷，形成社区内容</li>
+            <li><b>学习卡片</b>：每次出图附带技法讲解，教学场景可用</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-h" style="background:var(--sky);">修复线 · B 端<span class="tagline">按项目付费</span></div>
+        <div class="cell-b">
+          <ul>
+            <li><b>分层修复</b>：破损区域识别 → 补全建议 → 分层可回退</li>
+            <li><b>风格一致性校验</b>：补全笔触与原作对齐度评分</li>
+            <li><b>专家协同</b>：修复过程留痕，支持专家逐步确认</li>
+            <li><b>成果导出</b>：高清成品 + 修复过程报告</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-h" style="background:var(--olive);">底层能力<span class="tagline">共用</span></div>
+        <div class="cell-b">
+          <ul>
+            <li>国画专属模型微调 + 技法知识库</li>
+            <li>专业术语 → 生成参数的映射层</li>
+            <li>作品资产库与版本管理</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="cell-h" style="background:var(--apricot);">商业模式<span class="tagline">两条腿</span></div>
+        <div class="cell-b">
+          <ul>
+            <li><b>C 端</b>：免费额度拉新 → 会员解锁高级技法与高清导出</li>
+            <li><b>B 端</b>：文博 / 高校按项目或年度授权，修复线为主</li>
+            <li><b>内容飞轮</b>：集体创作产出的作品成为传播素材，反哺获客</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="result">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Result &amp; Reflection · 结果与复盘</div>
+        <h2 class="display">拿了奖，也拿到了<br />两个更值钱的教训</h2>
+        <p class="en-sub">What I'd do differently.</p>
+      </div>
+    </div>
+
+    <div class="two">
+      <div>
+        <div class="eyebrow" style="margin-bottom:12px;">发生了什么</div>
+        <p style="margin-top:0;">
+          带领团队完成立项、调研、产品设计与商业化设计，获<b>第十八届「赢在中大」创新创业大赛优胜奖</b>，
+          拿到 <b>500 名种子用户</b>，并完成 <b>2 家 B 端机构试点</b>。
+        </p>
+        <div class="steps" style="grid-template-columns:1fr;">
+          <div class="step olive"><div class="num">✓</div><div><h4>验证成立的判断</h4><p>「垂类审美缺口」是真需求：用户愿意为「像不像国画」付费，而不是为「画得快」付费。</p></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:12px;">如果重来</div>
+        <div class="steps" style="grid-template-columns:1fr;">
+          <div class="step pink"><div class="num">01</div><div><h4>应该先做修复，再做创作</h4><p>C 端更热闹，但 B 端的付费意愿和验收标准更硬。先做修复能更早拿到真实约束，也更快形成收入。</p></div></div>
+          <div class="step apricot"><div class="num">02</div><div><h4>「好不好看」需要一把尺子</h4><p>当时靠人主观评判效果。现在我会先建评测集（技法还原度、留白合理性、专家盲评），把审美变成可回归的指标——这也是我后来在字节做 AI 产品时最受用的一课。</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="eyebrow">Work 04 / 04</div>
+      <h2 class="display" style="font-size:clamp(24px,3.2vw,36px);margin-top:10px;">看完了，聊聊？</h2>
+      <div class="actions" style="margin-top:18px;">
+        <a class="btn" href="../../#contact">联系我 →</a>
+        <a class="btn ghost" href="../../">回作品集</a>
+      </div>
+    </div>
+    <div class="foot-note">© 2026 冯本爽 · 万象智绘</div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+/* 冯本爽 作品集 · 杂志编辑风 shared style */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700;900&family=Playfair+Display:ital,wght@0,600;1,500;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+
+:root {
+  --paper: #F3EEE1;
+  --paper-2: #FCFAF3;
+  --ink: #14130D;
+  --ink-60: rgba(20, 19, 13, .62);
+  --ink-40: rgba(20, 19, 13, .42);
+  --line: rgba(20, 19, 13, .16);
+  --pink: #F1CBD4;
+  --olive: #D3DE93;
+  --apricot: #F2CE9D;
+  --sky: #BFD1DE;
+  --lilac: #D8CFE7;
+  --radius: 14px;
+  --shadow: 0 1px 0 rgba(20,19,13,.08), 0 18px 34px -26px rgba(20,19,13,.4);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Noto Serif SC", "Songti SC", serif;
+  -webkit-font-smoothing: antialiased;
+  background-image:
+    radial-gradient(rgba(20,19,13,.055) 1px, transparent 1.1px);
+  background-size: 22px 22px;
+}
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+.wrap-narrow { max-width: 900px; margin: 0 auto; padding: 0 28px; }
+
+/* ---------- typography ---------- */
+.eyebrow {
+  font-family: "Inter", -apple-system, sans-serif;
+  font-weight: 700;
+  font-size: 11.5px;
+  letter-spacing: .34em;
+  text-transform: uppercase;
+  color: var(--ink-60);
+}
+.kicker {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: .16em;
+  color: var(--ink-60);
+}
+h1.display {
+  font-weight: 900;
+  font-size: clamp(40px, 7.4vw, 92px);
+  line-height: 1.02;
+  letter-spacing: -.015em;
+  margin: 14px 0 10px;
+}
+h2.display {
+  font-weight: 900;
+  font-size: clamp(28px, 4.4vw, 52px);
+  line-height: 1.1;
+  letter-spacing: -.01em;
+  margin: 0 0 8px;
+}
+.en-sub {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: clamp(16px, 2.2vw, 26px);
+  color: rgba(20,19,13,.55);
+  margin: 0;
+}
+p { line-height: 1.85; color: rgba(20,19,13,.8); }
+a { color: inherit; }
+
+/* ---------- layout bits ---------- */
+.rule { height: 1px; background: var(--line); margin: 0; border: 0; }
+.rule-thick { height: 3px; background: var(--ink); width: 64px; border: 0; margin: 18px 0 0; }
+section { padding: 66px 0; }
+.sec-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 30px; flex-wrap: wrap; }
+
+/* ---------- top nav ---------- */
+.nav {
+  position: sticky; top: 0; z-index: 40;
+  backdrop-filter: blur(10px);
+  background: rgba(243,238,225,.86);
+  border-bottom: 1px solid var(--line);
+}
+.nav-in { display: flex; align-items: center; justify-content: space-between; height: 58px; }
+.nav-name { font-weight: 900; letter-spacing: .02em; font-size: 17px; }
+.nav-links { display: flex; gap: 22px; font-family: "Inter", sans-serif; font-size: 13px; font-weight: 600; letter-spacing: .06em; }
+.nav-links a { text-decoration: none; color: var(--ink-60); padding-bottom: 2px; border-bottom: 1.5px solid transparent; }
+.nav-links a:hover { color: var(--ink); border-color: var(--ink); }
+
+/* ---------- chips / tags ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  font-family: "Inter", sans-serif; font-size: 12px; font-weight: 600; letter-spacing: .04em;
+  border: 1px solid var(--ink); border-radius: 999px; padding: 5px 12px; background: transparent;
+}
+.tag {
+  font-family: "Inter", sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-60);
+  border: 1px solid var(--line); border-radius: 6px; padding: 4px 9px; background: rgba(255,255,255,.5);
+}
+
+/* ---------- cards ---------- */
+.card {
+  background: var(--paper-2);
+  border: 1.5px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.num {
+  font-family: "Playfair Display", serif; font-style: italic; font-weight: 600;
+  font-size: clamp(46px, 6vw, 76px); line-height: .85; color: rgba(20,19,13,.42);
+}
+
+/* work cards */
+.works { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+.work {
+  border: 1.5px solid var(--ink); border-radius: var(--radius); overflow: hidden;
+  box-shadow: var(--shadow); background: var(--paper-2);
+  display: flex; flex-direction: column;
+  transition: transform .28s cubic-bezier(.2,.7,.3,1), box-shadow .28s;
+}
+.work:hover { transform: translateY(-5px); box-shadow: 0 1px 0 rgba(20,19,13,.1), 0 30px 46px -28px rgba(20,19,13,.5); }
+.work-head { padding: 20px 22px 16px; display: flex; gap: 16px; align-items: flex-start; }
+.work-head.pink { background: var(--pink); }
+.work-head.olive { background: var(--olive); }
+.work-head.apricot { background: var(--apricot); }
+.work-head.sky { background: var(--sky); }
+.work-head.lilac { background: var(--lilac); }
+.work-title { font-weight: 900; font-size: clamp(21px, 2.5vw, 27px); line-height: 1.25; margin: 0 0 4px; }
+.work-en { font-family: "Playfair Display", serif; font-style: italic; font-size: 15px; color: rgba(20,19,13,.6); }
+.work-body { padding: 18px 22px 22px; display: flex; flex-direction: column; gap: 14px; flex: 1; }
+.work-shot {
+  border-top: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink);
+  background: #fff; display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top center;
+}
+.pain { font-size: 15px; margin: 0; color: rgba(20,19,13,.78); }
+.pain b { background: linear-gradient(transparent 62%, rgba(242,206,157,.85) 62%); }
+.metrics { display: flex; gap: 18px; flex-wrap: wrap; font-family: "Inter", sans-serif; font-size: 12.5px; color: var(--ink-60); }
+.metrics b { font-family: "Noto Serif SC", serif; font-size: 17px; color: var(--ink); display: block; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: auto; }
+.btn {
+  font-family: "Inter", sans-serif; font-size: 13px; font-weight: 700; letter-spacing: .05em;
+  text-decoration: none; padding: 10px 16px; border-radius: 999px; border: 1.5px solid var(--ink);
+  background: var(--ink); color: var(--paper-2); display: inline-flex; align-items: center; gap: 7px;
+  transition: transform .2s, background .2s, color .2s;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn.ghost { background: transparent; color: var(--ink); }
+.btn.ghost:hover { background: var(--ink); color: var(--paper-2); }
+
+/* ---------- footer ---------- */
+footer { border-top: 1.5px solid var(--ink); padding: 42px 0 60px; margin-top: 30px; }
+.foot-grid { display: flex; justify-content: space-between; gap: 30px; flex-wrap: wrap; align-items: flex-end; }
+.foot-note { font-family: "Inter", sans-serif; font-size: 12.5px; color: var(--ink-40); letter-spacing: .05em; }
+
+/* ---------- sub page header ---------- */
+.page-hero { padding: 54px 0 34px; }
+.back {
+  font-family: "Inter", sans-serif; font-size: 12.5px; font-weight: 700; letter-spacing: .12em;
+  text-decoration: none; color: var(--ink-60);
+}
+.back:hover { color: var(--ink); }
+.meta-row { display: flex; gap: 26px; flex-wrap: wrap; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+.meta-row div { font-family: "Inter", sans-serif; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-40); }
+.meta-row div b { display: block; font-family: "Noto Serif SC", serif; font-size: 15px; letter-spacing: 0; text-transform: none; color: var(--ink); margin-top: 5px; }
+
+/* numbered pastel blocks (style ref) */
+.steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.step { border: 1.5px solid var(--ink); border-radius: var(--radius); padding: 18px 20px; display: flex; gap: 16px; align-items: center; }
+.step h4 { margin: 0 0 4px; font-size: 19px; font-weight: 900; }
+.step p { margin: 0; font-size: 13.5px; line-height: 1.6; color: rgba(20,19,13,.7); }
+.step.pink { background: var(--pink); }
+.step.olive { background: var(--olive); }
+.step.apricot { background: var(--apricot); }
+.step.sky { background: var(--sky); }
+
+@media (max-width: 860px) {
+  .works, .steps { grid-template-columns: 1fr; }
+  .nav-links { gap: 14px; font-size: 12px; }
+  section { padding: 46px 0; }
+}

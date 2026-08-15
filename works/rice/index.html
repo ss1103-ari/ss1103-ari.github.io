@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>优先级罗盘 RICE Compass · 冯本爽作品集</title>
+<meta name="description" content="优先级罗盘：给策略产品经理用的 RICE 排序工具，支持自定义权重、本地保存、一键导出 Markdown，五分钟把「都很重要」变成一份能吵架的排序。" />
+<link rel="stylesheet" href="../../assets/style.css" />
+<style>
+  .tool { border: 1.5px solid var(--ink); border-radius: var(--radius); background: var(--paper-2); box-shadow: var(--shadow); overflow: hidden; }
+  .tool-head { padding: 14px 18px; background: var(--apricot); border-bottom: 1.5px solid var(--ink); display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .tool-head .eyebrow { color: rgba(20,19,13,.7); }
+  .knobs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 16px 18px; border-bottom: 1px dashed var(--line); }
+  .knob { font-family: "Inter", sans-serif; font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-40); }
+  .knob b { display: block; font-family: "Noto Serif SC", serif; font-size: 15px; color: var(--ink); letter-spacing: 0; text-transform: none; margin: 3px 0 6px; }
+  .knob input[type=range] { width: 100%; accent-color: #14130D; }
+  .tbl-wrap { overflow-x: auto; }
+  table.rice { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 880px; }
+  table.rice th { background: #E7E2D4; font-family: "Inter", sans-serif; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; padding: 11px 10px; text-align: left; border-bottom: 1.5px solid var(--ink); white-space: nowrap; }
+  table.rice td { padding: 9px 10px; border-bottom: 1px dashed var(--line); vertical-align: middle; }
+  table.rice tr:hover td { background: rgba(242,206,157,.16); }
+  table.rice input[type=text], table.rice input[type=number], table.rice select {
+    font-family: inherit; font-size: 13.5px; border: 1px solid var(--line); border-radius: 7px;
+    padding: 7px 9px; background: #fff; width: 100%; color: var(--ink);
+  }
+  table.rice input:focus, table.rice select:focus { outline: 2px solid rgba(20,19,13,.35); border-color: var(--ink); }
+  .rank { font-family: "Playfair Display", serif; font-style: italic; font-weight: 600; font-size: 26px; color: rgba(20,19,13,.5); width: 46px; }
+  .rank.top { color: var(--ink); }
+  .score { font-weight: 900; font-size: 17px; white-space: nowrap; }
+  .score-bar { height: 6px; border: 1px solid var(--ink); border-radius: 4px; background: var(--pink); margin-top: 5px; }
+  .del { border: 1px solid var(--line); background: transparent; border-radius: 7px; cursor: pointer; font-size: 15px; line-height: 1; padding: 6px 9px; }
+  .del:hover { background: var(--pink); border-color: var(--ink); }
+  .tool-foot { display: flex; gap: 10px; padding: 16px 18px; flex-wrap: wrap; align-items: center; border-top: 1.5px solid var(--ink); background: rgba(255,255,255,.5); }
+  .hint { font-family: "Inter", sans-serif; font-size: 12px; color: var(--ink-40); letter-spacing: .04em; }
+  .verdict { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
+  .verdict > div { border: 1.5px solid var(--ink); border-radius: var(--radius); padding: 16px 18px; }
+  .verdict h4 { margin: 0 0 6px; font-size: 15px; font-family: "Inter", sans-serif; letter-spacing: .06em; text-transform: uppercase; }
+  .verdict p { margin: 0; font-size: 14px; line-height: 1.7; }
+  .out { font-family: "JetBrains Mono", monospace; font-size: 12px; line-height: 1.7; white-space: pre; overflow: auto; max-height: 260px; border: 1.5px solid var(--ink); border-radius: var(--radius); background: var(--paper-2); padding: 14px 16px; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+  @media (max-width: 900px) { .knobs { grid-template-columns: 1fr 1fr; } .verdict, .two { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="wrap nav-in">
+  <a class="back" href="../../">← 返回作品集</a>
+  <div class="nav-links"><a href="#tool">开始排序</a><a href="#why">设计思路</a></div>
+</div></nav>
+
+<header class="page-hero wrap">
+  <div class="eyebrow">Work 03 · 纯前端小工具 · 打开即用</div>
+  <h1 class="display" style="font-size:clamp(34px,6vw,74px);">优先级罗盘</h1>
+  <p class="en-sub">RICE Compass — 把「都很重要」换成一份能吵架的排序。</p>
+  <hr class="rule-thick" />
+  <div class="two" style="margin-top:26px;">
+    <p style="margin:0;">
+      需求池里十几条都写着「重要 / 紧急」，排期会开成表态大会。我需要的不是更复杂的评估体系，
+      而是一张<b>五分钟能填完、当场能改、改完能吵</b>的表：把直觉拆成覆盖面、影响力、信心和成本四个数，
+      算出来的顺序不一定对，但至少让分歧落在具体那一格上。
+    </p>
+    <p style="margin:0;">
+      所以它刻意做得很轻：<b>没有登录、没有后端、数据只存在你自己的浏览器里</b>，
+      刷新不丢、可以调权重、可以一键导出 Markdown 直接贴进 PRD 或周报。
+    </p>
+  </div>
+  <div class="meta-row">
+    <div>模型<b>RICE + 可调权重</b></div>
+    <div>数据<b>LocalStorage · 不出浏览器</b></div>
+    <div>导出<b>Markdown 一键复制</b></div>
+    <div>耗时<b>填一条约 20 秒</b></div>
+  </div>
+</header>
+
+<hr class="rule" />
+
+<section id="tool">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">The Tool · 直接用</div>
+        <h2 class="display">填四个数，<br />顺序自己浮出来</h2>
+        <p class="en-sub">Four numbers in, one order out.</p>
+      </div>
+      <div class="hint" id="saveHint">数据自动保存在本地</div>
+    </div>
+
+    <div class="tool">
+      <div class="tool-head">
+        <div class="eyebrow">RICE = (Reach × Impact × Confidence) ÷ Effort　·　权重可调</div>
+        <div class="hint" id="wSummary"></div>
+      </div>
+
+      <div class="knobs">
+        <label class="knob">Reach 权重<b id="wRv">1.0</b><input type="range" id="wR" min="0.5" max="2" step="0.1" value="1" /></label>
+        <label class="knob">Impact 权重<b id="wIv">1.0</b><input type="range" id="wI" min="0.5" max="2" step="0.1" value="1" /></label>
+        <label class="knob">Confidence 权重<b id="wCv">1.0</b><input type="range" id="wC" min="0.5" max="2" step="0.1" value="1" /></label>
+        <label class="knob">Effort 惩罚指数<b id="wEv">1.0</b><input type="range" id="wE" min="0.5" max="2" step="0.1" value="1" /></label>
+      </div>
+
+      <div class="tbl-wrap">
+        <table class="rice">
+          <thead>
+            <tr>
+              <th>#</th><th style="min-width:220px;">需求</th>
+              <th title="影响到的对象数量，如周活用户数、日均单量">Reach</th>
+              <th title="单个对象受影响的程度">Impact</th>
+              <th title="你对上面两个数的信心">Conf. %</th>
+              <th title="人天">Effort</th>
+              <th>RICE 得分</th><th></th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+
+      <div class="tool-foot">
+        <button class="btn" id="add">+ 加一条需求</button>
+        <button class="btn ghost" id="exp">导出 Markdown</button>
+        <button class="btn ghost" id="demo">载入示例（策略产品场景）</button>
+        <button class="btn ghost" id="clr">清空</button>
+        <span class="hint" id="stat"></span>
+      </div>
+    </div>
+
+    <div class="verdict">
+      <div style="background:var(--olive);">
+        <h4>先做</h4>
+        <p id="vTop">—</p>
+      </div>
+      <div style="background:var(--apricot);">
+        <h4>可以拆小再评</h4>
+        <p id="vBig">—</p>
+      </div>
+      <div style="background:var(--pink);">
+        <h4>先补信心，别硬排</h4>
+        <p id="vLow">—</p>
+      </div>
+    </div>
+
+    <div style="margin-top:26px;display:none;" id="expBox">
+      <div class="eyebrow" style="margin-bottom:10px;">Markdown 输出（已尝试复制到剪贴板）</div>
+      <div class="out" id="expOut"></div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Design Notes · 设计思路</div>
+        <h2 class="display">工具的价值不在算分，<br />在于把分歧摊开</h2>
+        <p class="en-sub">The score is not the point.</p>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="step pink"><div class="num">01</div><div><h4>Impact 用档位，不给自由输入</h4><p>0.25 / 0.5 / 1 / 2 / 3 五档，逼着大家在「大概多大」上先达成一致，而不是在小数点上互相说服。</p></div></div>
+      <div class="step olive"><div class="num">02</div><div><h4>Confidence 是刹车，不是修饰</h4><p>低于 60% 的需求会被单独点出来：它需要的是一次小实验或一次数据核对，而不是一个排期位置。</p></div></div>
+      <div class="step apricot"><div class="num">03</div><div><h4>权重可调，是为了做敏感性分析</h4><p>把 Effort 惩罚拉到 1.5 再看排名有没有翻转——排名稳定的，才值得写进季度计划。</p></div></div>
+      <div class="step sky"><div class="num">04</div><div><h4>结论必须能被搬走</h4><p>导出 Markdown 直接贴进 PRD / 周报，让一次会议的判断留下痕迹，下次复盘还能被质疑。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="eyebrow">Work 03 / 04</div>
+      <h2 class="display" style="font-size:clamp(24px,3.2vw,36px);margin-top:10px;">下一个：万象智绘项目复盘</h2>
+      <div class="actions" style="margin-top:18px;">
+        <a class="btn" href="../wanxiang/">看作品 04 →</a>
+        <a class="btn ghost" href="../../">回作品集</a>
+      </div>
+    </div>
+    <div class="foot-note">© 2026 冯本爽 · RICE Compass</div>
+  </div>
+</footer>
+
+<script>
+const KEY = "rice-compass-v1";
+const DEMO = [
+  { n: "回传配置小助手：模板化下发 5 类配置", r: 120, i: 2, c: 80, e: 12 },
+  { n: "Oncall 知识自闭环：知识库自动提炼 + 自动应答", r: 300, i: 1, c: 70, e: 20 },
+  { n: "素材深度留存回传模型（替换当日强相关指标）", r: 60, i: 3, c: 55, e: 25 },
+  { n: "回传诊断报告：每日自动发到业务群", r: 200, i: .5, c: 90, e: 5 },
+  { n: "投放异常预警阈值可视化配置", r: 90, i: 1, c: 65, e: 15 },
+  { n: "历史 oncall 工单自动打标与归因分布", r: 150, i: .5, c: 75, e: 8 }
+];
+const IMPACTS = [[3, "3 · 巨大"], [2, "2 · 高"], [1, "1 · 中"], [.5, "0.5 · 低"], [.25, "0.25 · 极小"]];
+let rows = [];
+const el = id => document.getElementById(id);
+const W = () => ({ r: +el("wR").value, i: +el("wI").value, c: +el("wC").value, e: +el("wE").value });
+
+function score(x) {
+  const w = W();
+  const eff = Math.max(0.1, +x.e || 0.1);
+  return (Math.pow(Math.max(0, +x.r || 0), w.r) * Math.pow(Math.max(0, +x.i || 0), w.i) *
+    Math.pow(Math.max(0, (+x.c || 0) / 100), w.c)) / Math.pow(eff, w.e);
+}
+const fmt = v => v >= 1000 ? Math.round(v).toLocaleString("en-US") : v >= 10 ? v.toFixed(1) : v.toFixed(2);
+
+function save() {
+  localStorage.setItem(KEY, JSON.stringify({ rows, w: W() }));
+  el("saveHint").textContent = "已保存 · " + new Date().toLocaleTimeString("zh-CN", { hour12: false });
+}
+function load() {
+  try {
+    const s = JSON.parse(localStorage.getItem(KEY));
+    if (s && Array.isArray(s.rows) && s.rows.length) {
+      rows = s.rows;
+      if (s.w) { el("wR").value = s.w.r; el("wI").value = s.w.i; el("wC").value = s.w.c; el("wE").value = s.w.e; }
+      return true;
+    }
+  } catch (e) {}
+  return false;
+}
+
+function render() {
+  ["R", "I", "C", "E"].forEach(k => el("w" + k + "v").textContent = (+el("w" + k).value).toFixed(1));
+  const w = W();
+  el("wSummary").textContent = "当前权重 R^" + w.r.toFixed(1) + " · I^" + w.i.toFixed(1) + " · C^" + w.c.toFixed(1) + " ÷ E^" + w.e.toFixed(1);
+
+  const scored = rows.map((x, idx) => ({ x, idx, s: score(x) })).sort((a, b) => b.s - a.s);
+  const max = scored.length ? scored[0].s : 1;
+
+  el("rows").innerHTML = scored.map((it, i) =>
+    '<tr data-idx="' + it.idx + '">' +
+    '<td class="rank ' + (i < 3 ? "top" : "") + '">' + String(i + 1).padStart(2, "0") + "</td>" +
+    '<td><input type="text" data-f="n" value="' + String(it.x.n).replace(/"/g, "&quot;") + '" placeholder="需求名称 / 一句话价值" /></td>' +
+    '<td style="width:96px;"><input type="number" data-f="r" min="0" step="1" value="' + it.x.r + '" /></td>' +
+    '<td style="width:118px;"><select data-f="i">' + IMPACTS.map(([v, l]) =>
+      '<option value="' + v + '"' + (+it.x.i === v ? " selected" : "") + ">" + l + "</option>").join("") + "</select></td>" +
+    '<td style="width:92px;"><input type="number" data-f="c" min="0" max="100" step="5" value="' + it.x.c + '" /></td>' +
+    '<td style="width:88px;"><input type="number" data-f="e" min="0.5" step="0.5" value="' + it.x.e + '" /></td>' +
+    '<td style="width:120px;"><div class="score">' + fmt(it.s) + '</div><div class="score-bar" style="width:' + Math.max(4, (it.s / max) * 100) + '%"></div></td>' +
+    '<td><button class="del" title="删除">✕</button></td></tr>').join("");
+
+  el("rows").querySelectorAll("input, select").forEach(inp => {
+    inp.addEventListener("change", e => {
+      const tr = e.target.closest("tr");
+      const f = e.target.dataset.f;
+      rows[+tr.dataset.idx][f] = f === "n" ? e.target.value : +e.target.value;
+      save(); render();
+    });
+  });
+  el("rows").querySelectorAll(".del").forEach(b => b.addEventListener("click", e => {
+    rows.splice(+e.target.closest("tr").dataset.idx, 1); save(); render();
+  }));
+
+  const totalE = rows.reduce((n, x) => n + (+x.e || 0), 0);
+  el("stat").textContent = rows.length + " 条需求 · 合计 " + totalE + " 人天" + (rows.length ? " · 榜首得分是末位的 " + (scored[0].s / Math.max(scored[scored.length - 1].s, .0001)).toFixed(1) + " 倍" : "");
+
+  el("vTop").textContent = scored.length ? scored.slice(0, 2).map(s => s.x.n).join("；") + "　—— 得分领先且成本可控，本期就应该动。" : "先加两条需求试试。";
+  const big = scored.filter(s => +s.x.e >= 20);
+  el("vBig").textContent = big.length ? big.map(s => s.x.n).join("；") + "　—— Effort ≥ 20 人天，建议拆成可验证的第一步再重新评。" : "暂无超过 20 人天的巨型需求，节奏健康。";
+  const low = scored.filter(s => +s.x.c < 60);
+  el("vLow").textContent = low.length ? low.map(s => s.x.n).join("；") + "　—— 信心低于 60%，它缺的是一次小实验，不是一个排期位。" : "所有需求信心都在 60% 以上，可以直接按顺序排期。";
+}
+
+el("add").addEventListener("click", () => { rows.push({ n: "", r: 100, i: 1, c: 70, e: 5 }); save(); render(); });
+el("demo").addEventListener("click", () => { rows = DEMO.map(x => Object.assign({}, x)); save(); render(); });
+el("clr").addEventListener("click", () => { if (confirm("清空当前所有需求？")) { rows = []; save(); render(); } });
+["wR", "wI", "wC", "wE"].forEach(id => el(id).addEventListener("input", () => { save(); render(); }));
+
+el("exp").addEventListener("click", () => {
+  const w = W();
+  const scored = rows.map(x => ({ x, s: score(x) })).sort((a, b) => b.s - a.s);
+  const md = ["# 需求优先级排序（RICE）", "",
+    "> 权重 R^" + w.r.toFixed(1) + " · I^" + w.i.toFixed(1) + " · C^" + w.c.toFixed(1) + " ÷ E^" + w.e.toFixed(1) +
+    "　生成于 " + new Date().toLocaleString("zh-CN", { hour12: false }), "",
+    "| 排名 | 需求 | Reach | Impact | Confidence | Effort(人天) | RICE |",
+    "| --- | --- | --- | --- | --- | --- | --- |"]
+    .concat(scored.map((it, i) => "| " + (i + 1) + " | " + (it.x.n || "（未命名）") + " | " + it.x.r + " | " + it.x.i + " | " + it.x.c + "% | " + it.x.e + " | " + fmt(it.s) + " |"))
+    .concat(["", "**结论**：先做 " + (scored[0] ? scored[0].x.n : "—") + "；信心 <60% 的需求先做验证再排期。"]).join("\n");
+  el("expBox").style.display = "block";
+  el("expOut").textContent = md;
+  if (navigator.clipboard) navigator.clipboard.writeText(md).catch(() => {});
+  el("expBox").scrollIntoView({ behavior: "smooth", block: "center" });
+});
+
+if (!load()) rows = DEMO.map(x => Object.assign({}, x));
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>午餐雷达 Lunch Radar · 冯本爽作品集</title>
+<meta name="description" content="午餐雷达：每个工作日 12:15 只把有用的那几行菜单转给我，12:30 还在工位就提醒我去吃饭，并告诉我哪个饭堂有我爱吃的菜。" />
+<link rel="stylesheet" href="../../assets/style.css" />
+<style>
+  .demo { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+  .panel { border: 1.5px solid var(--ink); border-radius: var(--radius); background: var(--paper-2); overflow: hidden; }
+  .panel-head { padding: 13px 18px; border-bottom: 1.5px solid var(--ink); display: flex; justify-content: space-between; align-items: center; font-family: "Inter", sans-serif; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+  .panel-head.raw { background: #E7E2D4; }
+  .panel-head.out { background: var(--pink); }
+  .panel-body { padding: 16px 18px; max-height: 520px; overflow: auto; }
+  .floor { border-bottom: 1px dashed var(--line); padding: 11px 0; }
+  .floor:last-child { border-bottom: 0; }
+  .floor-name { font-weight: 900; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+  .badge { font-family: "Inter", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: .08em; border: 1px solid var(--ink); border-radius: 5px; padding: 2px 6px; }
+  .badge.self { background: var(--apricot); }
+  .badge.set { background: var(--olive); }
+  .dishes { margin: 7px 0 0; font-size: 13.5px; line-height: 1.95; color: rgba(20,19,13,.72); }
+  .dishes .fav { background: linear-gradient(transparent 58%, rgba(241,203,212,.95) 58%); font-weight: 700; color: var(--ink); }
+  .dropped { opacity: .34; text-decoration: line-through; }
+  .switchbar { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin: 0 0 20px; }
+  .sw { display: inline-flex; align-items: center; gap: 9px; font-family: "Inter", sans-serif; font-size: 13px; font-weight: 600; border: 1.5px solid var(--ink); border-radius: 999px; padding: 8px 14px; background: var(--paper-2); cursor: pointer; user-select: none; }
+  .sw input { accent-color: #14130D; width: 15px; height: 15px; }
+  .sw.on { background: var(--olive); }
+  .counter { font-family: "Playfair Display", serif; font-style: italic; font-size: 17px; color: rgba(20,19,13,.6); }
+  .lark-card { border: 1.5px solid var(--ink); border-radius: 12px; overflow: hidden; background: #fff; box-shadow: var(--shadow); }
+  .lark-top { background: var(--pink); padding: 12px 16px; font-weight: 900; font-size: 15.5px; border-bottom: 1.5px solid var(--ink); display: flex; justify-content: space-between; }
+  .lark-body { padding: 14px 16px; font-size: 14px; line-height: 1.9; }
+  .lark-foot { border-top: 1px solid var(--line); padding: 10px 16px; font-family: "Inter", sans-serif; font-size: 11.5px; color: var(--ink-40); letter-spacing: .08em; }
+  .flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .flow > div { border: 1.5px solid var(--ink); border-radius: var(--radius); padding: 16px; }
+  .flow h4 { margin: 8px 0 5px; font-size: 16px; font-weight: 900; }
+  .flow p { margin: 0; font-size: 13px; line-height: 1.65; }
+  .flow .t { font-family: "JetBrains Mono", monospace; font-size: 12px; letter-spacing: .04em; }
+  table.rules { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.rules th, table.rules td { border: 1px solid var(--line); padding: 11px 13px; text-align: left; vertical-align: top; }
+  table.rules th { background: #E7E2D4; font-weight: 700; font-family: "Inter", sans-serif; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+  table.rules tr:nth-child(even) td { background: rgba(255,255,255,.5); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+  .fav-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .fav-chips span { background: var(--pink); border: 1.5px solid var(--ink); border-radius: 999px; padding: 6px 13px; font-size: 13.5px; font-weight: 700; }
+  @media (max-width: 900px) { .demo, .two { grid-template-columns: 1fr; } .flow { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="wrap nav-in">
+  <a class="back" href="../../">← 返回作品集</a>
+  <div class="nav-links"><a href="#demo">交互 Demo</a><a href="#logic">规则设计</a><a href="#how">实现</a></div>
+</div></nav>
+
+<header class="page-hero wrap">
+  <div class="eyebrow">Work 01 · Agent Skill · 已上线运行</div>
+  <h1 class="display" style="font-size:clamp(36px,6.4vw,78px);">午餐雷达</h1>
+  <p class="en-sub">Lunch Radar — 只告诉我值得下楼的那几行。</p>
+  <hr class="rule-thick" />
+  <div class="two" style="margin-top:26px;">
+    <p style="margin:0;">
+      深圳湾的餐饮话题群每天中午会刷出七八层楼的午餐预告，几十道菜混在一起。我真正需要的信息只有三种：
+      <b>32 楼的全部菜单</b>（我常在的楼层）、<b>其他楼层的非自选</b>（值得专门跑一趟的套餐），
+      以及一个例外——<b>其他楼层的自选里如果有小龙虾，必须告诉我</b>。
+    </p>
+    <p style="margin:0;">
+      所以这个 Skill 不是「菜单聚合器」，而是一个<b>带例外规则的降噪器 + 一个赶人去吃饭的闹钟</b>：
+      12:15 把过滤后的菜单转给我，12:30 如果我还在工位，就直接告诉我哪个饭堂有我爱吃的菜。
+    </p>
+  </div>
+  <div class="meta-row">
+    <div>形态<b>Aime Agent Skill + 定时任务</b></div>
+    <div>触发<b>工作日 12:15 / 12:30</b></div>
+    <div>数据源<b>飞书「深圳湾餐饮话题群③」</b></div>
+    <div>状态<b>已配置定时任务，跑在我的助理里</b></div>
+  </div>
+</header>
+
+<hr class="rule" />
+
+<section id="demo">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Interactive Demo · 亲手试试降噪</div>
+        <h2 class="display">左边是群里的原样，<br />右边是雷达给我的</h2>
+        <p class="en-sub">Toggle the rules and watch the noise disappear.</p>
+      </div>
+    </div>
+
+    <div class="switchbar">
+      <label class="sw on" id="sw1"><input type="checkbox" id="r32" checked />32 楼全部保留</label>
+      <label class="sw on" id="sw2"><input type="checkbox" id="rSet" checked />其他楼层只留非自选</label>
+      <label class="sw on" id="sw3"><input type="checkbox" id="rShrimp" checked />小龙虾例外规则 🦞</label>
+      <span class="counter" id="counter"></span>
+    </div>
+
+    <div class="demo">
+      <div class="panel">
+        <div class="panel-head raw"><span>群消息原样 · 12:11</span><span id="rawCount"></span></div>
+        <div class="panel-body" id="rawBody"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head out"><span>午餐雷达 · 12:15 推给我</span><span id="outCount"></span></div>
+        <div class="panel-body" id="outBody"></div>
+      </div>
+    </div>
+
+    <div style="margin-top:26px;" class="two">
+      <div>
+        <div class="eyebrow" style="margin-bottom:12px;">12:30 · 赶人卡片</div>
+        <div class="lark-card">
+          <div class="lark-top"><span>🍚 该吃饭了</span><span style="font-family:'Inter';font-size:12px;font-weight:600;">12:30</span></div>
+          <div class="lark-body" id="remindBody"></div>
+          <div class="lark-foot">若我在 12:20 前已回复「吃了」，本条不再发送 · 静默降级</div>
+        </div>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:12px;">我的爱吃清单（写死在 Skill 里）</div>
+        <div class="fav-chips">
+          <span>美蛙鱼</span><span>小龙虾</span><span>酸菜鱼</span><span>肥肠</span><span>冬阴功</span><span>椰子鸡</span>
+        </div>
+        <p style="font-size:14.5px;">
+          命中清单的菜会在推送里被高亮，并出现在 12:30 的提醒语里——因为「几点吃饭」的决定权，
+          往往取决于「今天有没有我爱吃的」。清单是唯一需要我手动维护的东西，改一行就生效。
+        </p>
+        <p style="font-size:14.5px;margin:0;">
+          小龙虾是清单里唯一有「越级权限」的菜：它可以打破「其他楼层不看自选」的规则。
+          这就是我想强调的产品判断——<b>降噪的关键不是砍得干净，而是留对例外</b>。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="logic">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Rules · 规则设计</div>
+        <h2 class="display">四条规则，<br />覆盖 95% 的中午</h2>
+        <p class="en-sub">Four rules, written like a spec.</p>
+      </div>
+    </div>
+
+    <table class="rules">
+      <thead><tr><th style="width:15%">优先级</th><th style="width:30%">条件</th><th>动作</th><th style="width:22%">为什么这么设计</th></tr></thead>
+      <tbody>
+        <tr><td>P0</td><td>楼层 = 32F</td><td>整段保留（含自选、含窗口备注）</td><td>我常在 32 楼，走两步就到，信息越全越好</td></tr>
+        <tr><td>P1</td><td>楼层 ≠ 32F 且 类型 = 非自选 / 套餐 / 特色档口</td><td>保留菜名，最多 6 道，超出折叠</td><td>值得跨楼层的只有「一整份能吃饱的」</td></tr>
+        <tr><td>P2</td><td>楼层 ≠ 32F 且 类型 = 自选</td><td>默认丢弃；命中「小龙虾 / 龙虾」时保留并加 🦞 标记</td><td>唯一的越级例外，宁可多发一条也不能漏</td></tr>
+        <tr><td>P3</td><td>任意菜名命中爱吃清单</td><td>高亮 + 进入 12:30 提醒话术</td><td>把「吃什么」的判断成本压到零</td></tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top:34px;">
+      <div class="eyebrow" style="margin-bottom:14px;">异常兜底（一个自动化任务能不能被信任，全看这几条）</div>
+      <div class="steps">
+        <div class="step pink"><div class="num">01</div><div><h4>群里没发预告</h4><p>12:15 未找到当天预告 → 不推空消息，改为 12:30 直接发爱吃菜品的通用提醒，并附一句「今天群里还没发」。</p></div></div>
+        <div class="step olive"><div class="num">02</div><div><h4>格式变了</h4><p>解析不到楼层/类型时降级为「原文转发 + 高亮关键词」，绝不因为解析失败而静默丢消息。</p></div></div>
+        <div class="step apricot"><div class="num">03</div><div><h4>我请假 / 不在工位</h4><p>12:30 提醒前先看当天日程与在线状态，非工作日与休假日自动跳过，避免变成骚扰。</p></div></div>
+        <div class="step sky"><div class="num">04</div><div><h4>重复触发</h4><p>同一天同一时段只发一次，用当天日期做幂等键，任务重跑不会连发两张卡。</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">How it runs · 实现链路</div>
+        <h2 class="display">一个 Skill + 两个定时任务</h2>
+        <p class="en-sub">Skill definition plus two cron triggers.</p>
+      </div>
+    </div>
+
+    <div class="flow">
+      <div style="background:var(--pink);">
+        <div class="t">12:15 CRON</div>
+        <h4>读群</h4>
+        <p>定时任务唤起 Skill，按群名定位「深圳湾餐饮话题群③」，取当天 11:00 之后含「午餐 / 预告 / 菜单」的最新消息。</p>
+      </div>
+      <div style="background:var(--olive);">
+        <div class="t">PARSE</div>
+        <h4>拆结构</h4>
+        <p>把整段文本拆成「楼层 → 类型 → 菜名」三层结构，识别自选 / 非自选 / 套餐等关键词。</p>
+      </div>
+      <div style="background:var(--apricot);">
+        <div class="t">FILTER</div>
+        <h4>过规则</h4>
+        <p>套用 P0–P3 四条规则，命中爱吃清单的菜名加高亮，小龙虾单独打标。</p>
+      </div>
+      <div style="background:var(--sky);">
+        <div class="t">12:30 CRON</div>
+        <h4>发消息</h4>
+        <p>过滤结果私聊发给我；12:30 复用同一份结果生成提醒话术，含「哪层楼有你爱吃的什么」。</p>
+      </div>
+    </div>
+
+    <div class="two" style="margin-top:32px;">
+      <div>
+        <div class="eyebrow" style="margin-bottom:12px;">Skill 定义（节选）</div>
+        <div class="panel"><div class="panel-body" style="font-family:'JetBrains Mono',monospace;font-size:12.5px;line-height:1.85;white-space:pre-wrap;">FAVORITES = [美蛙鱼, 小龙虾, 酸菜鱼, 肥肠, 冬阴功, 椰子鸡]
+HOME_FLOOR = 32F
+SOURCE = 飞书群「深圳湾餐饮话题群③」
+
+12:15 → 定位当天午餐预告
+      → 解析 楼层/类型/菜名
+      → keep(32F, all)
+      → keep(other, 非自选) limit 6
+      → keep(other, 自选) if 小龙虾
+      → highlight(FAVORITES) → 私聊发送
+
+12:30 → if 未确认吃饭 and 工作日
+      → 「哪层楼有你爱吃的什么」+ 催一句</div></div>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:12px;">为什么做成 Skill，而不是做个网页</div>
+        <p style="font-size:14.5px;">
+          中午 12:15 我不会主动打开任何网页，<b>信息必须来找我</b>。做成 Agent Skill 的好处是：
+          触发时机、数据源、消息通道全在同一条链路里，规则改一行就能生效，不需要发版。
+        </p>
+        <p style="font-size:14.5px;">
+          这也是我在字节做回传自动化 Agent 时的同一套思路：先找到「人反复做同一个判断」的地方，
+          把判断写成规则 + 例外，再交给系统在正确的时刻执行。
+        </p>
+        <p style="font-size:14.5px;margin:0;">
+          <b>下一步：</b>让它记录我实际去了哪层楼，一周后反推「哪些菜真的会让我下楼」，把爱吃清单从手写变成学习出来的。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="eyebrow">Work 01 / 04</div>
+      <h2 class="display" style="font-size:clamp(24px,3.2vw,36px);margin-top:10px;">下一个：会自己长大的博主雷达</h2>
+      <div class="actions" style="margin-top:18px;">
+        <a class="btn" href="../radar/">看作品 02 →</a>
+        <a class="btn ghost" href="../../">回作品集</a>
+      </div>
+    </div>
+    <div class="foot-note">© 2026 冯本爽 · Lunch Radar</div>
+  </div>
+</footer>
+
+<script>
+const RAW = [
+  { floor: "32F", type: "全部", label: "自选 + 档口", dishes: ["椰子鸡汤锅", "黑椒牛柳", "香辣肥肠", "蒜蓉西兰花", "冬瓜排骨汤", "现煮米粉（叉烧/牛腩）"] },
+  { floor: "32F", type: "全部", label: "轻食窗口", dishes: ["低卡鸡胸沙拉", "杂粮饭 + 番茄龙利鱼"] },
+  { floor: "12F", type: "非自选", label: "特色套餐", dishes: ["美蛙鱼头锅（限量 40 份）", "梅菜蒸肉饼饭", "冬阴功海鲜汤面"] },
+  { floor: "12F", type: "自选", label: "自选称重", dishes: ["清炒时蔬", "土豆丝", "红烧豆腐", "麻婆豆腐", "白灼虾"] },
+  { floor: "15F", type: "非自选", label: "小碗菜套餐", dishes: ["酸菜鱼小碗", "梅干菜焖肉", "手撕包菜"] },
+  { floor: "15F", type: "自选", label: "自选称重", dishes: ["香辣小龙虾（今日到货）", "蒜香排骨", "凉拌木耳"] },
+  { floor: "21F", type: "非自选", label: "面档", dishes: ["重庆小面", "番茄牛腩面", "云吞面"] },
+  { floor: "21F", type: "自选", label: "自选称重", dishes: ["清蒸南瓜", "上海青", "卤蛋", "宫保鸡丁", "干煸豆角"] },
+  { floor: "26F", type: "非自选", label: "简餐", dishes: ["三色鸡饭", "咖喱牛腩饭"] },
+  { floor: "26F", type: "自选", label: "自选称重", dishes: ["虾仁滑蛋", "蚂蚁上树", "西红柿炒蛋", "腐竹烧肉"] }
+];
+const FAV = ["美蛙鱼", "小龙虾", "酸菜鱼", "肥肠", "冬阴功", "椰子鸡"];
+
+const mark = (d) => {
+  let s = d;
+  FAV.forEach(f => { if (s.includes(f)) s = s.replace(f, `<span class="fav">${f}</span>`); });
+  return s;
+};
+const hasShrimp = (dishes) => dishes.some(d => d.includes("小龙虾") || d.includes("龙虾"));
+const favHits = (dishes) => dishes.filter(d => FAV.some(f => d.includes(f)));
+
+function decide(block, rules) {
+  if (block.floor === "32F") return rules.r32 ? { keep: true, why: "P0 · 本楼层全留" } : { keep: false, why: "规则关闭" };
+  if (block.type === "非自选") return rules.rSet ? { keep: true, why: "P1 · 跨楼层值得的套餐" } : { keep: false, why: "规则关闭" };
+  if (hasShrimp(block.dishes) && rules.rShrimp) return { keep: true, why: "P2 例外 · 有小龙虾 🦞" };
+  return { keep: false, why: "P2 · 其他楼层自选，丢弃" };
+}
+
+function blockHTML(b, extra = "", dropped = false) {
+  const badge = b.type === "自选" ? '<span class="badge self">自选</span>' : '<span class="badge set">非自选</span>';
+  return `<div class="floor ${dropped ? "dropped" : ""}">
+    <div class="floor-name">${b.floor} ${badge}<span style="font-family:Inter;font-size:11.5px;font-weight:600;color:var(--ink-40);letter-spacing:.06em;">${b.label}</span>${extra}</div>
+    <div class="dishes">${b.dishes.map(mark).join(" · ")}</div>
+  </div>`;
+}
+
+function render() {
+  const rules = { r32: r32.checked, rSet: rSet.checked, rShrimp: rShrimp.checked };
+  [["sw1", r32], ["sw2", rSet], ["sw3", rShrimp]].forEach(([id, el]) => {
+    document.getElementById(id).classList.toggle("on", el.checked);
+  });
+
+  rawBody.innerHTML = RAW.map(b => blockHTML(b)).join("");
+  const kept = [], keptDishes = [];
+  let out = "";
+  RAW.forEach(b => {
+    const d = decide(b, rules);
+    if (d.keep) {
+      kept.push(b);
+      keptDishes.push(...b.dishes);
+      const tagStyle = 'font-family:Inter;font-size:10.5px;font-weight:700;letter-spacing:.06em;border:1px solid var(--ink);border-radius:5px;padding:2px 6px;background:var(--pink);';
+      out += blockHTML(b, `<span style="${tagStyle}">${d.why}</span>`);
+    }
+  });
+  outBody.innerHTML = out || '<p style="font-size:14px;">规则全关 → 什么都不发。<b>不打扰是默认值。</b></p>';
+
+  const rawDishes = RAW.reduce((n, b) => n + b.dishes.length, 0);
+  rawCount.textContent = `${RAW.length} 段 / ${rawDishes} 道`;
+  outCount.textContent = `${kept.length} 段 / ${keptDishes.length} 道`;
+  const cut = Math.round((1 - keptDishes.length / rawDishes) * 100);
+  counter.innerHTML = `噪音砍掉 <b style="font-family:'Noto Serif SC',serif;font-style:normal;color:var(--ink);">${cut}%</b>　·　${rawDishes} 道 → ${keptDishes.length} 道`;
+
+  const hits = favHits(keptDishes);
+  const list = hits.length
+    ? hits.map(h => {
+        const b = kept.find(x => x.dishes.includes(h));
+        return `<b>${b.floor}</b> 的 ${mark(h)}`;
+      }).join("、")
+    : "今天没抓到你爱吃的，建议 32F 的现煮米粉";
+  remindBody.innerHTML = `小爽，12:30 了，还在改 PRD 吗？<br />
+    今天 ${list}。<br />
+    ${hits.some(h => h.includes("小龙虾")) ? "🦞 <b>15F 自选有小龙虾，去晚了就没了。</b><br />" : ""}
+    现在下去人最少，13:00 之后基本只剩汤。`;
+}
+
+["r32", "rSet", "rShrimp"].forEach(id => document.getElementById(id).addEventListener("change", render));
+render();
+</script>
+</body>
+</html>

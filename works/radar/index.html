@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI 造物者雷达 Builder Radar · 冯本爽作品集</title>
+<meta name="description" content="AI 造物者雷达：每 3 小时自动抓取 6 位 AI Builder 的 GitHub 公开动态，自动算 star 增量，数据自己更新的实时监测页。" />
+<link rel="stylesheet" href="../../assets/style.css" />
+<style>
+  .live { display: inline-flex; align-items: center; gap: 7px; font-family: "Inter", sans-serif; font-size: 11.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: #2f7d4f; box-shadow: 0 0 0 3px rgba(47,125,79,.22); animation: pulse 1.8s infinite; }
+  @keyframes pulse { 50% { box-shadow: 0 0 0 8px rgba(47,125,79,0); } }
+  .bar { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); margin: 26px 0 0; }
+  .bar > div { padding: 18px; border-right: 1px solid var(--line); }
+  .bar > div:last-child { border-right: 0; }
+  .bar b { display: block; font-size: clamp(22px, 3vw, 34px); font-weight: 900; line-height: 1; }
+  .bar span { font-family: "Inter", sans-serif; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-40); display: block; margin-top: 8px; }
+  .layout { display: grid; grid-template-columns: 1.05fr .95fr; gap: 26px; align-items: start; }
+  .panel { border: 1.5px solid var(--ink); border-radius: var(--radius); background: var(--paper-2); overflow: hidden; box-shadow: var(--shadow); }
+  .panel-head { padding: 13px 18px; border-bottom: 1.5px solid var(--ink); display: flex; justify-content: space-between; align-items: center; gap: 10px; font-family: "Inter", sans-serif; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; background: var(--olive); }
+  .panel-body { padding: 6px 18px 14px; max-height: 720px; overflow: auto; }
+  .ev { padding: 13px 0; border-bottom: 1px dashed var(--line); display: grid; grid-template-columns: 74px 1fr; gap: 12px; }
+  .ev:last-child { border-bottom: 0; }
+  .ev time { font-family: "JetBrains Mono", monospace; font-size: 11.5px; color: var(--ink-40); line-height: 1.5; }
+  .ev-who { font-weight: 900; font-size: 14.5px; }
+  .ev-repo { font-family: "JetBrains Mono", monospace; font-size: 12px; color: rgba(20,19,13,.62); word-break: break-all; }
+  .ev-detail { font-size: 13.5px; color: rgba(20,19,13,.78); margin-top: 3px; line-height: 1.6; }
+  .ev-kind { font-family: "Inter", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: .06em; border: 1px solid var(--ink); border-radius: 5px; padding: 2px 6px; margin-left: 6px; }
+  .k-PushEvent { background: var(--sky); }
+  .k-ReleaseEvent { background: var(--pink); }
+  .k-CreateEvent { background: var(--olive); }
+  .k-PullRequestEvent, .k-IssuesEvent { background: var(--apricot); }
+  .b-card { border: 1.5px solid var(--ink); border-radius: var(--radius); background: var(--paper-2); overflow: hidden; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .b-top { display: flex; gap: 14px; padding: 16px 18px; border-bottom: 1.5px solid var(--ink); align-items: center; }
+  .b-top.pink { background: var(--pink); } .b-top.olive { background: var(--olive); }
+  .b-top.apricot { background: var(--apricot); } .b-top.sky { background: var(--sky); } .b-top.lilac { background: var(--lilac); }
+  .b-top img { width: 56px; height: 56px; border-radius: 50%; border: 1.5px solid var(--ink); object-fit: cover; background: #fff; }
+  .b-name { font-weight: 900; font-size: 19px; line-height: 1.2; }
+  .b-role { font-size: 12.5px; color: rgba(20,19,13,.7); margin-top: 3px; }
+  .b-nums { display: flex; gap: 18px; padding: 12px 18px; border-bottom: 1px dashed var(--line); font-family: "Inter", sans-serif; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-40); flex-wrap: wrap; }
+  .b-nums b { font-family: "Noto Serif SC", serif; font-size: 17px; letter-spacing: 0; text-transform: none; color: var(--ink); display: block; margin-top: 3px; }
+  .up { color: #2f7d4f; }
+  .b-body { padding: 12px 18px 16px; }
+  .repo { display: grid; grid-template-columns: 1fr auto; gap: 10px; padding: 8px 0; border-bottom: 1px dashed var(--line); align-items: baseline; }
+  .repo:last-child { border-bottom: 0; }
+  .repo a { font-family: "JetBrains Mono", monospace; font-size: 13px; text-decoration: none; border-bottom: 1px solid var(--line); font-weight: 500; }
+  .repo a:hover { border-color: var(--ink); }
+  .repo p { margin: 3px 0 0; font-size: 12.5px; line-height: 1.55; color: rgba(20,19,13,.6); }
+  .stars { font-family: "Inter", sans-serif; font-size: 12.5px; font-weight: 700; white-space: nowrap; }
+  .why { font-size: 13px; background: rgba(255,255,255,.6); border-left: 3px solid var(--ink); padding: 8px 12px; margin: 0 0 12px; line-height: 1.6; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+  .filters button {
+    font-family: "Inter", sans-serif; font-size: 12.5px; font-weight: 700; letter-spacing: .04em;
+    border: 1.5px solid var(--ink); background: transparent; border-radius: 999px; padding: 8px 15px; cursor: pointer;
+  }
+  .filters button.on { background: var(--ink); color: var(--paper-2); }
+  table.cmp { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.cmp th, table.cmp td { border: 1px solid var(--line); padding: 11px 13px; text-align: left; vertical-align: top; }
+  table.cmp th { background: #E7E2D4; font-family: "Inter", sans-serif; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+  .code { font-family: "JetBrains Mono", monospace; font-size: 12.5px; line-height: 1.85; white-space: pre-wrap; background: var(--paper-2); border: 1.5px solid var(--ink); border-radius: var(--radius); padding: 16px 18px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } .bar { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="wrap nav-in">
+  <a class="back" href="../../">← 返回作品集</a>
+  <div class="nav-links"><a href="#feed">实时动态</a><a href="#people">监测对象</a><a href="#how">怎么做到实时</a></div>
+</div></nav>
+
+<header class="page-hero wrap">
+  <div class="eyebrow">Work 02 · 实时监测站 · GitHub Actions 驱动</div>
+  <h1 class="display" style="font-size:clamp(34px,6vw,74px);">AI 造物者雷达</h1>
+  <p class="en-sub">Builder Radar — 一个不会停在采集那天的监测页。</p>
+  <hr class="rule-thick" />
+  <div style="display:grid;grid-template-columns:1.2fr .8fr;gap:34px;margin-top:26px;" id="introGrid">
+    <p style="margin:0;">
+      我很喜欢一个开源的「博主动态监测页」：把某位 AI Builder 的推文、笔记、仓库整理成一页。
+      但它是<b>把数据写死在 HTML 里的静态页</b>——采集那天之后，页面就停在了那一刻。
+      我想要的是同一个体验，但<b>数据自己会更新</b>，而且不只盯一个人。
+    </p>
+    <p style="margin:0;">
+      于是有了这版：监测 6 位 AI Builder 的 GitHub 公开动态，<b>每 3 小时自动抓一次</b>，
+      每次抓完和上一次快照做 diff，算出 star / follower 增量，再由 GitHub Pages 直接发布。
+      全程 0 服务器、0 成本、0 手工维护。
+    </p>
+  </div>
+  <div class="bar">
+    <div><b id="mBuilders">–</b><span>监测对象</span></div>
+    <div><b id="mStars">–</b><span>合计 Stars</span></div>
+    <div><b id="mEvents">–</b><span>抓到的动态条数</span></div>
+    <div><b id="mDelta">–</b><span>较上次快照 Δ Stars</span></div>
+  </div>
+  <div class="meta-row">
+    <div>数据更新于<b id="mTime">加载中…</b></div>
+    <div>刷新频率<b>每 3 小时 · GitHub Actions</b></div>
+    <div>数据源<b>GitHub REST API（公开）</b></div>
+    <div>状态<b><span class="live"><span class="dot"></span><span id="mFresh">LIVE</span></span></b></div>
+  </div>
+</header>
+
+<hr class="rule" />
+
+<section id="feed">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Live Feed · 合并时间线</div>
+        <h2 class="display">他们最近在动什么</h2>
+        <p class="en-sub">Everything they shipped, newest first.</p>
+      </div>
+      <div class="live"><span class="dot"></span><span id="agoText">–</span></div>
+    </div>
+
+    <div class="filters" id="filters"></div>
+
+    <div class="layout">
+      <div class="panel">
+        <div class="panel-head"><span>动态时间线</span><span id="feedCount"></span></div>
+        <div class="panel-body" id="feedBody"><p style="font-size:14px;">加载中…</p></div>
+      </div>
+      <div>
+        <div class="panel" style="margin-bottom:22px;">
+          <div class="panel-head" style="background:var(--pink);"><span>Δ Stars 增量榜 · 较上次快照</span></div>
+          <div class="panel-body" id="deltaBody"><p style="font-size:14px;">首次采集，暂无对比基准。</p></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head" style="background:var(--sky);"><span>热门仓库 Top 8</span></div>
+          <div class="panel-body" id="hotBody"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="people">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Watchlist · 6 位造物者</div>
+        <h2 class="display">名单是产品决策，<br />不是抓得越多越好</h2>
+        <p class="en-sub">Six people, each for a reason.</p>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;" id="peopleGrid"></div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">How it works · 实现</div>
+        <h2 class="display">把「实时」拆成<br />四个便宜的动作</h2>
+        <p class="en-sub">Cron, diff, commit, publish.</p>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="step pink"><div class="num">01</div><div><h4>定时抓</h4><p>GitHub Actions 每 3 小时跑一次 Python 脚本，用仓库自带的 GITHUB_TOKEN 调公开 API，额度 5000 次/小时，够用得离谱。</p></div></div>
+      <div class="step olive"><div class="num">02</div><div><h4>存快照</h4><p>每次抓完把 stars / followers 存进 data/history/日期.json，天然形成时间序列——增量是算出来的，不是抓出来的。</p></div></div>
+      <div class="step apricot"><div class="num">03</div><div><h4>自动提交</h4><p>数据有变化才 commit，避免刷屏；页面只读一个 builders.json，前端不需要任何后端。</p></div></div>
+      <div class="step sky"><div class="num">04</div><div><h4>直接发布</h4><p>GitHub Pages 托管，commit 完成即上线。挂了也不会白屏：读不到数据时显示上次快照与明确提示。</p></div></div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:34px;">
+      <div>
+        <div class="eyebrow" style="margin-bottom:12px;">与静态原版的差别</div>
+        <table class="cmp">
+          <thead><tr><th>维度</th><th>静态原版</th><th>这一版</th></tr></thead>
+          <tbody>
+            <tr><td>数据时效</td><td>停在采集当天</td><td>每 3 小时自动更新</td></tr>
+            <tr><td>监测范围</td><td>1 位博主</td><td>6 位，加人只改配置数组</td></tr>
+            <tr><td>趋势</td><td>只有当下数值</td><td>快照 diff 出 Δ Stars / Δ Followers</td></tr>
+            <tr><td>维护成本</td><td>手工重抓 + 手改 HTML</td><td>0，Actions 自己跑</td></tr>
+            <tr><td>失败表现</td><td>—</td><td>降级展示上次快照并标注 stale</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:13.5px;color:var(--ink-60);">
+          说明：X / 小红书没有稳定的公开接口，这版<b>只用 GitHub 公开数据做实时部分</b>，社媒仅保留跳转入口——
+          宁可少一个指标，也不做「看起来实时」的假数据。
+        </p>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:12px;">核心工作流（.github/workflows/update-radar.yml）</div>
+        <div class="code">on:
+  schedule:
+    - cron: "17 */3 * * *"   # 每 3 小时
+  workflow_dispatch:          # 也能手动点一下
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/fetch_builders.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          git add data
+          git diff --staged --quiet || \
+            git commit -m "更新雷达数据"
+          git push</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="eyebrow">Work 02 / 04</div>
+      <h2 class="display" style="font-size:clamp(24px,3.2vw,36px);margin-top:10px;">下一个：给 PM 的优先级罗盘</h2>
+      <div class="actions" style="margin-top:18px;">
+        <a class="btn" href="../rice/">看作品 03 →</a>
+        <a class="btn ghost" href="../../">回作品集</a>
+      </div>
+    </div>
+    <div class="foot-note">© 2026 冯本爽 · Builder Radar<br />数据来自 GitHub 公开 API</div>
+  </div>
+</footer>
+
+<script>
+const nf = new Intl.NumberFormat("en-US");
+let DATA = null, filter = "all";
+
+function ago(iso) {
+  const s = (Date.now() - new Date(iso).getTime()) / 1000;
+  if (s < 3600) return Math.max(1, Math.round(s / 60)) + " 分钟前";
+  if (s < 86400) return Math.round(s / 3600) + " 小时前";
+  return Math.round(s / 86400) + " 天前";
+}
+function cstDate(iso) {
+  const d = new Date(iso);
+  return d.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai", month: "2-digit", day: "2-digit" })
+    + " " + d.toLocaleString("zh-CN", { timeZone: "Asia/Shanghai", hour: "2-digit", minute: "2-digit", hour12: false });
+}
+
+fetch("../../data/builders.json?t=" + Date.now())
+  .then(r => r.json())
+  .then(d => { DATA = d; render(); })
+  .catch(() => {
+    document.getElementById("feedBody").innerHTML =
+      '<p style="font-size:14px;">数据文件暂时读不到。若你在本地直接双击打开 HTML，浏览器会拦截本地 fetch；请通过 <code>python3 -m http.server</code> 或线上地址访问。</p>';
+    document.getElementById("mTime").textContent = "读取失败";
+  });
+
+function render() {
+  const d = DATA;
+  document.getElementById("mBuilders").textContent = d.totals.builders;
+  document.getElementById("mStars").textContent = nf.format(d.totals.stars);
+  document.getElementById("mEvents").textContent = d.totals.events;
+  const dsum = d.builders.reduce((n, b) => n + (b.delta_stars || 0), 0);
+  document.getElementById("mDelta").innerHTML = dsum > 0 ? '<span class="up">+' + nf.format(dsum) + "</span>" : nf.format(dsum);
+  document.getElementById("mTime").textContent = d.generated_at_cst + "（" + ago(d.generated_at) + "）";
+  document.getElementById("agoText").textContent = "最新一条动态：" + (d.latest_activity_at ? ago(d.latest_activity_at) : "—");
+  const stale = (Date.now() - new Date(d.generated_at).getTime()) > 6 * 3600 * 1000;
+  document.getElementById("mFresh").textContent = stale ? "数据略旧，等下一轮 Actions" : "LIVE · 自动更新中";
+
+  // filters
+  const f = document.getElementById("filters");
+  f.innerHTML = ['<button data-k="all" class="on">全部动态</button>']
+    .concat(d.builders.map(b => '<button data-k="' + b.login + '">' + b.cn + "</button>")).join("");
+  f.querySelectorAll("button").forEach(btn => btn.addEventListener("click", () => {
+    filter = btn.dataset.k;
+    f.querySelectorAll("button").forEach(x => x.classList.toggle("on", x === btn));
+    renderFeed();
+  }));
+
+  renderFeed();
+
+  // delta board
+  const withDelta = d.builders.filter(b => (b.delta_stars || 0) !== 0 || (b.delta_followers || 0) !== 0)
+    .sort((a, b) => (b.delta_stars || 0) - (a.delta_stars || 0));
+  if (withDelta.length) {
+    document.getElementById("deltaBody").innerHTML = withDelta.map(b =>
+      '<div class="repo"><div><b style="font-size:14.5px;">' + b.cn + '</b><p>' + nf.format(b.total_stars) + ' stars · ' + nf.format(b.followers) + ' followers</p></div>' +
+      '<div class="stars ' + ((b.delta_stars || 0) > 0 ? "up" : "") + '">' + ((b.delta_stars || 0) > 0 ? "+" : "") + nf.format(b.delta_stars || 0) + ' ★<br /><span style="font-weight:500;color:var(--ink-40);">' +
+      ((b.delta_followers || 0) > 0 ? "+" : "") + nf.format(b.delta_followers || 0) + ' 关注</span></div></div>').join("");
+  }
+
+  // hot repos
+  const repos = [];
+  d.builders.forEach(b => (b.top_repos || []).forEach(r => repos.push(Object.assign({ who: b.cn }, r))));
+  repos.sort((a, b) => b.stars - a.stars);
+  const max = repos.length ? repos[0].stars : 1;
+  document.getElementById("hotBody").innerHTML = repos.slice(0, 8).map(r =>
+    '<div class="repo"><div><a href="' + r.url + '" target="_blank" rel="noopener">' + r.name + "</a>" +
+    '<p>' + r.who + (r.lang ? " · " + r.lang : "") + (r.desc ? " · " + r.desc.slice(0, 62) : "") + "</p>" +
+    '<div style="height:5px;background:var(--pink);border:1px solid var(--ink);border-radius:3px;margin-top:6px;width:' +
+    Math.max(6, Math.round((r.stars / max) * 100)) + '%"></div></div>' +
+    '<div class="stars">' + nf.format(r.stars) + " ★</div></div>").join("");
+
+  // people cards
+  document.getElementById("peopleGrid").innerHTML = d.builders.map(b => {
+    const last = (b.feed && b.feed[0]) ? ago(b.feed[0].at) : "—";
+    return '<article class="b-card"><div class="b-top ' + b.accent + '">' +
+      (b.avatar ? '<img src="' + b.avatar + '" alt="' + b.cn + '" loading="lazy" />' : "") +
+      '<div><div class="b-name">' + b.cn + ' <span style="font-family:\'Playfair Display\',serif;font-style:italic;font-weight:500;font-size:14px;opacity:.65;">' + b.en + '</span></div>' +
+      '<div class="b-role">' + b.role + "</div></div></div>" +
+      '<div class="b-nums"><div>Stars<b>' + nf.format(b.total_stars) + "</b></div>" +
+      '<div>Followers<b>' + nf.format(b.followers) + "</b></div>" +
+      '<div>公开仓库<b>' + nf.format(b.public_repos) + "</b></div>" +
+      '<div>最近动作<b>' + last + "</b></div></div>" +
+      '<div class="b-body"><p class="why">为什么盯他：' + b.why + "</p>" +
+      (b.top_repos || []).slice(0, 3).map(r =>
+        '<div class="repo"><div><a href="' + r.url + '" target="_blank" rel="noopener">' + r.name + "</a>" +
+        (r.desc ? '<p>' + r.desc.slice(0, 78) + "</p>" : "") + "</div><div class=\"stars\">" + nf.format(r.stars) + " ★</div></div>").join("") +
+      '<div class="actions" style="margin-top:14px;"><a class="btn ghost" href="https://github.com/' + b.login + '" target="_blank" rel="noopener">GitHub</a>' +
+      (b.links || []).map(l => '<a class="btn ghost" href="' + l.url + '" target="_blank" rel="noopener">' + l.label + "</a>").join("") +
+      "</div></div></article>";
+  }).join("");
+}
+
+function renderFeed() {
+  const items = [];
+  DATA.builders.forEach(b => {
+    if (filter !== "all" && b.login !== filter) return;
+    (b.feed || []).forEach(e => items.push(Object.assign({ who: b.cn }, e)));
+  });
+  items.sort((a, b) => new Date(b.at) - new Date(a.at));
+  document.getElementById("feedCount").textContent = items.length + " 条";
+  document.getElementById("feedBody").innerHTML = items.length ? items.map(e =>
+    '<div class="ev"><time>' + cstDate(e.at) + "<br />" + ago(e.at) + "</time><div>" +
+    '<div class="ev-who">' + e.who + '<span class="ev-kind k-' + e.type + '">' + e.label + (e.count ? " ×" + e.count : "") + "</span></div>" +
+    '<div class="ev-repo"><a href="https://github.com/' + e.repo + '" target="_blank" rel="noopener" style="text-decoration:none;">' + e.repo + "</a></div>" +
+    (e.detail ? '<div class="ev-detail">' + e.detail.replace(/</g, "&lt;") + "</div>" : "") +
+    "</div></div>").join("") : '<p style="font-size:14px;">这位最近没有公开动态。</p>';
+}
+</script>
+</body>
+</html>
