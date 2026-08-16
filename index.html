@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>冯本爽 · 作品集 | AI / 策略产品经理</title>
-<meta name="description" content="冯本爽（Fengbenshuang）个人作品集：AI / 策略产品经理，27 届。做能自己跑起来的小产品——午餐雷达、AI 造物者实时雷达、RICE 优先级罗盘。" />
+<meta name="description" content="冯本爽（Fengbenshuang）个人作品集：AI / 策略产品经理，27 届。做能自己跑起来的小产品——按时吃饭 Skill、AI Builder 捕捉器、RICE 优先级罗盘。" />
 <link rel="stylesheet" href="assets/style.css" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23F3EEE1'/><text y='74' x='50' font-size='68' font-family='serif' font-weight='900' text-anchor='middle' fill='%2314130D'>爽</text></svg>" />
 <style>
@@ -18,7 +18,7 @@
   .stat span { font-family: "Inter", sans-serif; font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-40); display: block; margin-top: 9px; }
   .about { display: grid; grid-template-columns: .82fr 1.18fr; gap: 40px; }
   .id-card { padding: 26px; display: flex; flex-direction: column; gap: 16px; }
-  .mono { width: 84px; height: 84px; border: 1.5px solid var(--ink); border-radius: 50%; display: grid; place-items: center; font-size: 40px; font-weight: 900; background: var(--pink); }
+  .avatar { width: 132px; height: 132px; border: 1.5px solid var(--ink); border-radius: 50%; object-fit: cover; object-position: center 22%; background: var(--pink); box-shadow: 0 10px 24px -18px rgba(20,19,13,.7); }
   .id-list { font-family: "Inter", sans-serif; font-size: 13px; line-height: 2.1; color: rgba(20,19,13,.75); }
   .id-list b { font-family: "Noto Serif SC", serif; color: var(--ink); }
   .quote { font-family: "Playfair Display", serif; font-style: italic; font-size: 20px; color: rgba(20,19,13,.62); border-left: 3px solid var(--ink); padding-left: 16px; margin: 26px 0 0; }
@@ -43,45 +43,19 @@
   </div>
 </nav>
 
-<header class="hero wrap">
-  <div class="hero-top">
-    <div class="eyebrow">Portfolio · 2027 校招 · AI / 策略产品经理</div>
-    <div class="eyebrow">Shenzhen / Guangzhou · 2026</div>
-  </div>
-
-  <div class="hero-grid">
-    <div>
-      <div class="kicker">产品是被用起来的，不是被写完的</div>
-      <h1 class="display">做能自己<br />跑起来的产品</h1>
-      <p class="en-sub">Products that quietly run themselves.</p>
-      <hr class="rule-thick" />
-    </div>
-    <div>
-      <p style="margin:0;font-size:15px;">
-        我是冯本爽，中山大学计算机科学与技术本科 27 届，现在字节跳动 UG-中国用户增长做策略产品实习生。
-        白天把「策略 + AI」落成能跑的自动化闭环，晚上把生活里的小麻烦也做成产品。
-      </p>
-      <p style="margin:14px 0 0;font-size:15px;">
-        下面这几个东西都在线跑着：<b>能自己发消息的午餐雷达</b>、<b>每 3 小时自动更新的博主雷达</b>、<b>给 PM 用的优先级罗盘</b>。
-      </p>
-    </div>
-  </div>
-
-  <div class="stats">
-    <div class="stat"><b>3</b><span>Internships · 字节 / 科大讯飞 / 中国电信</span></div>
-    <div class="stat"><b>0→1</b><span>回传自动化 Agent 建设</span></div>
-    <div class="stat"><b>-42%</b><span>Oncall 数量（6→7 月）</span></div>
-    <div class="stat"><b>+30%</b><span>实验组 ROI（回传策略）</span></div>
-  </div>
-</header>
-
-<section id="about">
+<section id="about" style="padding-top:52px;">
   <div class="wrap">
+    <div class="hero-top" style="margin-bottom:30px;">
+      <div class="eyebrow">Portfolio · 2027 校招 · AI / 策略产品经理</div>
+      <div class="eyebrow">Shenzhen / Guangzhou · 2026</div>
+    </div>
+
     <div class="sec-head">
       <div>
-        <div class="eyebrow">About · 关于我</div>
-        <h2 class="display">一句话：策略脑 + 动手癖</h2>
-        <p class="en-sub">A strategy brain that ships.</p>
+        <div class="kicker">产品是被用起来的，不是被写完的</div>
+        <h2 class="display">做能自己<br />跑起来的产品</h2>
+        <p class="en-sub">Products that quietly run themselves.</p>
+        <hr class="rule-thick" />
       </div>
       <div class="chips">
         <span class="chip">策略 × AI</span>
@@ -94,7 +68,7 @@
 
     <div class="about">
       <div class="card id-card">
-        <div class="mono">爽</div>
+        <img class="avatar" src="assets/avatar.jpg" alt="冯本爽" />
         <div>
           <div style="font-size:24px;font-weight:900;">冯本爽</div>
           <div class="work-en">AI / Strategy PM · Class of 2027</div>
@@ -120,7 +94,8 @@
           习惯用「指标卡点 → 机制假设 → A/B 验证」的方式推进，而不是先做完再解释。
         </p>
         <p>
-          所以这个作品集里没有长篇简历，只有<b>我自己会天天用的小产品</b>：
+          这个作品集里放的是<b>我自己天天在用的三个小产品</b>：一个替我过滤菜单、按点催我吃饭的飞书 Skill，
+          一个每 3 小时自动更新的 AI Builder 动态捕捉器，一个五分钟排完需求优先级的小工具。
           它们都很小，但每一个都有明确的痛点、明确的触发时机、和明确的「不打扰」原则。
         </p>
         <p class="quote">Good products remove a decision, not add a dashboard.</p>
@@ -135,9 +110,9 @@
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <div class="eyebrow">Selected Works · 4 件小产品</div>
-        <h2 class="display">解决具体麻烦的<br />四个小东西</h2>
-        <p class="en-sub">Four small things that solve real annoyances.</p>
+        <div class="eyebrow">Selected Works · 3 件小产品</div>
+        <h2 class="display">解决具体麻烦的<br />三个小东西</h2>
+        <p class="en-sub">Three small things that solve real annoyances.</p>
       </div>
       <div class="live"><span class="dot"></span>作品 01 / 02 正在线上运行</div>
     </div>
@@ -149,11 +124,11 @@
         <div class="work-head pink">
           <div class="num">01</div>
           <div>
-            <h3 class="work-title">午餐雷达</h3>
+            <h3 class="work-title">工作再忙<br />也要按时吃饭</h3>
             <div class="work-en">Lunch Radar · 飞书 Agent Skill</div>
           </div>
         </div>
-        <img class="work-shot" src="assets/shots/lunch.png" alt="午餐雷达展示页截图" loading="lazy" />
+        <img class="work-shot" src="assets/shots/lunch.png" alt="按时吃饭 Skill 展示页截图" loading="lazy" />
         <div class="work-body">
           <p class="pain">深圳湾每天 12:15 群里刷出七八层楼的菜单，<b>我只关心 32 楼和别层的非自选</b>——但小龙虾例外，有就必须知道。</p>
           <div class="metrics">
@@ -176,13 +151,13 @@
         <div class="work-head olive">
           <div class="num">02</div>
           <div>
-            <h3 class="work-title">AI 造物者雷达</h3>
+            <h3 class="work-title">AI Builder 捕捉器</h3>
             <div class="work-en">Builder Radar · 实时监测站</div>
           </div>
         </div>
-        <img class="work-shot" src="assets/shots/radar.png" alt="AI 造物者雷达截图" loading="lazy" />
+        <img class="work-shot" src="assets/shots/radar.png" alt="AI Builder 捕捉器截图" loading="lazy" />
         <div class="work-body">
-          <p class="pain">想跟住几位 AI Builder 的动态，但手搓的监测页<b>数据停在采集那天就死了</b>——我要一个会自己长大的版本。</p>
+          <p class="pain">我很喜欢 Zara Zhang，常被她的产出节奏感染，就想稳定跟住她和几位 AI Builder 的动态。<b>但现成的监测页停在采集那天就死了</b>，所以做了个会自己长大的版本。</p>
           <div class="metrics">
             <div><b>3h</b>自动刷新一次</div>
             <div><b>Δ Stars</b>增量榜单</div>
@@ -224,49 +199,7 @@
         </div>
       </article>
 
-      <!-- 04 -->
-      <article class="work">
-        <div class="work-head sky">
-          <div class="num">04</div>
-          <div>
-            <h3 class="work-title">万象智绘</h3>
-            <div class="work-en">AI 国画生成与修复 · 大创项目</div>
-          </div>
-        </div>
-        <svg class="cover-svg" viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="万象智绘项目封面">
-          <rect width="640" height="400" fill="#F7F3E8"/>
-          <g opacity=".9">
-            <path d="M0 300 C 90 250, 150 300, 230 262 C 310 226, 360 268, 440 240 C 520 212, 580 250, 640 224 L640 400 L0 400 Z" fill="#BFD1DE"/>
-            <path d="M0 336 C 110 300, 190 344, 280 314 C 380 282, 450 322, 540 296 C 590 282, 620 292, 640 286 L640 400 L0 400 Z" fill="#8FA9BA" opacity=".75"/>
-          </g>
-          <circle cx="500" cy="96" r="40" fill="#F1CBD4"/>
-          <g stroke="#14130D" stroke-width="3.4" fill="none" stroke-linecap="round">
-            <path d="M78 214 C 108 150, 120 118, 152 84"/>
-            <path d="M152 84 C 176 108, 196 120, 226 128"/>
-            <path d="M152 84 C 134 112, 118 124, 96 134"/>
-            <path d="M300 214 C 318 176, 322 156, 340 130"/>
-            <path d="M340 130 C 356 148, 370 156, 392 162"/>
-          </g>
-          <g font-family="Noto Serif SC, serif" fill="#14130D">
-            <text x="46" y="62" font-size="30" font-weight="900">万象智绘</text>
-            <text x="46" y="88" font-size="13" opacity=".6" font-family="Inter, sans-serif" letter-spacing="3">GUOHUA · AIGC · CREATE &amp; RESTORE</text>
-          </g>
-        </svg>
-        <div class="work-body">
-          <p class="pain">国际 AI 绘画工具在国画领域「文化失真」、看不懂专业技法。<b>把创作与修复做进同一个工具箱</b>，给爱好者和文博机构各一条路。</p>
-          <div class="metrics">
-            <div><b>50+</b>用户访谈样本</div>
-            <div><b>500</b>种子用户</div>
-            <div><b>2 家</b>B 端机构试点</div>
-          </div>
-          <div class="chips">
-            <span class="tag">0→1 立项</span><span class="tag">国创优胜奖</span><span class="tag">商业模式</span>
-          </div>
-          <div class="actions">
-            <a class="btn" href="works/wanxiang/">看项目复盘 →</a>
-          </div>
-        </div>
-      </article>
+
 
     </div>
   </div>
@@ -289,14 +222,14 @@
         <div class="num">01</div>
         <div>
           <h4>先找触发时机，再想功能</h4>
-          <p>午餐雷达的答案不是「做个菜单页」，而是 12:15 和 12:30 这两个时间点。时机对了，功能可以很轻。</p>
+          <p>「按时吃饭」的答案不是「做个菜单页」，而是 12:15 和 12:30 这两个时间点。时机对了，功能可以很轻。</p>
         </div>
       </div>
       <div class="step olive">
         <div class="num">02</div>
         <div>
           <h4>信息的价值在于被砍掉多少</h4>
-          <p>七层楼菜单只留三行；博主动态只留增量。默认「不打扰」，例外规则（比如小龙虾）才值得被写死。</p>
+          <p>七层楼菜单只留三行；Builder 动态只留增量。默认「不打扰」，例外规则（比如小龙虾）才值得被写死。</p>
         </div>
       </div>
       <div class="step apricot">

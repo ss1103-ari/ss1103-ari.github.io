@@ -1,4 +1,4 @@
-name: 更新 AI 造物者雷达数据
+name: 更新 AI Builder 捕捉器数据
 
 on:
   schedule:

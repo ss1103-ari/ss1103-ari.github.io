@@ -11,10 +11,9 @@
 │   ├── style.css                  # 共用视觉（奶油底 + 衬线大字 + 彩色卡片）
 │   └── shots/*.png                # 作品预览图
 ├── works/
-│   ├── lunch/index.html           # 作品 01 午餐雷达（含交互 Demo）
-│   ├── radar/index.html           # 作品 02 AI 造物者雷达（读 data/builders.json）
-│   ├── rice/index.html            # 作品 03 优先级罗盘（纯前端工具）
-│   └── wanxiang/index.html        # 作品 04 万象智绘项目复盘
+│   ├── lunch/index.html           # 作品 01 按时吃饭 Skill（含交互 Demo）
+│   ├── radar/index.html           # 作品 02 AI Builder 捕捉器（读 data/builders.json）
+│   └── rice/index.html            # 作品 03 优先级罗盘（纯前端工具）
 ├── data/
 │   ├── builders.json              # 雷达最新数据（由 Actions 自动更新）
 │   └── history/YYYY-MM-DD.json    # 每日快照，用于算 Δ Stars
@@ -37,7 +36,7 @@ git push -u origin main
 3. 仓库 **Settings → Pages**：Source 选 `Deploy from a branch`，分支 `main`，目录 `/ (root)`，保存。
    1–2 分钟后访问 <https://ss1103-ari.github.io/>。
 4. 仓库 **Settings → Actions → General → Workflow permissions**：勾选 `Read and write permissions`（Actions 需要把新数据提交回仓库）。
-5. 仓库 **Actions** 页签 → 选中「更新 AI 造物者雷达数据」→ `Run workflow` 手动跑一次，验证数据能自动更新。之后每 3 小时自动执行。
+5. 仓库 **Actions** 页签 → 选中「更新 AI Builder 捕捉器数据」→ `Run workflow` 手动跑一次，验证数据能自动更新。之后每 3 小时自动执行。
 
 ## 本地预览
 
