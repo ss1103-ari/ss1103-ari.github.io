@@ -452,8 +452,11 @@ function render() {
   const rawDishes = RAW.reduce((n, b) => n + b.dishes.length, 0);
   if (typeof rawCount !== "undefined" && rawCount) rawCount.textContent = `${RAW.length} 段 / ${rawDishes} 道`;
   outCount.textContent = `${kept.length} 段 / ${keptDishes.length} 道`;
-  const cut = Math.round((1 - keptDishes.length / rawDishes) * 100);
-  counter.innerHTML = `噪音砍掉 <b style="font-family:'Noto Serif SC',serif;font-style:normal;color:var(--ink);">${cut}%</b>　·　${rawDishes} 道 → ${keptDishes.length} 道`;
+  const cut = rawDishes ? Math.round((1 - keptDishes.length / rawDishes) * 100) : 0;
+  const serif = "font-family:'Noto Serif SC',serif;font-style:normal;color:var(--ink);";
+  counter.innerHTML = cut > 0
+    ? `${RAW.length} 段 / ${rawDishes} 道　→　<b style="${serif}">${kept.length} 段 / ${keptDishes.length} 道</b>　·　噪音砍掉 <b style="${serif}">${cut}%</b>`
+    : `${RAW.length} 段 / ${rawDishes} 道　→　<b style="${serif}">${kept.length} 段 / ${keptDishes.length} 道</b>　·　今天群里没出现「其他楼层自选」，规则无需动手`;
 
   const hits = favHits(keptDishes);
   const list = hits.length
