@@ -140,6 +140,8 @@ section { padding: 66px 0; }
   border-top: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink);
   background: #fff; display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top center;
 }
+/* 拼接长图（2560×1143）在 16/10 卡片里用 cover 会切掉左右两侧内容，改为完整展示 */
+.work-shot[src$="shots/lunch.png"] { object-fit: contain; object-position: center; background: #F3EFE4; }
 .pain { font-size: 15px; margin: 0; color: rgba(20,19,13,.78); }
 .pain b { background: linear-gradient(transparent 62%, rgba(242,206,157,.85) 62%); }
 .metrics { display: flex; gap: 18px; flex-wrap: wrap; font-family: "Inter", sans-serif; font-size: 12.5px; color: var(--ink-60); }
