@@ -22,6 +22,18 @@
   .dishes { margin: 7px 0 0; font-size: 13.5px; line-height: 1.95; color: rgba(20,19,13,.72); }
   .dishes .fav { background: linear-gradient(transparent 58%, rgba(241,203,212,.95) 58%); font-weight: 700; color: var(--ink); }
   .dropped { opacity: .34; text-decoration: line-through; }
+  .deck-wrap { padding: 20px 18px 16px; }
+  .deck { position: relative; height: 430px; perspective: 1200px; }
+  .deck figure { position: absolute; inset: 0; margin: 0; display: grid; place-items: center; transition: transform .45s cubic-bezier(.2,.7,.3,1), opacity .35s; }
+  .deck img { max-height: 100%; max-width: 100%; border: 1.5px solid var(--ink); border-radius: 10px; background: #fff; box-shadow: 0 14px 30px -20px rgba(20,19,13,.75); cursor: pointer; }
+  .deck-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; }
+  .deck-btn { border: 1.5px solid var(--ink); background: var(--paper-2); border-radius: 999px; width: 38px; height: 38px; cursor: pointer; font-size: 15px; line-height: 1; }
+  .deck-btn:hover { background: var(--pink); }
+  .deck-count { font-family: "Playfair Display", serif; font-style: italic; font-size: 20px; color: rgba(20,19,13,.62); }
+  .deck-dots { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+  .deck-dots i { width: 7px; height: 7px; border-radius: 50%; border: 1px solid var(--ink); display: block; cursor: pointer; }
+  .deck-dots i.on { background: var(--ink); }
+  .deck-note { font-family: "Inter", sans-serif; font-size: 12px; color: var(--ink-40); letter-spacing: .04em; text-align: center; margin: 10px 0 0; line-height: 1.6; }
   .switchbar { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin: 0 0 20px; }
   .sw { display: inline-flex; align-items: center; gap: 9px; font-family: "Inter", sans-serif; font-size: 13px; font-weight: 600; border: 1.5px solid var(--ink); border-radius: 999px; padding: 8px 14px; background: var(--paper-2); cursor: pointer; user-select: none; }
   .sw input { accent-color: #14130D; width: 15px; height: 15px; }
@@ -101,11 +113,19 @@
 
     <div class="demo">
       <div class="panel">
-        <div class="panel-head raw"><span>群消息原样 · 11:55（按真实结构还原的示例）</span><span id="rawCount"></span></div>
-        <div class="panel-body" id="rawBody"></div>
+        <div class="panel-head raw"><span>群消息原样 · 11:40–11:55 连发</span><span id="deckCount">01 / 11</span></div>
+        <div class="deck-wrap">
+          <div class="deck" id="deck"></div>
+          <div class="deck-bar">
+            <button class="deck-btn" id="deckPrev" aria-label="上一张">←</button>
+            <div class="deck-dots" id="deckDots"></div>
+            <button class="deck-btn" id="deckNext" aria-label="下一张">→</button>
+          </div>
+          <p class="deck-note">这就是我 12 点多要往上翻的东西：11 张图、七八个楼层，<br />一到 12:00 全被排队通知刷到上面去。点图片或按 ← → 翻页。</p>
+        </div>
       </div>
       <div class="panel">
-        <div class="panel-head out"><span>按时吃饭 Skill · 12:15 推给我</span><span id="outCount"></span></div>
+        <div class="panel-head out"><span>Skill 解析后推给我的</span><span id="outCount"></span></div>
         <div class="panel-body" id="outBody"></div>
       </div>
     </div>
@@ -343,7 +363,7 @@ function render() {
     document.getElementById(id).classList.toggle("on", el.checked);
   });
 
-  rawBody.innerHTML = RAW.map(b => blockHTML(b)).join("");
+  if (typeof rawBody !== "undefined" && rawBody) rawBody.innerHTML = RAW.map(b => blockHTML(b)).join("");
   const kept = [], keptDishes = [];
   let out = "";
   RAW.forEach(b => {
@@ -358,7 +378,7 @@ function render() {
   outBody.innerHTML = out || '<p style="font-size:14px;">规则全关 → 什么都不发。<b>不打扰是默认值。</b></p>';
 
   const rawDishes = RAW.reduce((n, b) => n + b.dishes.length, 0);
-  rawCount.textContent = `${RAW.length} 段 / ${rawDishes} 道`;
+  if (typeof rawCount !== "undefined" && rawCount) rawCount.textContent = `${RAW.length} 段 / ${rawDishes} 道`;
   outCount.textContent = `${kept.length} 段 / ${keptDishes.length} 道`;
   const cut = Math.round((1 - keptDishes.length / rawDishes) * 100);
   counter.innerHTML = `噪音砍掉 <b style="font-family:'Noto Serif SC',serif;font-style:normal;color:var(--ink);">${cut}%</b>　·　${rawDishes} 道 → ${keptDishes.length} 道`;
@@ -375,6 +395,38 @@ function render() {
     ${hits.some(h => h.includes("小龙虾")) ? "🦞 <b>15F 自选有小龙虾，去晚了就没了。</b><br />" : ""}
     现在下去人最少，13:00 之后基本只剩汤。`;
 }
+
+// ---------- 群里菜单图叠放翻页 ----------
+const SHOTS = Array.from({ length: 11 }, (_, i) => `../../assets/menu/${String(i + 1).padStart(2, "0")}.jpg`);
+let cur = 0;
+const deck = document.getElementById("deck");
+deck.innerHTML = SHOTS.map((src, i) =>
+  `<figure data-i="${i}"><img src="${src}" alt="群里第 ${i + 1} 张菜单图" loading="lazy" /></figure>`).join("");
+document.getElementById("deckDots").innerHTML = SHOTS.map((_, i) => `<i data-i="${i}"></i>`).join("");
+
+function paintDeck() {
+  const total = SHOTS.length;
+  deck.querySelectorAll("figure").forEach(f => {
+    const i = +f.dataset.i;
+    let d = i - cur;
+    if (d < 0) d += total;                     // 环形叠放
+    if (d > 3) { f.style.opacity = 0; f.style.pointerEvents = "none"; f.style.transform = "translateY(26px) scale(.9)"; return; }
+    const rot = [0, 3.2, -2.6, 4.4][d];
+    f.style.opacity = d === 0 ? 1 : 0.55 - d * 0.13;
+    f.style.pointerEvents = d === 0 ? "auto" : "none";
+    f.style.zIndex = 10 - d;
+    f.style.transform = `translate(${d * 13}px, ${d * 11}px) rotate(${rot}deg) scale(${1 - d * 0.045})`;
+  });
+  document.getElementById("deckCount").textContent =
+    String(cur + 1).padStart(2, "0") + " / " + String(total).padStart(2, "0");
+  document.getElementById("deckDots").querySelectorAll("i").forEach(d => d.classList.toggle("on", +d.dataset.i === cur));
+}
+const go = n => { cur = (n + SHOTS.length) % SHOTS.length; paintDeck(); };
+document.getElementById("deckNext").addEventListener("click", () => go(cur + 1));
+document.getElementById("deckPrev").addEventListener("click", () => go(cur - 1));
+deck.addEventListener("click", e => { if (e.target.tagName === "IMG") go(cur + 1); });
+document.getElementById("deckDots").addEventListener("click", e => { if (e.target.dataset.i !== undefined) go(+e.target.dataset.i); });
+paintDeck();
 
 ["r32", "rSet", "rShrimp"].forEach(id => document.getElementById(id).addEventListener("change", render));
 render();
