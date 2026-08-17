@@ -56,7 +56,12 @@
   .fav-chips { display: flex; gap: 8px; flex-wrap: wrap; }
   .fav-chips span { background: var(--pink); border: 1.5px solid var(--ink); border-radius: 999px; padding: 6px 13px; font-size: 13.5px; font-weight: 700; }
   .pushshot { display:grid; grid-template-columns: minmax(0,1.05fr) minmax(0,1fr); gap:26px; align-items:start; }
+  .shotrow { display:flex; gap:14px; align-items:flex-start; }
+  .shotrow > figure { margin:0; flex:1 1 0; min-width:0; }
+  .shotrow img { width:100%; display:block; border:1.5px solid #12100e; border-radius:12px; box-shadow:6px 6px 0 rgba(18,16,14,.14); background:#fff; }
+  .shotrow figcaption { font-family:'Inter',sans-serif; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; opacity:.6; margin-top:8px; }
   @media (max-width: 900px) { .demo, .two, .pushshot { grid-template-columns: 1fr; } .flow { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px) { .shotrow { flex-direction: column; } }
 </style>
 </head>
 <body>
@@ -114,7 +119,7 @@
 
     <div class="demo">
       <div class="panel">
-        <div class="panel-head raw"><span>群消息原样 · 11:40–11:55 连发</span><span id="deckCount">01 / 11</span></div>
+        <div class="panel-head raw"><span>群消息原样 · 8/17 11:42–11:57 连发</span><span id="deckCount">01 / 11</span></div>
         <div class="deck-wrap">
           <div class="deck" id="deck"></div>
           <div class="deck-bar">
@@ -126,14 +131,14 @@
         </div>
       </div>
       <div class="panel">
-        <div class="panel-head out"><span>Skill 解析后推给我的</span><span id="outCount"></span></div>
+        <div class="panel-head out"><span>按时吃饭 Skill · 8/17 12:15 推给我</span><span id="outCount"></span></div>
         <div class="panel-body" id="outBody"></div>
       </div>
     </div>
 
     <div style="margin-top:26px;" class="two">
       <div>
-        <div class="eyebrow" style="margin-bottom:12px;">12:30 · 赶人卡片</div>
+        <div class="eyebrow" style="margin-bottom:12px;">12:30 · 赶人卡片（8/17 真实数据）</div>
         <div class="lark-card">
           <div class="lark-top"><span>🍚 该吃饭了</span><span style="font-family:'Inter';font-size:12px;font-weight:600;">12:30</span></div>
           <div class="lark-body" id="remindBody"></div>
@@ -159,14 +164,14 @@
     <div style="margin-top:34px;">
       <div class="eyebrow" style="margin-bottom:12px;">上线后的真实推送 · 8/17（周一）12:15 从群里真实跑出来的一条</div>
       <div class="pushshot">
-        <div style="display:flex;gap:14px;">
-          <figure style="margin:0;flex:1;">
-            <img src="../../assets/push/push-01.jpg" alt="午餐雷达真实推送截图 1" style="width:100%;display:block;border:1.5px solid #12100e;border-radius:12px;box-shadow:6px 6px 0 rgba(18,16,14,.14);background:#fff;" />
-            <figcaption style="font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin-top:8px;">开场 + 32F 全量</figcaption>
+        <div class="shotrow">
+          <figure>
+            <img src="../../assets/push/push-01.jpg" alt="午餐雷达真实推送截图 1" />
+            <figcaption>开场 + 32F 全量</figcaption>
           </figure>
-          <figure style="margin:0;flex:1;">
-            <img src="../../assets/push/push-02.jpg" alt="午餐雷达真实推送截图 2" style="width:100%;display:block;border:1.5px solid #12100e;border-radius:12px;box-shadow:6px 6px 0 rgba(18,16,14,.14);background:#fff;" />
-            <figcaption style="font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin-top:8px;">其他楼层 + 爱吃清单命中</figcaption>
+          <figure>
+            <img src="../../assets/push/push-02.jpg" alt="午餐雷达真实推送截图 2" />
+            <figcaption>其他楼层 + 爱吃清单命中</figcaption>
           </figure>
         </div>
         <div>
@@ -200,13 +205,14 @@
     <div style="margin-top:34px;">
       <div class="eyebrow" style="margin-bottom:12px;">还没下楼？12:30 的第二次催 · 同一天真实数据</div>
       <div class="pushshot">
-        <div style="display:flex;flex-direction:column;gap:14px;">
-          <figure style="margin:0;">
-            <img src="../../assets/push/push30-01.jpg" alt="12:30 催饭提醒截图 1" style="width:100%;display:block;border:1.5px solid #12100e;border-radius:12px;box-shadow:6px 6px 0 rgba(18,16,14,.14);background:#fff;" />
+        <div class="shotrow">
+          <figure>
+            <img src="../../assets/push/push30-01.jpg" alt="12:30 催饭提醒截图 1" />
+            <figcaption>开场 + 命中的三处肥肠 / 冬阴功</figcaption>
           </figure>
-          <figure style="margin:0;">
-            <img src="../../assets/push/push30-02.jpg" alt="12:30 催饭提醒截图 2" style="width:100%;display:block;border:1.5px solid #12100e;border-radius:12px;box-shadow:6px 6px 0 rgba(18,16,14,.14);background:#fff;" />
-            <figcaption style="font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin-top:8px;">12:30 · 只留决定性信息</figcaption>
+          <figure>
+            <img src="../../assets/push/push30-02.jpg" alt="12:30 催饭提醒截图 2" />
+            <figcaption>推荐楼层 + 13:30 收档的截止时间</figcaption>
           </figure>
         </div>
         <div>
@@ -378,16 +384,25 @@ SOURCE = 飞书群「深圳湾餐饮话题群③」
 
 <script>
 const RAW = [
-  { floor: "32F", type: "全部", label: "自选 + 档口", dishes: ["椰子鸡汤锅", "黑椒牛柳", "香辣肥肠", "蒜蓉西兰花", "冬瓜排骨汤", "现煮米粉（叉烧/牛腩）"] },
-  { floor: "32F", type: "全部", label: "轻食窗口", dishes: ["低卡鸡胸沙拉", "杂粮饭 + 番茄龙利鱼"] },
-  { floor: "12F", type: "非自选", label: "特色套餐", dishes: ["美蛙鱼头锅（限量 40 份）", "梅菜蒸肉饼饭", "冬阴功海鲜汤面"] },
-  { floor: "12F", type: "自选", label: "自选称重", dishes: ["清炒时蔬", "土豆丝", "红烧豆腐", "麻婆豆腐", "白灼虾"] },
-  { floor: "15F", type: "非自选", label: "小碗菜套餐", dishes: ["酸菜鱼小碗", "梅干菜焖肉", "手撕包菜"] },
-  { floor: "15F", type: "自选", label: "自选称重", dishes: ["香辣小龙虾（今日到货）", "蒜香排骨", "凉拌木耳"] },
-  { floor: "21F", type: "非自选", label: "面档", dishes: ["重庆小面", "番茄牛腩面", "云吞面"] },
-  { floor: "21F", type: "自选", label: "自选称重", dishes: ["清蒸南瓜", "上海青", "卤蛋", "宫保鸡丁", "干煸豆角"] },
-  { floor: "26F", type: "非自选", label: "简餐", dishes: ["三色鸡饭", "咖喱牛腩饭"] },
-  { floor: "26F", type: "自选", label: "自选称重", dishes: ["虾仁滑蛋", "蚂蚁上树", "西红柿炒蛋", "腐竹烧肉"] }
+  { floor: "32F", type: "自选", label: "自选餐线", img: true, dishes: ["主荤：黑椒炒猪扒 / 火爆香辣虾🌶", "半荤：干锅花菜炒腩肉 / 三色鸡丁", "素菜：韭香绿豆芽 / 美极鸡毛菜", "主食：白米饭 / 大麦紫米杂粮饭", "汤粥：冬瓜薏米排骨汤 / 桂圆糯米粥 / 冰糖雪梨银耳糖水"] },
+  { floor: "32F", type: "自选", label: "B区-自选粉面", img: false, dishes: ["🍜面食：蛋黄面/金霸米粉", "🐂主荤：泡椒鲷鱼片🌶+干豆角红烧肉", "🍡半荤：榨菜炒肉丝", "🥒素菜：美极鸡毛菜", "🥚蛋类：卤蛋/煎蛋"] },
+  { floor: "32F", type: "非自选", label: "B区-猪角", img: true, dishes: ["擂辣椒猪脚饭套餐", "红葱头油淋鸡套餐", "冰糖炖鲜梨汤"] },
+  { floor: "32F", type: "非自选", label: "A/B餐盒饭菜单", img: false, dishes: ["🍱A套餐：黑椒炒猪扒+火爆香辣虾🌶️套餐", "🍱B套餐：牛三鲜🌶️套餐"] },
+  { floor: "A7", type: "非自选", label: "粿说潮汕档口", img: true, dishes: ["酸辣猪排粿条汤套餐", "鲜牛肉蟹黄酱拌面套餐"] },
+  { floor: "A7", type: "非自选", label: "金戈戈·香港豉油鸡系列档口", img: true, dishes: ["热拌酸辣猪耳拼豉油鸡套餐", "黑金叉烧饭套餐"] },
+  { floor: "A7", type: "非自选", label: "祥客基鸡公煲档口", img: true, dishes: ["沙姜鸡啫啫煲套餐", "薄荷酸菜牛肉煲套餐", "冬瓜薏米排骨汤"] },
+  { floor: "A7", type: "非自选", label: "拌饭时光档口", img: true, dishes: ["泰式打抛鸡肉饭套餐", "寿喜虾仁鸡肉滑蛋饭套餐"] },
+  { floor: "A7", type: "非自选", label: "云贵坊花溪米粉档口", img: true, dishes: ["肥牛百香果酸汤粉套餐", "香辣牛腩拌粉套餐"] },
+  { floor: "36F", type: "非自选", label: "沸腾麻辣烫档口", img: false, dishes: ["套餐A：肥羊", "套餐B：猪肉小酥肉", "主食：蔬菜手工面", "主食：大碗面", "半荤：水晶包、鸡胸肉", "素菜：金针菇、香芋、上海青、土豆片、娃娃菜"] },
+  { floor: "35F", type: "非自选", label: "蘭记小面", img: true, dishes: ["招牌白切牛肉面", "小炒黄牛肉拌面", "茄子炒鸡肉拌面"] },
+  { floor: "35F", type: "非自选", label: "卤味鲜捞坊", img: true, dishes: ["麻辣肥肠鸡饭", "新疆番茄牛腩饭", "凉瓜龙骨汤"] },
+  { floor: "B7", type: "非自选", label: "A区-刘记面馆", img: true, dishes: ["港式牛腩竹升面套餐", "冬阴功海鲜MAMA面套餐", "小吃：锅巴土豆"] },
+  { floor: "47F", type: "非自选", label: "B区-懂爱小面", img: true, dishes: ["香辣牛杂面条/抄手", "红烧牛肉面条/抄手", "黄焖鸡面条/抄手", "小吃：洋葱圈"] },
+  { floor: "47F", type: "非自选", label: "B区-赶潮冒菜", img: true, dishes: ["木姜子清远鸡蘸水菜套餐", "木姜子龙利鱼蘸水菜套餐"] },
+  { floor: "21F", type: "非自选", label: "B区-烟火小灶", img: true, dishes: ["黑椒牛仔粒", "咸蛋黄焗鸡翅根", "花菜炒肉", "西红柿炒蛋", "紫苏青瓜", "蒜蓉水白菜", "白萝卜筒骨汤", "椰汁西米露"] },
+  { floor: "21F", type: "非自选", label: "B区-滋味烫捞", img: true, dishes: ["泰式咖喱猪颈肉盖饭", "韩式海鲜牛肉大酱汤", "韩式鸡肉石锅拌饭", "鱼饼", "裙带菜例汤"] },
+  { floor: "21F", type: "非自选", label: "B区-老广味道", img: true, dishes: ["秘制五香牛腩饭", "经典猪肘猪脚饭", "湛江白切鸡饭", "香卤凤爪", "冬瓜排骨汤"] },
+  { floor: "21F", type: "非自选", label: "B区-湘粉小馆", img: true, dishes: ["红烧牛腩粉", "香干炒肉粉", "香辣肥肠粉", "红糖糍粑"] }
 ];
 const FAV = ["美蛙鱼", "小龙虾", "酸菜鱼", "肥肠", "冬阴功", "椰子鸡"];
 
@@ -409,7 +424,7 @@ function decide(block, rules) {
 function blockHTML(b, extra = "", dropped = false) {
   const badge = b.type === "自选" ? '<span class="badge self">自选</span>' : '<span class="badge set">非自选</span>';
   return `<div class="floor ${dropped ? "dropped" : ""}">
-    <div class="floor-name">${b.floor} ${badge}<span style="font-family:Inter;font-size:11.5px;font-weight:600;color:var(--ink-40);letter-spacing:.06em;">${b.label}</span>${extra}</div>
+    <div class="floor-name">${b.floor} ${badge}<span style="font-family:Inter;font-size:11.5px;font-weight:600;color:var(--ink-40);letter-spacing:.06em;">${b.label}</span>${b.img ? '<span style="font-family:Inter;font-size:10px;font-weight:700;letter-spacing:.05em;color:var(--ink-40);">IMG·OCR</span>' : ''}${extra}</div>
     <div class="dishes">${b.dishes.map(mark).join(" · ")}</div>
   </div>`;
 }
@@ -444,13 +459,14 @@ function render() {
   const list = hits.length
     ? hits.map(h => {
         const b = kept.find(x => x.dishes.includes(h));
-        return `<b>${b.floor}</b> 的 ${mark(h)}`;
+        return `<b>${b.floor}「${b.label}」</b>的 ${mark(h)}`;
       }).join("、")
-    : "今天没抓到你爱吃的，建议 32F 的现煮米粉";
-  remindBody.innerHTML = `小爽，12:30 了，还在改 PRD 吗？<br />
-    今天 ${list}。<br />
-    ${hits.some(h => h.includes("小龙虾")) ? "🦞 <b>15F 自选有小龙虾，去晚了就没了。</b><br />" : ""}
-    现在下去人最少，13:00 之后基本只剩汤。`;
+    : "今天没抓到你爱吃的，那就去 32F 自选餐线，火爆香辣虾🌶 也不错";
+  remindBody.innerHTML = `小爽，12:30 啦！需求先放着，真的该下楼吃饭了。<br />
+    今天有你爱吃的：${list}。<br />
+    ${hits.some(h => h.includes("小龙虾")) ? "🦞 <b>有小龙虾，去晚了就没了。</b><br />" : ""}
+    🚶 推荐直接去 <b>35F</b>：你在 30F，比 21F、B7 都近；只想少走两步就去 32F（离你最近的饭堂）。<br />
+    ⏰ 餐线 13:30 收档，热菜先没、汤最后剩，现在下去还能挑。`;
 }
 
 // ---------- 群里菜单图叠放翻页 ----------
