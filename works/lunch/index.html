@@ -55,7 +55,8 @@
   .two { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
   .fav-chips { display: flex; gap: 8px; flex-wrap: wrap; }
   .fav-chips span { background: var(--pink); border: 1.5px solid var(--ink); border-radius: 999px; padding: 6px 13px; font-size: 13.5px; font-weight: 700; }
-  @media (max-width: 900px) { .demo, .two { grid-template-columns: 1fr; } .flow { grid-template-columns: 1fr 1fr; } }
+  .pushshot { display:grid; grid-template-columns: minmax(0,1.05fr) minmax(0,1fr); gap:26px; align-items:start; }
+  @media (max-width: 900px) { .demo, .two, .pushshot { grid-template-columns: 1fr; } .flow { grid-template-columns: 1fr 1fr; } }
 </style>
 </head>
 <body>
@@ -156,36 +157,74 @@
     </div>
 
     <div style="margin-top:34px;">
-      <div class="eyebrow" style="margin-bottom:12px;">上线后的真实推送 · 用 8/14（周五）真实菜单跑出来的一条</div>
-      <div class="two">
-        <div class="lark-card">
-          <div class="lark-top"><span>🍽 12:30 啦，别写了，先去吃饭！</span><span style="font-family:'Inter';font-size:12px;font-weight:600;">模拟推送</span></div>
-          <div class="lark-body" style="font-size:13.5px;">
-            ❤️ <b>32F-B区「自选粉面」</b>有你爱的「<span style="background:linear-gradient(transparent 58%, rgba(241,203,212,.95) 58%);font-weight:700;">爆炒肥肠🌶</span>」（配炸鸡排），这个必须冲。<br />
-            　　同档还有：胡萝卜面 / 红薯粉 / 猪肉白菜水饺、青椒鸡蛋炒火腿、蒜蓉上海青、卤蛋煎蛋。<br /><br />
-            🏢 <b>32F 其他选择</b>：「猪角」档口（图片菜单，见群里原文）；<br />
-            　　嫌排队就直接拿盒饭 —— A套餐 蒜蓉粉丝蒸扇贝+回锅牛肉🌶，B套餐 三色牛肉拌饭。<br /><br />
-            🚶 <b>排队情况</b>：21F / 32F / 35F / 36F / 47F / A7 / B7 都已经发过开餐排队通知了，开餐半小时，这会儿下去正好错峰。不想挤 32F 的话，36F「沸腾麻辣烫」今天有肥羊、猪肉小酥肉。<br /><br />
-            ⏰ 自助餐线 13:30 收档，再晚下去就只剩汤和加时盒饭了 —— 现在就走！🏃‍♀️
-          </div>
-          <div class="lark-foot">数据来源：深圳湾餐饮话题群③ 2026-08-14 11:40–12:07 的真实菜单与排队通知</div>
+      <div class="eyebrow" style="margin-bottom:12px;">上线后的真实推送 · 8/17（周一）12:15 从群里真实跑出来的一条</div>
+      <div class="pushshot">
+        <div style="display:flex;gap:14px;">
+          <figure style="margin:0;flex:1;">
+            <img src="../../assets/push/push-01.jpg" alt="午餐雷达真实推送截图 1" style="width:100%;display:block;border:1.5px solid #12100e;border-radius:12px;box-shadow:6px 6px 0 rgba(18,16,14,.14);background:#fff;" />
+            <figcaption style="font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin-top:8px;">开场 + 32F 全量</figcaption>
+          </figure>
+          <figure style="margin:0;flex:1;">
+            <img src="../../assets/push/push-02.jpg" alt="午餐雷达真实推送截图 2" style="width:100%;display:block;border:1.5px solid #12100e;border-radius:12px;box-shadow:6px 6px 0 rgba(18,16,14,.14);background:#fff;" />
+            <figcaption style="font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin-top:8px;">其他楼层 + 爱吃清单命中</figcaption>
+          </figure>
         </div>
         <div>
           <p style="margin-top:0;font-size:14.5px;">
-            这条是真的从群里跑出来的，不是写的样例。可以对照看它做了三件事：
+            这两张是飞书里的原始截图，不是效果图。可以对照看它做了四件事：
           </p>
           <p style="font-size:14.5px;">
-            <b>① 先说人话再说信息。</b>开头不是「今日菜单如下」，而是「别写了，先去吃饭」——
-            因为它的任务是把我从工位上叫走，不是给我一份报表。
+            <b>① 先说人话，再说信息。</b>第一句是「先放下手上的需求，该去吃饭了」——
+            它的任务是把我从工位上叫走，不是给我一份菜单报表。
           </p>
           <p style="font-size:14.5px;">
-            <b>② 爱吃的菜必须出现在第一行。</b>当天文本菜单里只命中了「肥肠」，那就把肥肠顶到最前面，
-            后面才是同档其他菜——决定我几点下楼的就是这一句。
+            <b>② 文字后面紧跟那张图。</b>每层楼的菜名下面就是这层的菜单原图，
+            不用先读完全部文字再回头翻九张图找对应关系。
+          </p>
+          <p style="font-size:14.5px;">
+            <b>③ 图片菜单被读出来了。</b>群里大部分菜单是图片，它先 OCR 成菜名再参与筛选和高亮，
+            所以「肥肠」「冬阴功」这种藏在图里的菜也能被拎到最前面。
           </p>
           <p style="font-size:14.5px;margin-bottom:0;">
-            <b>③ 看不见的东西如实说。</b>21F、47F、A7 的菜单是纯图片，它写「图片菜单，见群里原文」；
-            排队长短只画在图里、文本读不到，它就只说「都已开餐、这会儿正好错峰」，
+            <b>④ 不知道的不装懂。</b>OCR 没认出来的就写「这张没认出来，已附原图」；
+            排队长短只画在图里、读不到，就只说「已开餐、这会儿正好错峰」，
             <b>不假装自己知道哪层排队少</b>。
+          </p>
+        </div>
+      </div>
+      <p style="font-size:13px;opacity:.62;margin-top:14px;">
+        数据来源：深圳湾餐饮话题群③ 2026-08-17 11:40–12:10 的真实午餐预告卡（5 张卡 / 20 张菜单图，OCR 成功 17 张）。
+      </p>
+    </div>
+
+    <div style="margin-top:34px;">
+      <div class="eyebrow" style="margin-bottom:12px;">还没下楼？12:30 的第二次催 · 同一天真实数据</div>
+      <div class="pushshot">
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          <figure style="margin:0;">
+            <img src="../../assets/push/push30-01.jpg" alt="12:30 催饭提醒截图 1" style="width:100%;display:block;border:1.5px solid #12100e;border-radius:12px;box-shadow:6px 6px 0 rgba(18,16,14,.14);background:#fff;" />
+          </figure>
+          <figure style="margin:0;">
+            <img src="../../assets/push/push30-02.jpg" alt="12:30 催饭提醒截图 2" style="width:100%;display:block;border:1.5px solid #12100e;border-radius:12px;box-shadow:6px 6px 0 rgba(18,16,14,.14);background:#fff;" />
+            <figcaption style="font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin-top:8px;">12:30 · 只留决定性信息</figcaption>
+          </figure>
+        </div>
+        <div>
+          <p style="margin-top:0;font-size:14.5px;">
+            12:15 那条是「今天有什么」，12:30 这条只解决一件事：<b>我还没动，现在到底去哪层。</b>
+            所以它的规则和上一条完全不同：
+          </p>
+          <p style="font-size:14.5px;">
+            <b>① 不再重复菜单。</b>只留命中爱吃清单的 1–3 个档口，全文控制在十行内——
+            这个时间点我需要的是一个决定，不是一份清单。
+          </p>
+          <p style="font-size:14.5px;">
+            <b>② 必须给出一个推荐楼层。</b>今天三处都有肥肠，它按「离我 30F 办公的远近」直接选了 35F，
+            并顺手给了懒人选项：32F（最近的饭堂）还有火爆香辣虾。
+          </p>
+          <p style="font-size:14.5px;margin-bottom:0;">
+            <b>③ 给一个真实的截止时间。</b>「餐线 13:30 收档，热菜先没、汤最后剩」——
+            比「快去吃饭」有用得多，这是真正会让我站起来的那句话。
           </p>
         </div>
       </div>
