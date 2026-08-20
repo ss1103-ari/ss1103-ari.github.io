@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-20T18:58:52.043495+00:00",
- "generated_at_cst": "2026-08-21 02:58 CST",
- "latest_activity_at": "2026-08-20T16:38:36Z",
+ "generated_at": "2026-08-20T21:43:31.447612+00:00",
+ "generated_at_cst": "2026-08-21 05:43 CST",
+ "latest_activity_at": "2026-08-20T19:58:55Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -26,14 +26,14 @@
    "bio": "AI tinkerer",
    "followers": 13330,
    "public_repos": 19,
-   "total_stars": 51266,
+   "total_stars": 51270,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 27866,
+     "stars": 27868,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5425,
+     "stars": 5426,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -169,7 +169,7 @@
    ],
    "ok": true,
    "delta_stars": 4,
-   "delta_followers": 1
+   "delta_followers": 0
   },
   {
    "login": "simonw",
@@ -187,16 +187,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16527,
+   "followers": 16528,
    "public_repos": 984,
-   "total_stars": 39298,
+   "total_stars": 39301,
    "repo_count": 92,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12378,
+     "stars": 12379,
      "lang": "Python",
      "pushed_at": "2026-08-20T10:04:41Z"
     },
@@ -204,7 +204,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11393,
+     "stars": 11394,
      "lang": "Python",
      "pushed_at": "2026-08-14T00:11:42Z"
     },
@@ -228,7 +228,7 @@
      "name": "tools",
      "url": "https://github.com/simonw/tools",
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
-     "stars": 1832,
+     "stars": 1833,
      "lang": "HTML",
      "pushed_at": "2026-08-17T05:35:27Z"
     },
@@ -336,8 +336,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": -1
+   "delta_stars": 3,
+   "delta_followers": 1
   },
   {
    "login": "karpathy",
@@ -355,16 +355,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 217582,
+   "followers": 217601,
    "public_repos": 63,
-   "total_stars": 486235,
+   "total_stars": 486255,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94265,
+     "stars": 94270,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -372,7 +372,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62232,
+     "stars": 62238,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -380,7 +380,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57345,
+     "stars": 57349,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -396,7 +396,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30840,
+     "stars": 30841,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -436,8 +436,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 27,
-   "delta_followers": 20
+   "delta_stars": 20,
+   "delta_followers": 19
   },
   {
    "login": "mckaywrigley",
@@ -587,9 +587,9 @@
    "name": "Travis Fischer",
    "avatar": "https://avatars.githubusercontent.com/u/552829?v=4",
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
-   "followers": 4572,
+   "followers": 4573,
    "public_repos": 350,
-   "total_stars": 44506,
+   "total_stars": 44504,
    "repo_count": 60,
    "top_repos": [
     {
@@ -604,7 +604,7 @@
      "name": "nextjs-notion-starter-kit",
      "url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit",
      "desc": "Deploy your own Notion-powered website in minutes with Next.js and Vercel.",
-     "stars": 7025,
+     "stars": 7026,
      "lang": "TypeScript",
      "pushed_at": "2026-08-20T16:45:23Z"
     },
@@ -612,7 +612,7 @@
      "name": "create-react-library",
      "url": "https://github.com/transitive-bullshit/create-react-library",
      "desc": "CLI for creating reusable react libraries.",
-     "stars": 4757,
+     "stars": 4756,
      "lang": "JavaScript",
      "pushed_at": "2023-04-04T16:18:23Z"
     },
@@ -642,6 +642,14 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
+     "at": "2026-08-20T16:45:24Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -724,18 +732,10 @@
      "at": "2026-08-19T05:09:45Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-19T05:27:34Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": -2,
    "delta_followers": 1
   },
   {
@@ -756,7 +756,7 @@
    "bio": "building @dubinc | prev: @vercel",
    "followers": 6111,
    "public_repos": 108,
-   "total_stars": 24600,
+   "total_stars": 24599,
    "repo_count": 35,
    "top_repos": [
     {
@@ -771,7 +771,7 @@
      "name": "precedent",
      "url": "https://github.com/steven-tey/precedent",
      "desc": "An opinionated collection of components, hooks, and utilities for your Next.js project.",
-     "stars": 5115,
+     "stars": 5114,
      "lang": "TypeScript",
      "pushed_at": "2024-10-02T20:28:59Z"
     },
@@ -809,6 +809,36 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-08-20T18:24:21Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-08-20T18:16:12Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-08-20T19:58:55Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-08-20T19:55:19Z",
+     "detail": ""
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -868,46 +898,16 @@
      "at": "2026-08-20T05:35:30Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-08-20T05:24:32Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-08-20T05:24:33Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-08-20T05:22:52Z",
-     "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-08-20T03:52:34Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": 1
+   "delta_stars": -1,
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 696034,
+  "stars": 696058,
   "events": 59
  }
 }
