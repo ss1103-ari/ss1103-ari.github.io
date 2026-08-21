@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-21T15:48:37.997188+00:00",
- "generated_at_cst": "2026-08-21 23:48 CST",
- "latest_activity_at": "2026-08-21T10:51:25Z",
+ "generated_at": "2026-08-21T18:55:33.521343+00:00",
+ "generated_at_cst": "2026-08-22 02:55 CST",
+ "latest_activity_at": "2026-08-21T18:53:39Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13371,
+   "followers": 13372,
    "public_repos": 19,
-   "total_stars": 51405,
+   "total_stars": 51419,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 27918,
+     "stars": 27922,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6359,
+     "stars": 6361,
      "lang": "JavaScript",
      "pushed_at": "2026-08-21T07:08:23Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4305,
+     "stars": 4306,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2319,
+     "stars": 2321,
      "lang": "TypeScript",
      "pushed_at": "2026-08-03T07:49:53Z"
     },
@@ -73,7 +73,7 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1761,
+     "stars": 1762,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
@@ -168,8 +168,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 20,
-   "delta_followers": 7
+   "delta_stars": 14,
+   "delta_followers": 1
   },
   {
    "login": "simonw",
@@ -187,24 +187,24 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16541,
+   "followers": 16543,
    "public_repos": 984,
-   "total_stars": 39305,
+   "total_stars": 39309,
    "repo_count": 92,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12379,
+     "stars": 12381,
      "lang": "Python",
-     "pushed_at": "2026-08-20T10:04:41Z"
+     "pushed_at": "2026-08-21T18:52:03Z"
     },
     {
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11396,
+     "stars": 11397,
      "lang": "Python",
      "pushed_at": "2026-08-14T00:11:42Z"
     },
@@ -243,100 +243,93 @@
    ],
    "feed": [
     {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-08-20T15:37:08Z",
-     "detail": "",
-     "count": 0
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T18:52:03Z",
+     "detail": "merged · "
     },
     {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "simonw/research",
-     "at": "2026-08-20T15:27:44Z",
-     "detail": "branch claude/bun-webview-json-api-kyyvhd"
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T18:52:05Z",
+     "detail": "closed · Markdown logs do not include output from server-side tool calls"
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
-     "repo": "simonw/research",
-     "at": "2026-08-20T15:37:07Z",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T18:43:52Z",
+     "detail": "opened · "
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T18:31:45Z",
+     "detail": "branch claude/issue-1629-iv8jyo"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T18:00:37Z",
+     "detail": "closed · Fresh install broken and test suite escapes to live API since openai 3.0.0 (httpx → httpx2"
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T18:00:35Z",
      "detail": "merged · "
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
-     "repo": "simonw/research",
-     "at": "2026-08-20T15:35:37Z",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T17:38:28Z",
      "detail": "opened · "
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T17:31:26Z",
+     "detail": "branch upgrade-openai"
+    },
+    {
+     "type": "ReleaseEvent",
+     "label": "发布版本",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T17:16:13Z",
+     "detail": "0.32.1"
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "simonw/llm",
-     "at": "2026-08-20T10:04:42Z",
+     "at": "2026-08-21T17:15:35Z",
      "detail": "",
      "count": 0
     },
     {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-08-19T23:17:42Z",
-     "detail": "",
-     "count": 0
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T17:07:02Z",
+     "detail": "labeled · Release a 0.32.1 bugfix pinning to last known working OpenAI release"
     },
     {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-08-19T23:30:24Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-08-19T23:25:26Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-08-19T23:22:42Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-08-19T23:16:58Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-08-19T23:21:58Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "simonw/research",
-     "at": "2026-08-19T23:13:38Z",
-     "detail": "branch claude/smolmachines-untrusted-sandbox-dkh3gd"
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-08-21T17:07:02Z",
+     "detail": "opened · Release a 0.32.1 bugfix pinning to last known working OpenAI release"
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 4,
    "delta_followers": 2
   },
   {
@@ -355,16 +348,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 217737,
+   "followers": 217761,
    "public_repos": 63,
-   "total_stars": 486529,
+   "total_stars": 486573,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94362,
+     "stars": 94382,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -372,7 +365,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62312,
+     "stars": 62319,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -380,7 +373,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57384,
+     "stars": 57388,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -388,7 +381,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37504,
+     "stars": 37503,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -396,7 +389,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30840,
+     "stars": 30841,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -436,8 +429,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 43,
-   "delta_followers": 32
+   "delta_stars": 44,
+   "delta_followers": 24
   },
   {
    "login": "mckaywrigley",
@@ -457,14 +450,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7286,
    "public_repos": 66,
-   "total_stars": 50127,
+   "total_stars": 50126,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33340,
+     "stars": 33339,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -589,7 +582,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": -1,
    "delta_followers": 0
   },
   {
@@ -617,7 +610,7 @@
      "name": "agentic",
      "url": "https://github.com/transitive-bullshit/agentic",
      "desc": "Your API ⇒ Paid MCP. Instantly.",
-     "stars": 18115,
+     "stars": 18114,
      "lang": "TypeScript",
      "pushed_at": "2026-02-11T04:50:03Z"
     },
@@ -835,6 +828,13 @@
    ],
    "feed": [
     {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-08-21T18:53:39Z",
+     "detail": ""
+    },
+    {
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
@@ -918,24 +918,16 @@
      "at": "2026-08-21T02:03:26Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-08-21T01:57:05Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 695928,
+  "stars": 695989,
   "events": 62
  }
 }
