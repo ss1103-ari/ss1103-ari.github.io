@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-22T01:49:51.685505+00:00",
- "generated_at_cst": "2026-08-22 09:49 CST",
- "latest_activity_at": "2026-08-22T00:11:28Z",
+ "generated_at": "2026-08-22T03:55:34.952885+00:00",
+ "generated_at_cst": "2026-08-22 11:55 CST",
+ "latest_activity_at": "2026-08-22T01:26:14Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13373,
+   "followers": 13376,
    "public_repos": 19,
-   "total_stars": 51430,
+   "total_stars": 51440,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 27925,
+     "stars": 27929,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6361,
+     "stars": 6360,
      "lang": "JavaScript",
      "pushed_at": "2026-08-21T07:08:23Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2321,
+     "stars": 2322,
      "lang": "TypeScript",
      "pushed_at": "2026-08-03T07:49:53Z"
     },
@@ -168,8 +168,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 9,
-   "delta_followers": 1
+   "delta_stars": 10,
+   "delta_followers": 3
   },
   {
    "login": "simonw",
@@ -187,16 +187,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16549,
+   "followers": 16550,
    "public_repos": 984,
-   "total_stars": 39315,
+   "total_stars": 39316,
    "repo_count": 92,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12382,
+     "stars": 12383,
      "lang": "Python",
      "pushed_at": "2026-08-21T21:10:02Z"
     },
@@ -333,8 +333,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 5,
-   "delta_followers": 5
+   "delta_stars": 1,
+   "delta_followers": 1
   },
   {
    "login": "karpathy",
@@ -352,16 +352,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 217810,
+   "followers": 217818,
    "public_repos": 63,
-   "total_stars": 486643,
+   "total_stars": 486671,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94408,
+     "stars": 94416,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -369,7 +369,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62336,
+     "stars": 62341,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -377,7 +377,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57396,
+     "stars": 57400,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -393,7 +393,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30843,
+     "stars": 30844,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -433,8 +433,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 44,
-   "delta_followers": 24
+   "delta_stars": 28,
+   "delta_followers": 8
   },
   {
    "login": "mckaywrigley",
@@ -839,6 +839,14 @@
    ],
    "feed": [
     {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-08-22T01:26:14Z",
+     "detail": "",
+     "count": 0
+    },
+    {
      "type": "PullRequestEvent",
      "label": "处理 PR",
      "repo": "dubinc/dub",
@@ -921,14 +929,6 @@
      "at": "2026-08-21T04:03:48Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/docs",
-     "at": "2026-08-21T01:28:57Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
@@ -938,7 +938,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 696077,
+  "stars": 696116,
   "events": 63
  }
 }
