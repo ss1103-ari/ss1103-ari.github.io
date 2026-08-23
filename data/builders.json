@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-23T04:00:00.693679+00:00",
- "generated_at_cst": "2026-08-23 12:00 CST",
+ "generated_at": "2026-08-23T07:00:59.212120+00:00",
+ "generated_at_cst": "2026-08-23 15:00 CST",
  "latest_activity_at": "2026-08-23T01:26:05Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13413,
+   "followers": 13419,
    "public_repos": 19,
-   "total_stars": 51557,
+   "total_stars": 51571,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 27976,
+     "stars": 27981,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -43,7 +43,7 @@
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
      "stars": 6365,
      "lang": "JavaScript",
-     "pushed_at": "2026-08-22T06:27:33Z"
+     "pushed_at": "2026-08-23T06:27:37Z"
     },
     {
      "name": "codebase-to-course",
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4315,
+     "stars": 4318,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -73,7 +73,7 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1764,
+     "stars": 1765,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
@@ -168,7 +168,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 11,
+   "delta_stars": 14,
    "delta_followers": 6
   },
   {
@@ -187,16 +187,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16567,
+   "followers": 16569,
    "public_repos": 984,
-   "total_stars": 39341,
+   "total_stars": 39344,
    "repo_count": 92,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12389,
+     "stars": 12391,
      "lang": "Python",
      "pushed_at": "2026-08-22T17:01:27Z"
     },
@@ -204,7 +204,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11404,
+     "stars": 11405,
      "lang": "Python",
      "pushed_at": "2026-08-14T00:11:42Z"
     },
@@ -335,7 +335,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
+   "delta_stars": 3,
    "delta_followers": 2
   },
   {
@@ -354,16 +354,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 217983,
+   "followers": 218003,
    "public_repos": 63,
-   "total_stars": 486913,
+   "total_stars": 486926,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94464,
+     "stars": 94470,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -371,7 +371,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62403,
+     "stars": 62404,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -379,7 +379,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57424,
+     "stars": 57425,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -387,7 +387,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37503,
+     "stars": 37502,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -395,7 +395,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30848,
+     "stars": 30849,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -403,7 +403,7 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24828,
+     "stars": 24826,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
@@ -435,8 +435,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 15,
-   "delta_followers": 10
+   "delta_stars": 13,
+   "delta_followers": 20
   },
   {
    "login": "mckaywrigley",
@@ -456,7 +456,7 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7285,
    "public_repos": 66,
-   "total_stars": 50124,
+   "total_stars": 50123,
    "repo_count": 63,
    "top_repos": [
     {
@@ -495,7 +495,7 @@
      "name": "clarity-ai",
      "url": "https://github.com/mckaywrigley/clarity-ai",
      "desc": "A Perplexity clone.",
-     "stars": 1418,
+     "stars": 1417,
      "lang": "TypeScript",
      "pushed_at": "2024-03-28T04:13:59Z"
     },
@@ -595,7 +595,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": -1,
    "delta_followers": 0
   },
   {
@@ -933,13 +933,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 696504,
+  "stars": 696533,
   "events": 63
  }
 }
