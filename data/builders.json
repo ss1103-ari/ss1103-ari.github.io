@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-22T21:35:09.146499+00:00",
- "generated_at_cst": "2026-08-23 05:35 CST",
- "latest_activity_at": "2026-08-22T19:30:29Z",
+ "generated_at": "2026-08-23T01:59:11.389061+00:00",
+ "generated_at_cst": "2026-08-23 09:59 CST",
+ "latest_activity_at": "2026-08-23T01:26:05Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13402,
+   "followers": 13407,
    "public_repos": 19,
-   "total_stars": 51537,
+   "total_stars": 51546,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 27968,
+     "stars": 27972,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6364,
+     "stars": 6365,
      "lang": "JavaScript",
      "pushed_at": "2026-08-22T06:27:33Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4313,
+     "stars": 4314,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -168,8 +168,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 3,
-   "delta_followers": 0
+   "delta_stars": 9,
+   "delta_followers": 5
   },
   {
    "login": "simonw",
@@ -187,16 +187,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16562,
+   "followers": 16565,
    "public_repos": 984,
-   "total_stars": 39340,
+   "total_stars": 39339,
    "repo_count": 92,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12389,
+     "stars": 12388,
      "lang": "Python",
      "pushed_at": "2026-08-22T17:01:27Z"
     },
@@ -335,7 +335,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 5,
+   "delta_stars": -1,
    "delta_followers": 3
   },
   {
@@ -354,16 +354,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 217954,
+   "followers": 217973,
    "public_repos": 63,
-   "total_stars": 486864,
+   "total_stars": 486898,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94455,
+     "stars": 94459,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -371,7 +371,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62392,
+     "stars": 62402,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -379,7 +379,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57417,
+     "stars": 57422,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -395,7 +395,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30847,
+     "stars": 30848,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -403,7 +403,7 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24827,
+     "stars": 24828,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
@@ -435,8 +435,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 21,
-   "delta_followers": 18
+   "delta_stars": 34,
+   "delta_followers": 19
   },
   {
    "login": "mckaywrigley",
@@ -513,6 +513,13 @@
      "type": "ReleaseEvent",
      "label": "发布版本",
      "repo": "TakeoffAI/agentshare-updates",
+     "at": "2026-08-22T23:38:50Z",
+     "detail": "v0.1.12"
+    },
+    {
+     "type": "ReleaseEvent",
+     "label": "发布版本",
+     "repo": "TakeoffAI/agentshare-updates",
      "at": "2026-08-22T00:01:46Z",
      "detail": "v0.1.11"
     },
@@ -585,13 +592,6 @@
      "repo": "TakeoffAI/agentshare-updates",
      "at": "2026-08-14T15:46:00Z",
      "detail": "v0.1.1"
-    },
-    {
-     "type": "ReleaseEvent",
-     "label": "发布版本",
-     "repo": "TakeoffAI/agentshare-updates",
-     "at": "2026-08-14T15:00:23Z",
-     "detail": "v0.1.0"
     }
    ],
    "ok": true,
@@ -614,7 +614,7 @@
    "name": "Travis Fischer",
    "avatar": "https://avatars.githubusercontent.com/u/552829?v=4",
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
-   "followers": 4574,
+   "followers": 4575,
    "public_repos": 351,
    "total_stars": 43964,
    "repo_count": 59,
@@ -767,7 +767,7 @@
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 0
+   "delta_followers": 1
   },
   {
    "login": "steven-tey",
@@ -787,14 +787,14 @@
    "bio": "building @dubinc | prev: @vercel",
    "followers": 6110,
    "public_repos": 108,
-   "total_stars": 24603,
+   "total_stars": 24604,
    "repo_count": 35,
    "top_repos": [
     {
      "name": "novel",
      "url": "https://github.com/steven-tey/novel",
      "desc": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-     "stars": 16425,
+     "stars": 16426,
      "lang": "TypeScript",
      "pushed_at": "2025-01-18T14:26:33Z"
     },
@@ -840,6 +840,14 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-08-23T01:26:05Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -922,14 +930,6 @@
      "repo": "dubinc/dub",
      "at": "2026-08-21T18:53:39Z",
      "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-08-21T04:21:58Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
@@ -939,7 +939,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 696432,
+  "stars": 696475,
   "events": 63
  }
 }
