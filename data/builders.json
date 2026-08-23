@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-23T15:35:29.647513+00:00",
- "generated_at_cst": "2026-08-23 23:35 CST",
- "latest_activity_at": "2026-08-23T15:33:00Z",
+ "generated_at": "2026-08-23T18:48:01.934663+00:00",
+ "generated_at_cst": "2026-08-24 02:48 CST",
+ "latest_activity_at": "2026-08-23T18:43:27Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13443,
+   "followers": 13444,
    "public_repos": 19,
-   "total_stars": 51642,
+   "total_stars": 51653,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 27999,
+     "stars": 28005,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5443,
+     "stars": 5444,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4324,
+     "stars": 4325,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -168,8 +168,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 16,
-   "delta_followers": 6
+   "delta_stars": 11,
+   "delta_followers": 1
   },
   {
    "login": "simonw",
@@ -187,16 +187,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16572,
+   "followers": 16576,
    "public_repos": 984,
-   "total_stars": 39346,
+   "total_stars": 39350,
    "repo_count": 92,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12392,
+     "stars": 12395,
      "lang": "Python",
      "pushed_at": "2026-08-22T17:01:27Z"
     },
@@ -228,7 +228,7 @@
      "name": "tools",
      "url": "https://github.com/simonw/tools",
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
-     "stars": 1834,
+     "stars": 1835,
      "lang": "HTML",
      "pushed_at": "2026-08-17T05:35:27Z"
     },
@@ -335,8 +335,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
-   "delta_followers": 0
+   "delta_stars": 4,
+   "delta_followers": 4
   },
   {
    "login": "karpathy",
@@ -354,16 +354,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 218076,
+   "followers": 218103,
    "public_repos": 63,
-   "total_stars": 487019,
+   "total_stars": 487060,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94497,
+     "stars": 94508,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -371,7 +371,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62423,
+     "stars": 62430,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -379,7 +379,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57440,
+     "stars": 57449,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -395,7 +395,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30851,
+     "stars": 30852,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -435,8 +435,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 33,
-   "delta_followers": 24
+   "delta_stars": 41,
+   "delta_followers": 27
   },
   {
    "login": "mckaywrigley",
@@ -456,14 +456,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7286,
    "public_repos": 66,
-   "total_stars": 50123,
+   "total_stars": 50124,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33338,
+     "stars": 33339,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -595,7 +595,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": 1,
    "delta_followers": 0
   },
   {
@@ -633,7 +633,7 @@
      "desc": "Deploy your own Notion-powered website in minutes with Next.js and Vercel.",
      "stars": 7026,
      "lang": "TypeScript",
-     "pushed_at": "2026-08-23T15:32:59Z"
+     "pushed_at": "2026-08-23T18:43:27Z"
     },
     {
      "name": "create-react-library",
@@ -673,7 +673,7 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-23T15:33:00Z",
+     "at": "2026-08-23T18:43:27Z",
      "detail": "",
      "count": 0
     },
@@ -681,7 +681,7 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-23T14:40:48Z",
+     "at": "2026-08-23T18:43:20Z",
      "detail": "",
      "count": 0
     },
@@ -689,7 +689,7 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-23T14:38:49Z",
+     "at": "2026-08-23T18:30:06Z",
      "detail": "",
      "count": 0
     },
@@ -697,22 +697,7 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-23T11:00:39Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-23T10:42:36Z",
-     "detail": "opened · "
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-23T10:41:28Z",
+     "at": "2026-08-23T18:06:22Z",
      "detail": "",
      "count": 0
     },
@@ -720,15 +705,29 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-22T14:28:45Z",
+     "at": "2026-08-23T18:06:08Z",
      "detail": "",
      "count": 0
     },
     {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "NotionX/react-notion-x",
+     "at": "2026-08-23T17:54:47Z",
+     "detail": "closed · defaultMapImageUrl - check for signed URLs"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "NotionX/react-notion-x",
+     "at": "2026-08-23T17:54:29Z",
+     "detail": "closed · Signed Urls  Images not being display"
+    },
+    {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "transitive-bullshit/config",
-     "at": "2026-08-22T12:53:47Z",
+     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
+     "at": "2026-08-23T17:53:42Z",
      "detail": "",
      "count": 0
     },
@@ -736,7 +735,7 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "NotionX/react-notion-x",
-     "at": "2026-08-22T13:02:36Z",
+     "at": "2026-08-23T17:51:18Z",
      "detail": "",
      "count": 0
     },
@@ -744,28 +743,29 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "NotionX/react-notion-x",
-     "at": "2026-08-22T13:02:25Z",
+     "at": "2026-08-23T17:51:02Z",
      "detail": "",
      "count": 0
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "transitive-bullshit/random",
-     "at": "2026-08-22T12:54:47Z",
+     "repo": "NotionX/react-notion-x",
+     "at": "2026-08-23T17:49:04Z",
      "detail": "",
      "count": 0
     },
     {
-     "type": "ReleaseEvent",
-     "label": "发布版本",
-     "repo": "transitive-bullshit/config",
-     "at": "2026-08-22T12:53:48Z",
-     "detail": "v2.1.4"
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "NotionX/react-notion-x",
+     "at": "2026-08-23T17:48:07Z",
+     "detail": "",
+     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -784,7 +784,7 @@
    "name": "Steven Tey",
    "avatar": "https://avatars.githubusercontent.com/u/28986134?v=4",
    "bio": "building @dubinc | prev: @vercel",
-   "followers": 6110,
+   "followers": 6111,
    "public_repos": 108,
    "total_stars": 24606,
    "repo_count": 35,
@@ -933,12 +933,12 @@
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 0
+   "delta_followers": 1
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 696701,
+  "stars": 696758,
   "events": 63
  }
 }
