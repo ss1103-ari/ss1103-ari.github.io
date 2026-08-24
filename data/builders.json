@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-23T21:35:26.314300+00:00",
- "generated_at_cst": "2026-08-24 05:35 CST",
- "latest_activity_at": "2026-08-23T20:34:31Z",
+ "generated_at": "2026-08-24T01:57:20.124470+00:00",
+ "generated_at_cst": "2026-08-24 09:57 CST",
+ "latest_activity_at": "2026-08-24T01:46:58Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13445,
+   "followers": 13449,
    "public_repos": 19,
-   "total_stars": 51655,
+   "total_stars": 51676,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 28005,
+     "stars": 28013,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6366,
+     "stars": 6368,
      "lang": "JavaScript",
      "pushed_at": "2026-08-23T06:27:37Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4325,
+     "stars": 4326,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2327,
+     "stars": 2328,
      "lang": "TypeScript",
      "pushed_at": "2026-08-03T07:49:53Z"
     },
@@ -168,8 +168,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
-   "delta_followers": 1
+   "delta_stars": 21,
+   "delta_followers": 4
   },
   {
    "login": "simonw",
@@ -187,16 +187,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16576,
+   "followers": 16579,
    "public_repos": 984,
-   "total_stars": 39351,
+   "total_stars": 39356,
    "repo_count": 92,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12396,
+     "stars": 12397,
      "lang": "Python",
      "pushed_at": "2026-08-22T17:01:27Z"
     },
@@ -212,7 +212,7 @@
      "name": "shot-scraper",
      "url": "https://github.com/simonw/shot-scraper",
      "desc": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
-     "stars": 2554,
+     "stars": 2553,
      "lang": "Python",
      "pushed_at": "2026-07-12T23:46:52Z"
     },
@@ -228,7 +228,7 @@
      "name": "tools",
      "url": "https://github.com/simonw/tools",
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
-     "stars": 1835,
+     "stars": 1836,
      "lang": "HTML",
      "pushed_at": "2026-08-17T05:35:27Z"
     },
@@ -335,8 +335,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 0
+   "delta_stars": 5,
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -354,16 +354,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 218121,
+   "followers": 218146,
    "public_repos": 63,
-   "total_stars": 487083,
+   "total_stars": 487117,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94512,
+     "stars": 94527,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -371,7 +371,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62432,
+     "stars": 62436,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -379,7 +379,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57453,
+     "stars": 57462,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -435,8 +435,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 23,
-   "delta_followers": 18
+   "delta_stars": 34,
+   "delta_followers": 25
   },
   {
    "login": "mckaywrigley",
@@ -454,7 +454,7 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7286,
+   "followers": 7288,
    "public_repos": 66,
    "total_stars": 50124,
    "repo_count": 63,
@@ -509,6 +509,13 @@
     }
    ],
    "feed": [
+    {
+     "type": "ReleaseEvent",
+     "label": "发布版本",
+     "repo": "TakeoffAI/agentshare-updates",
+     "at": "2026-08-24T01:46:58Z",
+     "detail": "v0.1.13"
+    },
     {
      "type": "ReleaseEvent",
      "label": "发布版本",
@@ -585,18 +592,11 @@
      "repo": "TakeoffAI/agentshare-updates",
      "at": "2026-08-14T16:19:27Z",
      "detail": "v0.1.2"
-    },
-    {
-     "type": "ReleaseEvent",
-     "label": "发布版本",
-     "repo": "TakeoffAI/agentshare-updates",
-     "at": "2026-08-14T15:46:00Z",
-     "detail": "v0.1.1"
     }
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 0
+   "delta_followers": 2
   },
   {
    "login": "transitive-bullshit",
@@ -633,7 +633,7 @@
      "desc": "Deploy your own Notion-powered website in minutes with Next.js and Vercel.",
      "stars": 7026,
      "lang": "TypeScript",
-     "pushed_at": "2026-08-23T20:34:30Z"
+     "pushed_at": "2026-08-23T22:00:23Z"
     },
     {
      "name": "create-react-library",
@@ -669,6 +669,14 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
+     "at": "2026-08-23T22:00:24Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -752,14 +760,6 @@
      "label": "推送提交",
      "repo": "transitive-bullshit/nextjs-notion-starter-kit",
      "at": "2026-08-23T19:35:08Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-08-23T19:32:33Z",
      "detail": "",
      "count": 0
     }
@@ -932,13 +932,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 696783,
+  "stars": 696843,
   "events": 63
  }
 }
