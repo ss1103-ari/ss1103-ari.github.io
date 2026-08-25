@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-24T21:43:34.058791+00:00",
- "generated_at_cst": "2026-08-25 05:43 CST",
- "latest_activity_at": "2026-08-24T21:06:02Z",
+ "generated_at": "2026-08-25T01:51:58.092586+00:00",
+ "generated_at_cst": "2026-08-25 09:51 CST",
+ "latest_activity_at": "2026-08-25T00:25:49Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13483,
+   "followers": 13487,
    "public_repos": 19,
-   "total_stars": 51787,
+   "total_stars": 51801,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 28066,
+     "stars": 28073,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6380,
+     "stars": 6381,
      "lang": "JavaScript",
      "pushed_at": "2026-08-24T06:28:50Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5448,
+     "stars": 5450,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4336,
+     "stars": 4337,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -169,8 +169,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 3,
-   "delta_followers": 2
+   "delta_stars": 14,
+   "delta_followers": 4
   },
   {
    "login": "simonw",
@@ -188,16 +188,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16589,
+   "followers": 16593,
    "public_repos": 984,
-   "total_stars": 39336,
+   "total_stars": 39339,
    "repo_count": 91,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12399,
+     "stars": 12401,
      "lang": "Python",
      "pushed_at": "2026-08-22T17:01:27Z"
     },
@@ -205,7 +205,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11406,
+     "stars": 11407,
      "lang": "Python",
      "pushed_at": "2026-08-14T00:11:42Z"
     },
@@ -243,6 +243,21 @@
     }
    ],
    "feed": [
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "anthropics/anthropic-sdk-python",
+     "at": "2026-08-25T00:25:49Z",
+     "detail": "merged · "
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/research",
+     "at": "2026-08-24T22:07:35Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -319,26 +334,11 @@
      "repo": "simonw/llm-anthropic",
      "at": "2026-08-24T16:27:04Z",
      "detail": "0.27"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/llm-anthropic",
-     "at": "2026-08-24T16:24:38Z",
-     "detail": "closed · Release 0.27"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/llm-anthropic",
-     "at": "2026-08-24T16:17:27Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": 2
+   "delta_stars": 3,
+   "delta_followers": 4
   },
   {
    "login": "karpathy",
@@ -356,9 +356,9 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 218332,
+   "followers": 218345,
    "public_repos": 63,
-   "total_stars": 487337,
+   "total_stars": 487351,
    "repo_count": 54,
    "top_repos": [
     {
@@ -381,7 +381,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57481,
+     "stars": 57485,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -397,7 +397,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30858,
+     "stars": 30859,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -437,8 +437,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 19,
-   "delta_followers": 29
+   "delta_stars": 14,
+   "delta_followers": 13
   },
   {
    "login": "mckaywrigley",
@@ -458,14 +458,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7288,
    "public_repos": 66,
-   "total_stars": 50127,
+   "total_stars": 50125,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33340,
+     "stars": 33339,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -489,7 +489,7 @@
      "name": "mckays-app-template",
      "url": "https://github.com/mckaywrigley/mckays-app-template",
      "desc": "This is the template I use to start new full-stack projects.",
-     "stars": 1937,
+     "stars": 1936,
      "lang": "TypeScript",
      "pushed_at": "2025-06-16T22:45:18Z"
     },
@@ -597,7 +597,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": -2,
    "delta_followers": 0
   },
   {
@@ -618,7 +618,7 @@
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
    "followers": 4575,
    "public_repos": 351,
-   "total_stars": 43969,
+   "total_stars": 43970,
    "repo_count": 59,
    "top_repos": [
     {
@@ -769,7 +769,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": 1,
    "delta_followers": 0
   },
   {
@@ -847,6 +847,22 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
+     "at": "2026-08-24T23:10:13Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-08-24T21:46:36Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
      "at": "2026-08-24T21:06:02Z",
      "detail": "",
      "count": 0
@@ -918,31 +934,16 @@
      "at": "2026-08-24T04:16:37Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-08-24T04:13:23Z",
-     "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-08-24T04:13:22Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 1
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 697163,
+  "stars": 697193,
   "events": 63
  }
 }
