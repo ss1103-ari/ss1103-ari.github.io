@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-25T01:51:58.092586+00:00",
- "generated_at_cst": "2026-08-25 09:51 CST",
+ "generated_at": "2026-08-25T03:59:01.373682+00:00",
+ "generated_at_cst": "2026-08-25 11:59 CST",
  "latest_activity_at": "2026-08-25T00:25:49Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13487,
+   "followers": 13492,
    "public_repos": 19,
-   "total_stars": 51801,
+   "total_stars": 51825,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 28073,
+     "stars": 28082,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6381,
+     "stars": 6383,
      "lang": "JavaScript",
      "pushed_at": "2026-08-24T06:28:50Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4337,
+     "stars": 4340,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2335,
+     "stars": 2339,
      "lang": "TypeScript",
      "pushed_at": "2026-08-03T07:49:53Z"
     },
@@ -169,8 +169,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 14,
-   "delta_followers": 4
+   "delta_stars": 24,
+   "delta_followers": 5
   },
   {
    "login": "simonw",
@@ -188,9 +188,9 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16593,
+   "followers": 16594,
    "public_repos": 984,
-   "total_stars": 39339,
+   "total_stars": 39342,
    "repo_count": 91,
    "top_repos": [
     {
@@ -338,7 +338,7 @@
    ],
    "ok": true,
    "delta_stars": 3,
-   "delta_followers": 4
+   "delta_followers": 1
   },
   {
    "login": "karpathy",
@@ -356,16 +356,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 218345,
+   "followers": 218356,
    "public_repos": 63,
-   "total_stars": 487351,
+   "total_stars": 487376,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94618,
+     "stars": 94628,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -373,7 +373,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62464,
+     "stars": 62468,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -381,7 +381,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57485,
+     "stars": 57487,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -397,7 +397,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30859,
+     "stars": 30861,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -437,8 +437,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 14,
-   "delta_followers": 13
+   "delta_stars": 25,
+   "delta_followers": 11
   },
   {
    "login": "mckaywrigley",
@@ -597,7 +597,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -2,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -769,7 +769,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -906,19 +906,19 @@
      "detail": ""
     },
     {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-08-24T04:16:48Z",
+     "detail": ""
+    },
+    {
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
      "at": "2026-08-24T04:16:47Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-08-24T04:16:48Z",
-     "detail": ""
     },
     {
      "type": "PullRequestEvent",
@@ -943,7 +943,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 697193,
+  "stars": 697245,
   "events": 63
  }
 }
