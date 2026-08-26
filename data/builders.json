@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T13:16:14.208445+00:00",
- "generated_at_cst": "2026-08-26 21:16 CST",
+ "generated_at": "2026-08-26T16:34:10.900557+00:00",
+ "generated_at_cst": "2026-08-27 00:34 CST",
  "latest_activity_at": "2026-08-26T09:47:42Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13553,
+   "followers": 13557,
    "public_repos": 19,
-   "total_stars": 52033,
+   "total_stars": 52056,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 28167,
+     "stars": 28176,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4361,
+     "stars": 4364,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -73,12 +73,20 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1773,
+     "stars": 1774,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "zarazhangrui/zarazhangrui",
+     "at": "2026-08-26T06:01:20Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -160,18 +168,11 @@
      "repo": "zarazhangrui/youtube-digest",
      "at": "2026-08-11T12:27:05Z",
      "detail": ""
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "zarazhangrui/youtube-digest",
-     "at": "2026-08-11T12:27:02Z",
-     "detail": "merged · "
     }
    ],
    "ok": true,
    "delta_stars": 23,
-   "delta_followers": 5
+   "delta_followers": 4
   },
   {
    "login": "simonw",
@@ -189,16 +190,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16605,
+   "followers": 16608,
    "public_repos": 984,
-   "total_stars": 39369,
+   "total_stars": 39371,
    "repo_count": 91,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12411,
+     "stars": 12412,
      "lang": "Python",
      "pushed_at": "2026-08-22T17:01:27Z"
     },
@@ -339,8 +340,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": 0
+   "delta_stars": 2,
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -358,16 +359,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 218609,
+   "followers": 218631,
    "public_repos": 63,
-   "total_stars": 487676,
+   "total_stars": 487711,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94730,
+     "stars": 94739,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -375,7 +376,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62504,
+     "stars": 62508,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -383,7 +384,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57533,
+     "stars": 57540,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -391,7 +392,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37504,
+     "stars": 37505,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -399,7 +400,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30876,
+     "stars": 30877,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -407,7 +408,7 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24838,
+     "stars": 24839,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
@@ -439,8 +440,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 30,
-   "delta_followers": 34
+   "delta_stars": 35,
+   "delta_followers": 22
   },
   {
    "login": "mckaywrigley",
@@ -460,7 +461,7 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7288,
    "public_repos": 66,
-   "total_stars": 50124,
+   "total_stars": 50123,
    "repo_count": 63,
    "top_repos": [
     {
@@ -483,7 +484,7 @@
      "name": "paul-graham-gpt",
      "url": "https://github.com/mckaywrigley/paul-graham-gpt",
      "desc": "RAG on Paul Graham's essays.",
-     "stars": 2664,
+     "stars": 2663,
      "lang": "TypeScript",
      "pushed_at": "2023-07-28T17:50:55Z"
     },
@@ -599,7 +600,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": -1,
    "delta_followers": 0
   },
   {
@@ -620,7 +621,7 @@
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
    "followers": 4578,
    "public_repos": 352,
-   "total_stars": 43973,
+   "total_stars": 43974,
    "repo_count": 60,
    "top_repos": [
     {
@@ -792,14 +793,14 @@
    "bio": "building @dubinc | prev: @vercel",
    "followers": 6114,
    "public_repos": 108,
-   "total_stars": 24609,
+   "total_stars": 24610,
    "repo_count": 35,
    "top_repos": [
     {
      "name": "novel",
      "url": "https://github.com/steven-tey/novel",
      "desc": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-     "stars": 16431,
+     "stars": 16432,
      "lang": "TypeScript",
      "pushed_at": "2025-01-18T14:26:33Z"
     },
@@ -939,12 +940,12 @@
    ],
    "ok": true,
    "delta_stars": 1,
-   "delta_followers": -1
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 697784,
+  "stars": 697845,
   "events": 63
  }
 }
