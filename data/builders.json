@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-29T20:54:55.663269+00:00",
- "generated_at_cst": "2026-08-30 04:54 CST",
+ "generated_at": "2026-08-29T23:18:38.784564+00:00",
+ "generated_at_cst": "2026-08-30 07:18 CST",
  "latest_activity_at": "2026-08-29T09:26:40Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -24,9 +24,9 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13679,
+   "followers": 13680,
    "public_repos": 19,
-   "total_stars": 52483,
+   "total_stars": 52484,
    "repo_count": 18,
    "top_repos": [
     {
@@ -175,8 +175,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 10,
-   "delta_followers": 2
+   "delta_stars": 1,
+   "delta_followers": 1
   },
   {
    "login": "simonw",
@@ -194,16 +194,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16651,
+   "followers": 16652,
    "public_repos": 984,
-   "total_stars": 39434,
+   "total_stars": 39433,
    "repo_count": 91,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12424,
+     "stars": 12423,
      "lang": "Python",
      "pushed_at": "2026-08-22T17:01:27Z"
     },
@@ -340,8 +340,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 3,
-   "delta_followers": 3
+   "delta_stars": -1,
+   "delta_followers": 1
   },
   {
    "login": "karpathy",
@@ -359,16 +359,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 219154,
+   "followers": 219159,
    "public_repos": 63,
-   "total_stars": 488329,
+   "total_stars": 488349,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94911,
+     "stars": 94913,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -376,7 +376,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62615,
+     "stars": 62621,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -384,7 +384,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57631,
+     "stars": 57636,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -408,7 +408,7 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24841,
+     "stars": 24842,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
@@ -440,8 +440,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 39,
-   "delta_followers": 40
+   "delta_stars": 20,
+   "delta_followers": 5
   },
   {
    "login": "mckaywrigley",
@@ -772,7 +772,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -847,6 +847,22 @@
    ],
    "feed": [
     {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-08-29T05:17:33Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-08-29T04:59:07Z",
+     "detail": "",
+     "count": 0
+    },
+    {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
      "repo": "dubinc/dub",
@@ -920,31 +936,16 @@
      "at": "2026-08-27T21:23:22Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-08-27T21:23:14Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "dubinc/dub",
-     "at": "2026-08-27T23:49:14Z",
-     "detail": "branch google-ads-events"
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 698962,
+  "stars": 698982,
   "events": 63
  }
 }
