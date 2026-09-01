@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-31T20:49:58.418022+00:00",
- "generated_at_cst": "2026-09-01 04:49 CST",
- "latest_activity_at": "2026-08-31T20:16:02Z",
+ "generated_at": "2026-09-01T00:37:12.515588+00:00",
+ "generated_at_cst": "2026-09-01 08:37 CST",
+ "latest_activity_at": "2026-08-31T20:36:50Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13754,
+   "followers": 13756,
    "public_repos": 19,
-   "total_stars": 52711,
+   "total_stars": 52718,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 28456,
+     "stars": 28460,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -175,8 +175,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 19,
-   "delta_followers": 5
+   "delta_stars": 7,
+   "delta_followers": 2
   },
   {
    "login": "simonw",
@@ -194,16 +194,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16678,
+   "followers": 16679,
    "public_repos": 984,
-   "total_stars": 39457,
+   "total_stars": 39458,
    "repo_count": 91,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12436,
+     "stars": 12435,
      "lang": "Python",
      "pushed_at": "2026-08-22T17:01:27Z"
     },
@@ -213,13 +213,13 @@
      "desc": "An open source multi-tool for exploring and publishing data",
      "stars": 11417,
      "lang": "Python",
-     "pushed_at": "2026-08-31T20:27:03Z"
+     "pushed_at": "2026-08-31T23:12:22Z"
     },
     {
      "name": "shot-scraper",
      "url": "https://github.com/simonw/shot-scraper",
      "desc": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
-     "stars": 2556,
+     "stars": 2557,
      "lang": "Python",
      "pushed_at": "2026-07-12T23:46:52Z"
     },
@@ -340,8 +340,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 5,
-   "delta_followers": 6
+   "delta_stars": 1,
+   "delta_followers": 1
   },
   {
    "login": "karpathy",
@@ -359,16 +359,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 219425,
+   "followers": 219439,
    "public_repos": 63,
-   "total_stars": 488722,
+   "total_stars": 488732,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 94999,
+     "stars": 95001,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -376,7 +376,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62695,
+     "stars": 62694,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -384,7 +384,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57691,
+     "stars": 57696,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -408,7 +408,7 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24845,
+     "stars": 24846,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
@@ -440,8 +440,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 45,
-   "delta_followers": 40
+   "delta_stars": 10,
+   "delta_followers": 14
   },
   {
    "login": "mckaywrigley",
@@ -600,7 +600,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -621,7 +621,7 @@
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
    "followers": 4578,
    "public_repos": 353,
-   "total_stars": 43963,
+   "total_stars": 43964,
    "repo_count": 60,
    "top_repos": [
     {
@@ -652,7 +652,7 @@
      "name": "awesome-puppeteer",
      "url": "https://github.com/transitive-bullshit/awesome-puppeteer",
      "desc": "A curated list of awesome puppeteer resources.",
-     "stars": 2573,
+     "stars": 2574,
      "lang": null,
      "pushed_at": "2024-07-19T07:36:39Z"
     },
@@ -674,6 +674,22 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-08-31T20:36:50Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-08-31T20:19:06Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -752,27 +768,11 @@
      "at": "2026-08-25T22:00:54Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/dotfiles",
-     "at": "2026-08-25T21:22:13Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/dotfiles",
-     "at": "2026-08-25T21:18:15Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": 1
+   "delta_stars": 1,
+   "delta_followers": 0
   },
   {
    "login": "steven-tey",
@@ -938,12 +938,12 @@
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 2
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 699587,
+  "stars": 699606,
   "events": 63
  }
 }
