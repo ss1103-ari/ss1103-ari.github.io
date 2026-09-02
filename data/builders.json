@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-02T16:34:06.631073+00:00",
- "generated_at_cst": "2026-09-03 00:34 CST",
- "latest_activity_at": "2026-09-02T16:29:34Z",
+ "generated_at": "2026-09-02T21:02:35.632549+00:00",
+ "generated_at_cst": "2026-09-03 05:02 CST",
+ "latest_activity_at": "2026-09-02T20:23:26Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -26,14 +26,14 @@
    "bio": "AI tinkerer",
    "followers": 13841,
    "public_repos": 19,
-   "total_stars": 53135,
+   "total_stars": 53150,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 28615,
+     "stars": 28619,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6553,
+     "stars": 6563,
      "lang": "JavaScript",
      "pushed_at": "2026-09-02T06:46:18Z"
     },
@@ -175,8 +175,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 68,
-   "delta_followers": 9
+   "delta_stars": 15,
+   "delta_followers": 0
   },
   {
    "login": "simonw",
@@ -194,26 +194,26 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16697,
+   "followers": 16704,
    "public_repos": 985,
-   "total_stars": 39384,
+   "total_stars": 39394,
    "repo_count": 91,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12449,
+     "stars": 12450,
      "lang": "Python",
-     "pushed_at": "2026-09-02T16:20:54Z"
+     "pushed_at": "2026-09-02T19:24:35Z"
     },
     {
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11419,
+     "stars": 11421,
      "lang": "Python",
-     "pushed_at": "2026-09-02T00:57:03Z"
+     "pushed_at": "2026-09-02T20:04:10Z"
     },
     {
      "name": "shot-scraper",
@@ -235,9 +235,9 @@
      "name": "tools",
      "url": "https://github.com/simonw/tools",
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
-     "stars": 1874,
+     "stars": 1875,
      "lang": "HTML",
-     "pushed_at": "2026-09-02T13:01:28Z"
+     "pushed_at": "2026-09-02T17:20:27Z"
     },
     {
      "name": "til",
@@ -250,93 +250,94 @@
    ],
    "feed": [
     {
-     "type": "PullRequestReviewCommentEvent",
-     "label": "PullRequestReviewCommentEvent",
-     "repo": "simonw/datasette",
-     "at": "2026-09-01T16:32:19Z",
-     "detail": ""
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/tools",
+     "at": "2026-09-01T18:05:46Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "ReleaseEvent",
+     "label": "发布版本",
+     "repo": "simonw/llm-openrouter",
+     "at": "2026-09-02T20:23:26Z",
+     "detail": "0.7.1"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm-openrouter",
+     "at": "2026-09-02T20:21:04Z",
+     "detail": "closed · Mutli-turn chat doesn't work with Openrouter plugin"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm-openrouter",
+     "at": "2026-09-02T20:20:20Z",
+     "detail": "closed · reasoning_effort parameter lacks `minimal` value"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm-openrouter",
+     "at": "2026-09-02T20:18:46Z",
+     "detail": "labeled · reasoning_effort parameter lacks `minimal` value"
+    },
+    {
+     "type": "ReleaseEvent",
+     "label": "发布版本",
+     "repo": "simonw/llm",
+     "at": "2026-09-02T19:23:52Z",
+     "detail": "0.34"
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
-     "repo": "simonw/llm-gemini",
-     "at": "2026-09-02T16:29:34Z",
+     "repo": "simonw/llm",
+     "at": "2026-09-02T19:03:53Z",
      "detail": "labeled · "
     },
     {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/llm-gemini",
-     "at": "2026-09-02T16:25:57Z",
-     "detail": "closed · Error: 'Unknown model: models/gemini-pro-latest'"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/llm-gemini",
-     "at": "2026-09-02T16:25:38Z",
-     "detail": "closed · `gemini-pro` is no longer a supported model"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/llm-gemini",
-     "at": "2026-09-02T16:24:48Z",
-     "detail": "closed · Add gemini-3.1-flash-lite model"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/llm-gemini",
-     "at": "2026-09-02T16:24:47Z",
-     "detail": "reopened · Add gemini-3.1-flash-lite model"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/llm-gemini",
-     "at": "2026-09-02T16:24:41Z",
-     "detail": "closed · Add gemini-3.1-flash-lite model"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/llm-gemini",
-     "at": "2026-09-02T16:24:35Z",
-     "detail": "closed · Gemini 3.5 Flash"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
      "repo": "simonw/llm",
-     "at": "2026-09-02T16:20:56Z",
-     "detail": "closed · Show duration_ms in token usage section of logs Markdown"
+     "at": "2026-09-02T19:02:01Z",
+     "detail": "labeled · "
     },
     {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
      "repo": "simonw/llm",
-     "at": "2026-09-02T16:17:45Z",
-     "detail": "labeled · Show duration_ms in token usage section of logs Markdown"
+     "at": "2026-09-02T18:32:13Z",
+     "detail": "closed · "
     },
     {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
      "repo": "simonw/llm",
-     "at": "2026-09-02T16:17:45Z",
-     "detail": "labeled · Show duration_ms in token usage section of logs Markdown"
+     "at": "2026-09-02T18:32:13Z",
+     "detail": "closed · "
     },
     {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/tools",
+     "at": "2026-09-02T00:05:06Z",
+     "detail": "branch claude/webp-export-markdown-svg-tnguo6"
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
      "repo": "simonw/llm",
-     "at": "2026-09-02T16:17:44Z",
-     "detail": "opened · Show duration_ms in token usage section of logs Markdown"
+     "at": "2026-09-02T18:41:01Z",
+     "detail": "labeled · "
     }
    ],
    "ok": true,
-   "delta_stars": 4,
-   "delta_followers": 1
+   "delta_stars": 10,
+   "delta_followers": 7
   },
   {
    "login": "karpathy",
@@ -354,16 +355,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 219713,
+   "followers": 219753,
    "public_repos": 63,
-   "total_stars": 489079,
+   "total_stars": 489121,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95120,
+     "stars": 95131,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -371,7 +372,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62738,
+     "stars": 62745,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -379,7 +380,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57739,
+     "stars": 57740,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -387,7 +388,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37503,
+     "stars": 37504,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -395,7 +396,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30914,
+     "stars": 30917,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -403,15 +404,15 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24859,
+     "stars": 24860,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 55,
-   "delta_followers": 44
+   "delta_stars": 42,
+   "delta_followers": 40
   },
   {
    "login": "mckaywrigley",
@@ -429,7 +430,7 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7292,
+   "followers": 7291,
    "public_repos": 66,
    "total_stars": 50125,
    "repo_count": 63,
@@ -570,8 +571,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
-   "delta_followers": 0
+   "delta_stars": 0,
+   "delta_followers": -1
   },
   {
    "login": "transitive-bullshit",
@@ -743,7 +744,7 @@
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 1
+   "delta_followers": 0
   },
   {
    "login": "steven-tey",
@@ -817,102 +818,100 @@
    ],
    "feed": [
     {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T03:37:50Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T03:37:38Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T19:23:16Z",
+     "detail": ""
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T01:49:07Z",
+     "detail": "branch improve-fund-fa"
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T18:42:32Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T18:25:00Z",
+     "detail": ""
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T18:24:14Z",
+     "detail": "closed · Magic-link login shows \"Email sent - check your inbox!\" when the send was rate limited"
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T18:23:26Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-02T18:22:56Z",
+     "detail": ""
+    },
+    {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
      "repo": "dubinc/dub",
-     "at": "2026-09-02T05:55:44Z",
+     "at": "2026-09-01T20:26:24Z",
      "detail": ""
     },
     {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
      "repo": "dubinc/dub",
-     "at": "2026-09-01T16:44:25Z",
-     "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-01T16:44:24Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-02T00:58:41Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-01T20:26:23Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PullRequestReviewCommentEvent",
-     "label": "PullRequestReviewCommentEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-01T05:58:11Z",
+     "at": "2026-09-02T00:58:43Z",
      "detail": ""
     },
     {
      "type": "PullRequestReviewEvent",
      "label": "PullRequestReviewEvent",
      "repo": "dubinc/dub",
-     "at": "2026-09-02T04:43:00Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-09-02T03:37:37Z",
-     "detail": "merged · "
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-01T16:48:26Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-09-02T01:49:15Z",
-     "detail": "opened · "
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-02T00:49:42Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-01T19:56:13Z",
+     "at": "2026-09-02T16:45:01Z",
      "detail": ""
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": -1
+   "delta_stars": 0,
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 700299,
+  "stars": 700366,
   "events": 60
  }
 }
