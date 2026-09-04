@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-04T20:45:00.727371+00:00",
- "generated_at_cst": "2026-09-05 04:45 CST",
- "latest_activity_at": "2026-09-04T17:13:29Z",
+ "generated_at": "2026-09-04T23:02:42.576334+00:00",
+ "generated_at_cst": "2026-09-05 07:02 CST",
+ "latest_activity_at": "2026-09-04T22:57:43Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,7 +24,7 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13930,
+   "followers": 13931,
    "public_repos": 19,
    "total_stars": 53442,
    "repo_count": 18,
@@ -176,8 +176,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 11,
-   "delta_followers": 2
+   "delta_stars": 0,
+   "delta_followers": 1
   },
   {
    "login": "simonw",
@@ -347,8 +347,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
-   "delta_followers": 3
+   "delta_stars": 0,
+   "delta_followers": 0
   },
   {
    "login": "karpathy",
@@ -366,16 +366,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 220072,
+   "followers": 220079,
    "public_repos": 63,
-   "total_stars": 489502,
+   "total_stars": 489512,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95244,
+     "stars": 95248,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -383,7 +383,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62811,
+     "stars": 62812,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -391,7 +391,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57778,
+     "stars": 57779,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -407,7 +407,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30925,
+     "stars": 30926,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -422,8 +422,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 46,
-   "delta_followers": 33
+   "delta_stars": 10,
+   "delta_followers": 7
   },
   {
    "login": "mckaywrigley",
@@ -583,7 +583,7 @@
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": -1
+   "delta_followers": 0
   },
   {
    "login": "transitive-bullshit",
@@ -603,14 +603,14 @@
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
    "followers": 4583,
    "public_repos": 353,
-   "total_stars": 43973,
+   "total_stars": 43974,
    "repo_count": 61,
    "top_repos": [
     {
      "name": "agentic",
      "url": "https://github.com/transitive-bullshit/agentic",
      "desc": "Your API ⇒ Paid MCP. Instantly.",
-     "stars": 18114,
+     "stars": 18115,
      "lang": "TypeScript",
      "pushed_at": "2026-02-11T04:50:03Z"
     },
@@ -656,6 +656,14 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
+     "at": "2026-09-03T21:41:47Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -742,18 +750,10 @@
      "at": "2026-09-04T01:46:57Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-09-03T03:20:02Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 4,
+   "delta_stars": 1,
    "delta_followers": 0
   },
   {
@@ -774,14 +774,14 @@
    "bio": "building @dubinc | prev: @vercel",
    "followers": 6117,
    "public_repos": 108,
-   "total_stars": 24612,
+   "total_stars": 24611,
    "repo_count": 35,
    "top_repos": [
     {
      "name": "novel",
      "url": "https://github.com/steven-tey/novel",
      "desc": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-     "stars": 16435,
+     "stars": 16434,
      "lang": "TypeScript",
      "pushed_at": "2025-01-18T14:26:33Z"
     },
@@ -831,101 +831,100 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
-     "at": "2026-09-03T21:08:28Z",
+     "at": "2026-09-04T01:17:26Z",
      "detail": "",
      "count": 0
     },
     {
-     "type": "PushEvent",
-     "label": "推送提交",
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
      "repo": "dubinc/dub",
-     "at": "2026-09-03T06:31:14Z",
-     "detail": "",
-     "count": 0
+     "at": "2026-09-04T01:17:02Z",
+     "detail": "branch marketplace-navigation"
     },
     {
-     "type": "PushEvent",
-     "label": "推送提交",
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
      "repo": "dubinc/dub",
-     "at": "2026-09-03T20:33:26Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-03T01:27:10Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-03T01:11:36Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-03T06:31:14Z",
+     "at": "2026-09-04T22:57:43Z",
      "detail": ""
     },
     {
      "type": "PullRequestReviewEvent",
      "label": "PullRequestReviewEvent",
      "repo": "dubinc/dub",
-     "at": "2026-09-04T17:13:29Z",
+     "at": "2026-09-04T22:48:51Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewCommentEvent",
+     "label": "PullRequestReviewCommentEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-04T22:48:49Z",
      "detail": ""
     },
     {
      "type": "PullRequestReviewEvent",
      "label": "PullRequestReviewEvent",
      "repo": "dubinc/dub",
-     "at": "2026-09-04T17:12:26Z",
+     "at": "2026-09-04T22:41:33Z",
      "detail": ""
     },
     {
      "type": "PullRequestReviewEvent",
      "label": "PullRequestReviewEvent",
      "repo": "dubinc/dub",
-     "at": "2026-09-04T17:08:46Z",
+     "at": "2026-09-04T22:40:52Z",
      "detail": ""
     },
     {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub-ruby",
-     "at": "2026-09-02T22:51:48Z",
-     "detail": ""
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub-php",
-     "at": "2026-09-02T22:51:26Z",
+     "type": "PullRequestReviewCommentEvent",
+     "label": "PullRequestReviewCommentEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-04T22:40:51Z",
      "detail": ""
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "dubinc/dub-ts",
-     "at": "2026-09-02T22:51:09Z",
+     "repo": "dubinc/dub",
+     "at": "2026-09-04T01:16:54Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-04T00:16:44Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-03T23:57:58Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-04T00:15:30Z",
      "detail": "",
      "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 1
+   "delta_stars": -1,
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 701098,
+  "stars": 701108,
   "events": 60
  }
 }
