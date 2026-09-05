@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-05T20:19:58.319004+00:00",
- "generated_at_cst": "2026-09-06 04:19 CST",
+ "generated_at": "2026-09-05T22:54:12.182886+00:00",
+ "generated_at_cst": "2026-09-06 06:54 CST",
  "latest_activity_at": "2026-09-05T17:19:26Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 13956,
+   "followers": 13957,
    "public_repos": 19,
-   "total_stars": 53522,
+   "total_stars": 53524,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 28765,
+     "stars": 28767,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -176,7 +176,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 8,
+   "delta_stars": 2,
    "delta_followers": 1
   },
   {
@@ -195,16 +195,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16741,
+   "followers": 16746,
    "public_repos": 986,
-   "total_stars": 39442,
+   "total_stars": 39444,
    "repo_count": 91,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12467,
+     "stars": 12468,
      "lang": "Python",
      "pushed_at": "2026-09-02T19:24:35Z"
     },
@@ -346,8 +346,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 1
+   "delta_stars": 2,
+   "delta_followers": 5
   },
   {
    "login": "karpathy",
@@ -365,16 +365,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 220197,
+   "followers": 220211,
    "public_repos": 63,
-   "total_stars": 489654,
+   "total_stars": 489662,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95283,
+     "stars": 95285,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -382,7 +382,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62830,
+     "stars": 62832,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -390,7 +390,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57801,
+     "stars": 57802,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -421,8 +421,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 18,
-   "delta_followers": 15
+   "delta_stars": 8,
+   "delta_followers": 14
   },
   {
    "login": "mckaywrigley",
@@ -581,7 +581,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -658,6 +658,38 @@
     {
      "type": "PushEvent",
      "label": "推送提交",
+     "repo": "transitive-bullshit/ai-safety-doom",
+     "at": "2026-09-05T09:34:16Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/ai-safety-doom",
+     "at": "2026-09-05T10:51:07Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/ai-safety-doom",
+     "at": "2026-09-05T10:43:24Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/ai-safety-doom",
+     "at": "2026-09-05T10:40:22Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
      "repo": "NotionX/react-notion-x",
      "at": "2026-09-03T15:31:35Z",
      "detail": "",
@@ -716,38 +748,6 @@
      "repo": "transitive-bullshit/cultural-alignment",
      "at": "2026-09-04T10:53:06Z",
      "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-09-04T09:53:18Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-09-04T09:55:53Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-09-04T09:43:29Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/primitive-web",
-     "at": "2026-09-04T19:27:08Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
@@ -825,6 +825,13 @@
     }
    ],
    "feed": [
+    {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-03T23:58:00Z",
+     "detail": ""
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -910,13 +917,6 @@
      "at": "2026-09-03T17:07:13Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-04T23:34:53Z",
-     "detail": ""
     }
    ],
    "ok": true,
@@ -926,7 +926,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 696576,
+  "stars": 696588,
   "events": 60
  }
 }
