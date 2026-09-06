@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-06T20:23:31.586913+00:00",
- "generated_at_cst": "2026-09-07 04:23 CST",
- "latest_activity_at": "2026-09-06T19:46:15Z",
+ "generated_at": "2026-09-06T22:53:07.438896+00:00",
+ "generated_at_cst": "2026-09-07 06:53 CST",
+ "latest_activity_at": "2026-09-06T22:08:38Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -26,14 +26,14 @@
    "bio": "AI tinkerer",
    "followers": 13988,
    "public_repos": 19,
-   "total_stars": 53634,
+   "total_stars": 53640,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 28809,
+     "stars": 28811,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -43,7 +43,7 @@
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
      "stars": 6646,
      "lang": "JavaScript",
-     "pushed_at": "2026-09-05T06:36:36Z"
+     "pushed_at": "2026-09-06T22:50:11Z"
     },
     {
      "name": "codebase-to-course",
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4494,
+     "stars": 4495,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -73,7 +73,7 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1786,
+     "stars": 1787,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
@@ -176,8 +176,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 23,
-   "delta_followers": 5
+   "delta_stars": 6,
+   "delta_followers": 0
   },
   {
    "login": "simonw",
@@ -195,7 +195,7 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16759,
+   "followers": 16762,
    "public_repos": 986,
    "total_stars": 39462,
    "repo_count": 91,
@@ -238,7 +238,7 @@
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
      "stars": 1881,
      "lang": "HTML",
-     "pushed_at": "2026-09-02T17:20:27Z"
+     "pushed_at": "2026-09-06T21:28:48Z"
     },
     {
      "name": "til",
@@ -343,8 +343,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 5,
-   "delta_followers": 4
+   "delta_stars": 0,
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -362,16 +362,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 220340,
+   "followers": 220354,
    "public_repos": 63,
-   "total_stars": 489785,
+   "total_stars": 489791,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95317,
+     "stars": 95318,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -387,7 +387,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57826,
+     "stars": 57827,
      "lang": "Python",
      "pushed_at": "2026-08-02T21:05:23Z"
     },
@@ -395,7 +395,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37501,
+     "stars": 37502,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -403,7 +403,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30937,
+     "stars": 30938,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -418,8 +418,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 29,
-   "delta_followers": 24
+   "delta_stars": 6,
+   "delta_followers": 14
   },
   {
    "login": "mckaywrigley",
@@ -439,14 +439,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7292,
    "public_repos": 66,
-   "total_stars": 50127,
+   "total_stars": 50128,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33343,
+     "stars": 33344,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -492,6 +492,13 @@
     }
    ],
    "feed": [
+    {
+     "type": "ReleaseEvent",
+     "label": "发布版本",
+     "repo": "TakeoffAI/agentshare-updates",
+     "at": "2026-09-06T22:08:38Z",
+     "detail": "v0.1.28"
+    },
     {
      "type": "ReleaseEvent",
      "label": "发布版本",
@@ -568,18 +575,11 @@
      "repo": "TakeoffAI/agentshare-updates",
      "at": "2026-08-28T06:50:32Z",
      "detail": "v0.1.17"
-    },
-    {
-     "type": "ReleaseEvent",
-     "label": "发布版本",
-     "repo": "TakeoffAI/agentshare-updates",
-     "at": "2026-08-27T08:00:22Z",
-     "detail": "v0.1.16"
     }
    ],
    "ok": true,
-   "delta_stars": 2,
-   "delta_followers": 1
+   "delta_stars": 1,
+   "delta_followers": 0
   },
   {
    "login": "transitive-bullshit",
@@ -597,9 +597,9 @@
    "name": "Travis Fischer",
    "avatar": "https://avatars.githubusercontent.com/u/552829?v=4",
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
-   "followers": 4585,
+   "followers": 4586,
    "public_repos": 354,
-   "total_stars": 39225,
+   "total_stars": 39226,
    "repo_count": 61,
    "top_repos": [
     {
@@ -614,7 +614,7 @@
      "name": "nextjs-notion-starter-kit",
      "url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit",
      "desc": "Deploy your own Notion-powered website in minutes with Next.js and Vercel.",
-     "stars": 7034,
+     "stars": 7035,
      "lang": "TypeScript",
      "pushed_at": "2026-09-03T21:42:51Z"
     },
@@ -748,8 +748,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
-   "delta_followers": 0
+   "delta_stars": 1,
+   "delta_followers": 1
   },
   {
    "login": "steven-tey",
@@ -919,7 +919,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 696843,
+  "stars": 696857,
   "events": 60
  }
 }
