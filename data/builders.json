@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T04:41:48.316433+00:00",
- "generated_at_cst": "2026-09-10 12:41 CST",
- "latest_activity_at": "2026-09-10T00:02:02Z",
+ "generated_at": "2026-09-10T11:18:43.679510+00:00",
+ "generated_at_cst": "2026-09-10 19:18 CST",
+ "latest_activity_at": "2026-09-10T00:30:21Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14084,
+   "followers": 14097,
    "public_repos": 19,
-   "total_stars": 54081,
+   "total_stars": 54125,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 29037,
+     "stars": 29062,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,15 +41,15 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6697,
+     "stars": 6699,
      "lang": "JavaScript",
-     "pushed_at": "2026-09-09T06:41:18Z"
+     "pushed_at": "2026-09-10T06:40:43Z"
     },
     {
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5532,
+     "stars": 5535,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4526,
+     "stars": 4529,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2471,
+     "stars": 2474,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -176,8 +176,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 31,
-   "delta_followers": 10
+   "delta_stars": 44,
+   "delta_followers": 13
   },
   {
    "login": "simonw",
@@ -195,16 +195,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16816,
+   "followers": 16820,
    "public_repos": 988,
-   "total_stars": 39397,
+   "total_stars": 39407,
    "repo_count": 91,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12482,
+     "stars": 12483,
      "lang": "Python",
      "pushed_at": "2026-09-08T18:35:28Z"
     },
@@ -212,7 +212,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11448,
+     "stars": 11451,
      "lang": "Python",
      "pushed_at": "2026-09-08T21:46:15Z"
     },
@@ -236,7 +236,7 @@
      "name": "tools",
      "url": "https://github.com/simonw/tools",
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
-     "stars": 1890,
+     "stars": 1892,
      "lang": "HTML",
      "pushed_at": "2026-09-10T03:28:51Z"
     },
@@ -250,6 +250,35 @@
     }
    ],
    "feed": [
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/tools",
+     "at": "2026-09-08T20:30:30Z",
+     "detail": "branch claude/image-gen-existing-input-59s8q0"
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/llm",
+     "at": "2026-09-08T18:35:29Z",
+     "detail": "branch claude/windows-ci-failure-enqei1"
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/vibe-coded-blender-projects",
+     "at": "2026-09-10T00:29:22Z",
+     "detail": "branch main"
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/vibe-coded-blender-projects",
+     "at": "2026-09-10T00:30:21Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -311,42 +340,11 @@
      "repo": "simonw/llm",
      "at": "2026-09-07T23:50:20Z",
      "detail": "branch pytest-httpx2"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/llm",
-     "at": "2026-09-07T23:43:10Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-09-07T23:25:22Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "simonw/tools",
-     "at": "2026-09-07T20:39:17Z",
-     "detail": "branch claude/video-compression-tool-enhancements-kpfrnk"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/llm",
-     "at": "2026-09-08T00:00:46Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": -108,
-   "delta_followers": 0
+   "delta_stars": 10,
+   "delta_followers": 4
   },
   {
    "login": "karpathy",
@@ -364,16 +362,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 220861,
+   "followers": 220920,
    "public_repos": 63,
-   "total_stars": 490377,
+   "total_stars": 490461,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95501,
+     "stars": 95526,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -381,7 +379,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 62945,
+     "stars": 62951,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -389,7 +387,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57901,
+     "stars": 57914,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -397,7 +395,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37497,
+     "stars": 37498,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -405,7 +403,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30956,
+     "stars": 30960,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -413,7 +411,7 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24874,
+     "stars": 24876,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
@@ -437,8 +435,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 32,
-   "delta_followers": 21
+   "delta_stars": 84,
+   "delta_followers": 59
   },
   {
    "login": "mckaywrigley",
@@ -597,7 +595,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 3,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -633,7 +631,7 @@
      "name": "nextjs-notion-starter-kit",
      "url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit",
      "desc": "Deploy your own Notion-powered website in minutes with Next.js and Vercel.",
-     "stars": 7035,
+     "stars": 7034,
      "lang": "TypeScript",
      "pushed_at": "2026-09-03T21:42:51Z"
     },
@@ -845,6 +843,29 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
+     "at": "2026-09-08T22:39:04Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-08T22:38:46Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-08T15:43:38Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
      "at": "2026-09-09T23:08:58Z",
      "detail": "",
      "count": 0
@@ -908,28 +929,6 @@
      "repo": "dubinc/dub",
      "at": "2026-09-09T20:05:26Z",
      "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-09T20:05:25Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-08T15:55:31Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-09T22:30:17Z",
-     "detail": ""
     }
    ],
    "ok": true,
@@ -939,7 +938,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 697658,
+  "stars": 697796,
   "events": 62
  }
 }
