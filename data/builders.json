@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-11T20:57:26.817232+00:00",
- "generated_at_cst": "2026-09-12 04:57 CST",
+ "generated_at": "2026-09-11T23:15:12.716360+00:00",
+ "generated_at_cst": "2026-09-12 07:15 CST",
  "latest_activity_at": "2026-09-11T18:11:41Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -26,14 +26,14 @@
    "bio": "AI tinkerer",
    "followers": 14135,
    "public_repos": 19,
-   "total_stars": 54269,
+   "total_stars": 54271,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 29148,
+     "stars": 29150,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -177,8 +177,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 8,
-   "delta_followers": 7
+   "delta_stars": 2,
+   "delta_followers": 0
   },
   {
    "login": "simonw",
@@ -196,9 +196,9 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16849,
+   "followers": 16851,
    "public_repos": 988,
-   "total_stars": 39445,
+   "total_stars": 39447,
    "repo_count": 91,
    "top_repos": [
     {
@@ -221,7 +221,7 @@
      "name": "shot-scraper",
      "url": "https://github.com/simonw/shot-scraper",
      "desc": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
-     "stars": 2568,
+     "stars": 2569,
      "lang": "Python",
      "pushed_at": "2026-07-12T23:46:52Z"
     },
@@ -348,7 +348,7 @@
    ],
    "ok": true,
    "delta_stars": 2,
-   "delta_followers": 5
+   "delta_followers": 2
   },
   {
    "login": "karpathy",
@@ -366,16 +366,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 221130,
+   "followers": 221141,
    "public_repos": 63,
-   "total_stars": 490766,
+   "total_stars": 490778,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95613,
+     "stars": 95611,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -391,7 +391,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57954,
+     "stars": 57955,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -439,8 +439,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 39,
-   "delta_followers": 24
+   "delta_stars": 12,
+   "delta_followers": 11
   },
   {
    "login": "mckaywrigley",
@@ -599,7 +599,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -905,13 +905,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 698289,
+  "stars": 698305,
   "events": 58
  }
 }
