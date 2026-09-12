@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-12T04:33:31.942776+00:00",
- "generated_at_cst": "2026-09-12 12:33 CST",
- "latest_activity_at": "2026-09-12T03:38:36Z",
+ "generated_at": "2026-09-12T10:45:04.242956+00:00",
+ "generated_at_cst": "2026-09-12 18:45 CST",
+ "latest_activity_at": "2026-09-12T10:06:36Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14140,
+   "followers": 14142,
    "public_repos": 19,
-   "total_stars": 54281,
+   "total_stars": 54300,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 29157,
+     "stars": 29166,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,15 +41,15 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6705,
+     "stars": 6706,
      "lang": "JavaScript",
-     "pushed_at": "2026-09-11T06:40:38Z"
+     "pushed_at": "2026-09-12T06:37:18Z"
     },
     {
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5546,
+     "stars": 5547,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4541,
+     "stars": 4545,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2483,
+     "stars": 2484,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -79,6 +79,14 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "zarazhangrui/zarazhangrui",
+     "at": "2026-09-12T04:52:09Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -166,19 +174,11 @@
      "at": "2026-08-27T06:04:28Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "zarazhangrui/zarazhangrui",
-     "at": "2026-08-26T06:01:20Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 10,
-   "delta_followers": 5
+   "delta_stars": 19,
+   "delta_followers": 2
   },
   {
    "login": "simonw",
@@ -196,16 +196,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16851,
+   "followers": 16853,
    "public_repos": 988,
-   "total_stars": 39448,
+   "total_stars": 39452,
    "repo_count": 91,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12489,
+     "stars": 12491,
      "lang": "Python",
      "pushed_at": "2026-09-08T18:35:28Z"
     },
@@ -213,7 +213,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11454,
+     "stars": 11456,
      "lang": "Python",
      "pushed_at": "2026-09-11T18:29:18Z"
     },
@@ -349,8 +349,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 0
+   "delta_stars": 4,
+   "delta_followers": 2
   },
   {
    "login": "karpathy",
@@ -368,16 +368,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 221155,
+   "followers": 221192,
    "public_repos": 63,
-   "total_stars": 490799,
+   "total_stars": 490834,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95616,
+     "stars": 95629,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -385,7 +385,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63004,
+     "stars": 63010,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -393,7 +393,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 57958,
+     "stars": 57961,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -409,7 +409,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 30979,
+     "stars": 30980,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -417,7 +417,7 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24879,
+     "stars": 24881,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
@@ -441,8 +441,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 21,
-   "delta_followers": 14
+   "delta_stars": 35,
+   "delta_followers": 37
   },
   {
    "login": "mckaywrigley",
@@ -601,7 +601,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -620,10 +620,10 @@
    "name": "Travis Fischer",
    "avatar": "https://avatars.githubusercontent.com/u/552829?v=4",
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
-   "followers": 4590,
-   "public_repos": 356,
+   "followers": 4591,
+   "public_repos": 357,
    "total_stars": 39065,
-   "repo_count": 62,
+   "repo_count": 63,
    "top_repos": [
     {
      "name": "agentic",
@@ -676,6 +676,21 @@
    ],
    "feed": [
     {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/retro-web-terminal",
+     "at": "2026-09-12T10:06:36Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PublicEvent",
+     "label": "仓库转公开",
+     "repo": "transitive-bullshit/retro-web-terminal",
+     "at": "2026-09-12T06:39:21Z",
+     "detail": ""
+    },
+    {
      "type": "IssuesEvent",
      "label": "处理 issue",
      "repo": "gi-dellav/rv",
@@ -713,19 +728,11 @@
      "at": "2026-09-09T01:12:41Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/reading-room",
-     "at": "2026-09-08T14:39:56Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 0
+   "delta_stars": 0,
+   "delta_followers": 1
   },
   {
    "login": "steven-tey",
@@ -899,7 +906,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 698337,
-  "events": 56
+  "stars": 698395,
+  "events": 57
  }
 }
