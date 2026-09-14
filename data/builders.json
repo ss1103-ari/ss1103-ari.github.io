@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-14T19:50:34.302562+00:00",
- "generated_at_cst": "2026-09-15 03:50 CST",
+ "generated_at": "2026-09-14T23:51:48.293391+00:00",
+ "generated_at_cst": "2026-09-15 07:51 CST",
  "latest_activity_at": "2026-09-14T18:55:50Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14189,
+   "followers": 14192,
    "public_repos": 19,
-   "total_stars": 54528,
+   "total_stars": 54537,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 29295,
+     "stars": 29300,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2493,
+     "stars": 2495,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -73,7 +73,7 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1796,
+     "stars": 1797,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
@@ -177,8 +177,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 42,
-   "delta_followers": 2
+   "delta_stars": 9,
+   "delta_followers": 3
   },
   {
    "login": "simonw",
@@ -196,9 +196,9 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16880,
+   "followers": 16886,
    "public_repos": 988,
-   "total_stars": 39494,
+   "total_stars": 39496,
    "repo_count": 91,
    "top_repos": [
     {
@@ -213,7 +213,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11462,
+     "stars": 11463,
      "lang": "Python",
      "pushed_at": "2026-09-14T17:18:31Z"
     },
@@ -239,7 +239,7 @@
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
      "stars": 1892,
      "lang": "HTML",
-     "pushed_at": "2026-09-11T15:27:51Z"
+     "pushed_at": "2026-09-14T20:50:16Z"
     },
     {
      "name": "til",
@@ -341,8 +341,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 9,
-   "delta_followers": 3
+   "delta_stars": 2,
+   "delta_followers": 6
   },
   {
    "login": "karpathy",
@@ -360,16 +360,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 221539,
+   "followers": 221560,
    "public_repos": 63,
-   "total_stars": 491362,
+   "total_stars": 491391,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95833,
+     "stars": 95853,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -385,7 +385,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58017,
+     "stars": 58021,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -409,7 +409,7 @@
      "name": "minGPT",
      "url": "https://github.com/karpathy/minGPT",
      "desc": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
-     "stars": 24892,
+     "stars": 24890,
      "lang": "Python",
      "pushed_at": "2024-08-15T04:09:40Z"
     }
@@ -433,8 +433,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 115,
-   "delta_followers": 47
+   "delta_stars": 29,
+   "delta_followers": 21
   },
   {
    "login": "mckaywrigley",
@@ -832,6 +832,22 @@
    ],
    "feed": [
     {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-13T19:41:08Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-14T17:48:17Z",
+     "detail": "",
+     "count": 0
+    },
+    {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
      "repo": "dubinc/dub",
@@ -905,20 +921,6 @@
      "repo": "dubinc/dub",
      "at": "2026-09-13T19:41:07Z",
      "detail": "merged · "
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-13T19:34:48Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestReviewCommentEvent",
-     "label": "PullRequestReviewCommentEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-13T19:34:46Z",
-     "detail": ""
     }
    ],
    "ok": true,
@@ -928,7 +930,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 698660,
+  "stars": 698700,
   "events": 62
  }
 }
