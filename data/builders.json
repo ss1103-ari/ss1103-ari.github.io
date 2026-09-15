@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-15T11:43:22.955998+00:00",
- "generated_at_cst": "2026-09-15 19:43 CST",
- "latest_activity_at": "2026-09-15T11:13:28Z",
+ "generated_at": "2026-09-15T16:58:30.262470+00:00",
+ "generated_at_cst": "2026-09-16 00:58 CST",
+ "latest_activity_at": "2026-09-15T16:24:17Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14200,
+   "followers": 14205,
    "public_repos": 19,
-   "total_stars": 54616,
+   "total_stars": 54636,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 29342,
+     "stars": 29356,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6726,
+     "stars": 6727,
      "lang": "JavaScript",
      "pushed_at": "2026-09-15T06:42:17Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5553,
+     "stars": 5555,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2500,
+     "stars": 2501,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -177,7 +177,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 53,
+   "delta_stars": 20,
    "delta_followers": 5
   },
   {
@@ -196,9 +196,9 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16898,
+   "followers": 16902,
    "public_repos": 988,
-   "total_stars": 39508,
+   "total_stars": 39515,
    "repo_count": 91,
    "top_repos": [
     {
@@ -215,7 +215,7 @@
      "desc": "An open source multi-tool for exploring and publishing data",
      "stars": 11465,
      "lang": "Python",
-     "pushed_at": "2026-09-14T17:18:31Z"
+     "pushed_at": "2026-09-15T16:17:54Z"
     },
     {
      "name": "shot-scraper",
@@ -252,6 +252,69 @@
    ],
    "feed": [
     {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T16:22:25Z",
+     "detail": "closed · "
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T16:24:17Z",
+     "detail": "labeled · \"count all\" button sometimes returns incorrect count"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T16:24:17Z",
+     "detail": "opened · \"count all\" button sometimes returns incorrect count"
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T16:18:35Z",
+     "detail": "opened · "
+    },
+    {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T15:51:28Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T15:51:11Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewCommentEvent",
+     "label": "PullRequestReviewCommentEvent",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T15:51:09Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T15:50:33Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewCommentEvent",
+     "label": "PullRequestReviewCommentEvent",
+     "repo": "simonw/datasette",
+     "at": "2026-09-15T15:50:31Z",
+     "detail": ""
+    },
+    {
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "simonw/commit-rewriter",
@@ -274,78 +337,11 @@
      "at": "2026-09-14T00:24:53Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/tools",
-     "at": "2026-09-14T20:49:27Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "ReleaseEvent",
-     "label": "发布版本",
-     "repo": "simonw/commit-rewriter",
-     "at": "2026-09-14T00:35:46Z",
-     "detail": "0.1"
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "simonw/commit-rewriter",
-     "at": "2026-09-14T00:35:36Z",
-     "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/commit-rewriter",
-     "at": "2026-09-14T00:35:20Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "simonw/commit-rewriter",
-     "at": "2026-09-14T00:30:18Z",
-     "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/commit-rewriter",
-     "at": "2026-09-14T00:29:31Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "simonw/commit-rewriter",
-     "at": "2026-09-14T00:28:00Z",
-     "detail": ""
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/commit-rewriter",
-     "at": "2026-09-14T00:27:17Z",
-     "detail": "closed · First release to PyPI"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/commit-rewriter",
-     "at": "2026-09-14T00:26:55Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
    "delta_stars": 7,
-   "delta_followers": 7
+   "delta_followers": 4
   },
   {
    "login": "karpathy",
@@ -363,16 +359,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 221655,
+   "followers": 221700,
    "public_repos": 63,
-   "total_stars": 491518,
+   "total_stars": 491597,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 95912,
+     "stars": 95962,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -380,7 +376,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63111,
+     "stars": 63121,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -388,7 +384,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58043,
+     "stars": 58049,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -396,7 +392,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37494,
+     "stars": 37493,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -404,7 +400,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31001,
+     "stars": 31002,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -436,8 +432,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 84,
-   "delta_followers": 66
+   "delta_stars": 79,
+   "delta_followers": 45
   },
   {
    "login": "mckaywrigley",
@@ -457,14 +453,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7293,
    "public_repos": 66,
-   "total_stars": 50132,
+   "total_stars": 50130,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33348,
+     "stars": 33347,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -504,7 +500,7 @@
      "name": "chatbot-ui-lite",
      "url": "https://github.com/mckaywrigley/chatbot-ui-lite",
      "desc": "",
-     "stars": 973,
+     "stars": 972,
      "lang": "TypeScript",
      "pushed_at": "2023-04-24T23:54:23Z"
     }
@@ -596,7 +592,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": -2,
    "delta_followers": 0
   },
   {
@@ -617,7 +613,7 @@
    "bio": "My heart is open source 💕 \r\n\r\nFormerly @amzn, @microsoft",
    "followers": 4590,
    "public_repos": 359,
-   "total_stars": 38529,
+   "total_stars": 38530,
    "repo_count": 63,
    "top_repos": [
     {
@@ -670,6 +666,13 @@
     }
    ],
    "feed": [
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "transitive-bullshit/takumi",
+     "at": "2026-09-14T10:03:59Z",
+     "detail": "branch docs/add-passage-showcase"
+    },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
@@ -755,14 +758,6 @@
      "at": "2026-09-14T03:09:04Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-09-15T02:36:50Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
@@ -841,6 +836,28 @@
    ],
    "feed": [
     {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-15T16:11:20Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewCommentEvent",
+     "label": "PullRequestReviewCommentEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-09-15T16:11:19Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-14T03:54:32Z",
+     "detail": "",
+     "count": 0
+    },
+    {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
      "repo": "dubinc/dub",
@@ -907,39 +924,16 @@
      "repo": "dubinc/dub",
      "at": "2026-09-14T17:41:00Z",
      "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-14T17:40:58Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-14T17:12:41Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-14T17:25:34Z",
-     "detail": ""
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 698915,
+  "stars": 699020,
   "events": 62
  }
 }
