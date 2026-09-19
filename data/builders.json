@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-19T15:52:19.542929+00:00",
- "generated_at_cst": "2026-09-19 23:52 CST",
- "latest_activity_at": "2026-09-19T14:07:41Z",
+ "generated_at": "2026-09-19T20:39:21.247788+00:00",
+ "generated_at_cst": "2026-09-20 04:39 CST",
+ "latest_activity_at": "2026-09-19T19:52:02Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -26,14 +26,14 @@
    "bio": "AI tinkerer",
    "followers": 14302,
    "public_repos": 19,
-   "total_stars": 54989,
+   "total_stars": 54997,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 29547,
+     "stars": 29552,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6751,
+     "stars": 6752,
      "lang": "JavaScript",
      "pushed_at": "2026-09-19T06:38:07Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4600,
+     "stars": 4602,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -177,8 +177,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 20,
-   "delta_followers": 7
+   "delta_stars": 8,
+   "delta_followers": 0
   },
   {
    "login": "simonw",
@@ -196,9 +196,9 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 16964,
+   "followers": 16967,
    "public_repos": 988,
-   "total_stars": 39693,
+   "total_stars": 39732,
    "repo_count": 91,
    "top_repos": [
     {
@@ -213,7 +213,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11475,
+     "stars": 11476,
      "lang": "Python",
      "pushed_at": "2026-09-17T23:12:29Z"
     },
@@ -251,6 +251,50 @@
     }
    ],
    "feed": [
+    {
+     "type": "ReleaseEvent",
+     "label": "发布版本",
+     "repo": "simonw/datasette-auth-github",
+     "at": "2026-09-19T19:52:02Z",
+     "detail": "1.0"
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/datasette-auth-github",
+     "at": "2026-09-19T19:50:29Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette-auth-github",
+     "at": "2026-09-19T19:45:48Z",
+     "detail": "closed · Uses browser session cookies which log user out too often"
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/datasette-auth-github",
+     "at": "2026-09-19T19:45:47Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette-auth-github",
+     "at": "2026-09-19T19:44:02Z",
+     "detail": "labeled · Uses browser session cookies which log user out too often"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette-auth-github",
+     "at": "2026-09-19T19:44:01Z",
+     "detail": "opened · Uses browser session cookies which log user out too often"
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -297,57 +341,11 @@
      "at": "2026-09-16T21:56:11Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette.io",
-     "at": "2026-09-17T00:28:05Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-09-16T23:55:05Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-09-16T17:29:38Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-09-16T17:27:36Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "simonw/datasette",
-     "at": "2026-09-16T16:30:15Z",
-     "detail": "branch codex/test-write-wrapper-alter-rollback"
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "simonw/datasette",
-     "at": "2026-09-16T21:56:12Z",
-     "detail": ""
     }
    ],
    "ok": true,
-   "delta_stars": 4,
-   "delta_followers": 7
+   "delta_stars": 39,
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -365,16 +363,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 222295,
+   "followers": 222332,
    "public_repos": 63,
-   "total_stars": 492419,
+   "total_stars": 492448,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 96342,
+     "stars": 96351,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -382,7 +380,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63228,
+     "stars": 63231,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -390,7 +388,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58130,
+     "stars": 58133,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -406,7 +404,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31025,
+     "stars": 31026,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -414,7 +412,7 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 24912,
+     "stars": 24915,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
@@ -438,8 +436,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 23,
-   "delta_followers": 36
+   "delta_stars": 29,
+   "delta_followers": 37
   },
   {
    "login": "mckaywrigley",
@@ -459,14 +457,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7294,
    "public_repos": 66,
-   "total_stars": 50137,
+   "total_stars": 50136,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33353,
+     "stars": 33352,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -598,7 +596,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": -1,
    "delta_followers": 0
   },
   {
@@ -672,6 +670,14 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-09-19T07:34:40Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -757,18 +763,10 @@
      "at": "2026-09-19T07:38:24Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/nextjs-notion-starter-kit",
-     "at": "2026-09-19T07:38:03Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -787,7 +785,7 @@
    "name": "Steven Tey",
    "avatar": "https://avatars.githubusercontent.com/u/28986134?v=4",
    "bio": "building @dubinc | prev: @vercel",
-   "followers": 6135,
+   "followers": 6136,
    "public_repos": 108,
    "total_stars": 24618,
    "repo_count": 35,
@@ -934,13 +932,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 0
+   "delta_stars": 0,
+   "delta_followers": 1
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 700387,
+  "stars": 700462,
   "events": 62
  }
 }
