@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-19T20:39:21.247788+00:00",
- "generated_at_cst": "2026-09-20 04:39 CST",
- "latest_activity_at": "2026-09-19T19:52:02Z",
+ "generated_at": "2026-09-19T23:03:47.707647+00:00",
+ "generated_at_cst": "2026-09-20 07:03 CST",
+ "latest_activity_at": "2026-09-19T22:52:29Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -26,14 +26,14 @@
    "bio": "AI tinkerer",
    "followers": 14302,
    "public_repos": 19,
-   "total_stars": 54997,
+   "total_stars": 54999,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 29552,
+     "stars": 29554,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -177,7 +177,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 8,
+   "delta_stars": 2,
    "delta_followers": 0
   },
   {
@@ -207,7 +207,7 @@
      "desc": "Access large language models from the command-line",
      "stars": 12529,
      "lang": "Python",
-     "pushed_at": "2026-09-08T18:35:28Z"
+     "pushed_at": "2026-09-19T22:35:49Z"
     },
     {
      "name": "datasette",
@@ -252,6 +252,58 @@
    ],
    "feed": [
     {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "rdslw/llm",
+     "at": "2026-09-19T22:52:29Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/llm",
+     "at": "2026-09-19T22:35:50Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-09-19T22:35:50Z",
+     "detail": "closed · Ability to specify that a model cannot handle conversations"
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/simonwillisonblog-backup",
+     "at": "2026-09-19T22:12:21Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-09-19T22:03:25Z",
+     "detail": "labeled · Ability to specify that a model cannot handle conversations"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-09-19T22:03:25Z",
+     "detail": "opened · Ability to specify that a model cannot handle conversations"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette-auth-github",
+     "at": "2026-09-19T21:51:26Z",
+     "detail": "labeled · Uses browser session cookies which log user out too often"
+    },
+    {
      "type": "ReleaseEvent",
      "label": "发布版本",
      "repo": "simonw/datasette-auth-github",
@@ -287,65 +339,11 @@
      "repo": "simonw/datasette-auth-github",
      "at": "2026-09-19T19:44:02Z",
      "detail": "labeled · Uses browser session cookies which log user out too often"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette-auth-github",
-     "at": "2026-09-19T19:44:01Z",
-     "detail": "opened · Uses browser session cookies which log user out too often"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-09-18T18:08:25Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "emscripten-core/emscripten",
-     "at": "2026-09-18T18:17:09Z",
-     "detail": "opened · clang version string contains malformed repo URL https:/github.com"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-09-17T23:11:37Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-09-17T21:17:37Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-09-17T21:13:20Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-09-16T21:56:11Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 39,
-   "delta_followers": 3
+   "delta_stars": 0,
+   "delta_followers": 0
   },
   {
    "login": "karpathy",
@@ -363,16 +361,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 222332,
+   "followers": 222341,
    "public_repos": 63,
-   "total_stars": 492448,
+   "total_stars": 492467,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 96351,
+     "stars": 96363,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -380,7 +378,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63231,
+     "stars": 63232,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -388,7 +386,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58133,
+     "stars": 58136,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -412,7 +410,7 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 24915,
+     "stars": 24916,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
@@ -436,8 +434,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 29,
-   "delta_followers": 37
+   "delta_stars": 19,
+   "delta_followers": 9
   },
   {
    "login": "mckaywrigley",
@@ -596,7 +594,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -844,6 +842,22 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
+     "at": "2026-09-19T22:30:43Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-09-19T22:30:03Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
      "at": "2026-09-18T23:49:33Z",
      "detail": "",
      "count": 0
@@ -915,30 +929,16 @@
      "repo": "dubinc/dub",
      "at": "2026-09-19T00:08:44Z",
      "detail": ""
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-18T23:49:35Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-09-18T23:49:20Z",
-     "detail": ""
     }
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 1
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 700462,
+  "stars": 700483,
   "events": 62
  }
 }
