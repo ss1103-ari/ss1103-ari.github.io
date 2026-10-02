@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-02T00:46:58.083414+00:00",
- "generated_at_cst": "2026-10-02 08:46 CST",
- "latest_activity_at": "2026-10-02T00:24:15Z",
+ "generated_at": "2026-10-02T09:44:51.710094+00:00",
+ "generated_at_cst": "2026-10-02 17:44 CST",
+ "latest_activity_at": "2026-10-02T09:09:59Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14546,
+   "followers": 14549,
    "public_repos": 19,
-   "total_stars": 55914,
+   "total_stars": 55930,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 30053,
+     "stars": 30063,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,15 +41,15 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6827,
+     "stars": 6828,
      "lang": "JavaScript",
-     "pushed_at": "2026-10-01T06:46:38Z"
+     "pushed_at": "2026-10-02T06:45:44Z"
     },
     {
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5611,
+     "stars": 5613,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -73,7 +73,7 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1807,
+     "stars": 1806,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
@@ -177,8 +177,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 18,
-   "delta_followers": 5
+   "delta_stars": 16,
+   "delta_followers": 3
   },
   {
    "login": "simonw",
@@ -196,16 +196,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17105,
+   "followers": 17111,
    "public_repos": 990,
-   "total_stars": 39828,
+   "total_stars": 39829,
    "repo_count": 93,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12578,
+     "stars": 12579,
      "lang": "Python",
      "pushed_at": "2026-09-22T18:48:48Z"
     },
@@ -251,6 +251,37 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/tools",
+     "at": "2026-10-01T20:10:58Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/micro-javascript",
+     "at": "2026-10-01T18:42:53Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/tools",
+     "at": "2026-10-01T18:26:14Z",
+     "detail": "branch video-compressor-poster-webp"
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/tools",
+     "at": "2026-10-01T18:31:43Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -308,43 +339,11 @@
      "repo": "simonw/tools",
      "at": "2026-10-01T19:33:34Z",
      "detail": "opened · "
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/micro-javascript",
-     "at": "2026-10-01T18:53:23Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/micro-javascript",
-     "at": "2026-10-01T18:56:44Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/micro-javascript",
-     "at": "2026-10-01T18:42:57Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/micro-javascript",
-     "at": "2026-10-01T18:49:06Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 4,
-   "delta_followers": 3
+   "delta_stars": 1,
+   "delta_followers": 6
   },
   {
    "login": "karpathy",
@@ -362,16 +361,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 223948,
+   "followers": 223991,
    "public_repos": 63,
-   "total_stars": 494505,
+   "total_stars": 494568,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 97121,
+     "stars": 97138,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -379,7 +378,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63484,
+     "stars": 63494,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -387,7 +386,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58378,
+     "stars": 58386,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -395,7 +394,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37480,
+     "stars": 37481,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -403,7 +402,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31083,
+     "stars": 31084,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -411,7 +410,7 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25091,
+     "stars": 25099,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
@@ -435,8 +434,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 24,
-   "delta_followers": 26
+   "delta_stars": 63,
+   "delta_followers": 43
   },
   {
    "login": "mckaywrigley",
@@ -463,7 +462,7 @@
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33351,
+     "stars": 33353,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -487,7 +486,7 @@
      "name": "mckays-app-template",
      "url": "https://github.com/mckaywrigley/mckays-app-template",
      "desc": "This is the template I use to start new full-stack projects.",
-     "stars": 1931,
+     "stars": 1930,
      "lang": "TypeScript",
      "pushed_at": "2025-06-16T22:45:18Z"
     },
@@ -495,7 +494,7 @@
      "name": "clarity-ai",
      "url": "https://github.com/mckaywrigley/clarity-ai",
      "desc": "A Perplexity clone.",
-     "stars": 1422,
+     "stars": 1421,
      "lang": "TypeScript",
      "pushed_at": "2024-03-28T04:13:59Z"
     },
@@ -595,7 +594,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 3,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -616,7 +615,7 @@
    "bio": "My heart is open source 💕",
    "followers": 4599,
    "public_repos": 365,
-   "total_stars": 38011,
+   "total_stars": 38012,
    "repo_count": 66,
    "top_repos": [
     {
@@ -670,99 +669,98 @@
    ],
    "feed": [
     {
-     "type": "PushEvent",
-     "label": "推送提交",
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
      "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-02T00:24:15Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-01T14:41:58Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-01T23:59:45Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-01T23:54:22Z",
-     "detail": "opened · "
+     "at": "2026-10-01T01:17:43Z",
+     "detail": "branch claude/i18n-phase-2"
     },
     {
      "type": "CreateEvent",
      "label": "新建仓库/分支",
      "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-01T23:53:56Z",
-     "detail": "branch claude/jev-budget"
+     "at": "2026-10-02T09:09:59Z",
+     "detail": "branch codex/acemoglu-zitron-refresh"
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-01T23:12:55Z",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:56:41Z",
      "detail": "",
      "count": 0
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-01T23:12:54Z",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:56:39Z",
      "detail": "merged · "
     },
     {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:56:34Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:55:12Z",
+     "detail": "",
+     "count": 0
+    },
+    {
      "type": "PullRequestEvent",
      "label": "处理 PR",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-01T23:09:10Z",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:54:43Z",
+     "detail": "merged · "
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:54:44Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:50:18Z",
      "detail": "opened · "
     },
     {
      "type": "CreateEvent",
      "label": "新建仓库/分支",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-01T23:09:08Z",
-     "detail": "branch claude/resource-page-hierarchy"
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:50:04Z",
+     "detail": "branch claude/indexnow"
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T02:45:12Z",
+     "detail": "opened · "
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "transitive-bullshit/burning-tokens",
-     "at": "2026-09-30T10:22:38Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-01T09:18:10Z",
-     "detail": "branch claude/codebase-audit-agent-friendly-279a83"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "transitive-bullshit/burning-tokens",
-     "at": "2026-09-30T11:36:05Z",
+     "repo": "transitive-bullshit/dotfiles",
+     "at": "2026-10-02T02:30:53Z",
      "detail": "",
      "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": 1
+   "delta_stars": 1,
+   "delta_followers": 0
   },
   {
    "login": "steven-tey",
@@ -836,76 +834,24 @@
    ],
    "feed": [
     {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-10-01T18:25:09Z",
-     "detail": "merged · "
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-10-01T17:36:21Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-10-01T17:33:50Z",
-     "detail": "opened · "
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "dubinc/dub",
-     "at": "2026-10-01T17:33:38Z",
-     "detail": "branch subscription-billing-fields"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-10-01T17:15:40Z",
-     "detail": "",
-     "count": 0
-    },
-    {
      "type": "PullRequestReviewEvent",
      "label": "PullRequestReviewEvent",
      "repo": "dubinc/dub",
-     "at": "2026-10-01T17:15:03Z",
+     "at": "2026-10-02T05:48:59Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewCommentEvent",
+     "label": "PullRequestReviewCommentEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-02T05:48:56Z",
      "detail": ""
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
-     "at": "2026-10-01T04:35:33Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "dubinc/dub",
-     "at": "2026-09-30T02:23:31Z",
-     "detail": "branch workspaces-page"
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/docs",
-     "at": "2026-09-30T01:27:03Z",
-     "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-09-30T02:22:54Z",
+     "at": "2026-10-02T05:47:59Z",
      "detail": "",
      "count": 0
     },
@@ -913,14 +859,66 @@
      "type": "DeleteEvent",
      "label": "DeleteEvent",
      "repo": "dubinc/dub",
-     "at": "2026-10-01T04:35:35Z",
+     "at": "2026-10-01T18:25:12Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-01T18:25:11Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-02T05:17:45Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-02T05:13:59Z",
      "detail": ""
     },
     {
      "type": "PullRequestReviewEvent",
      "label": "PullRequestReviewEvent",
      "repo": "dubinc/dub",
-     "at": "2026-10-01T04:35:26Z",
+     "at": "2026-10-02T04:57:30Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-02T04:46:20Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-02T04:43:44Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-02T04:43:29Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-02T04:42:58Z",
      "detail": ""
     }
    ],
@@ -931,7 +929,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 703014,
+  "stars": 703095,
   "events": 62
  }
 }
