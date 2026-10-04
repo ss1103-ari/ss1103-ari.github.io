@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-03T23:46:51.510834+00:00",
- "generated_at_cst": "2026-10-04 07:46 CST",
- "latest_activity_at": "2026-10-03T21:28:37Z",
+ "generated_at": "2026-10-04T05:51:18.483614+00:00",
+ "generated_at_cst": "2026-10-04 13:51 CST",
+ "latest_activity_at": "2026-10-04T05:51:05Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14568,
+   "followers": 14570,
    "public_repos": 19,
-   "total_stars": 56016,
+   "total_stars": 56035,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 30105,
+     "stars": 30112,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5641,
+     "stars": 5645,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4698,
+     "stars": 4700,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -177,8 +177,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
-   "delta_followers": 1
+   "delta_stars": 19,
+   "delta_followers": 2
   },
   {
    "login": "simonw",
@@ -196,16 +196,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17142,
+   "followers": 17145,
    "public_repos": 990,
-   "total_stars": 39901,
+   "total_stars": 39903,
    "repo_count": 94,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12583,
+     "stars": 12584,
      "lang": "Python",
      "pushed_at": "2026-09-22T18:48:48Z"
     },
@@ -213,7 +213,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11500,
+     "stars": 11501,
      "lang": "Python",
      "pushed_at": "2026-09-26T23:09:49Z"
     },
@@ -347,8 +347,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 1
+   "delta_stars": 2,
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -366,16 +366,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 224233,
+   "followers": 224276,
    "public_repos": 63,
-   "total_stars": 494834,
+   "total_stars": 494861,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 97205,
+     "stars": 97216,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -383,7 +383,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63522,
+     "stars": 63525,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -391,7 +391,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58404,
+     "stars": 58407,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -407,7 +407,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31093,
+     "stars": 31094,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -415,7 +415,7 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25129,
+     "stars": 25134,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
@@ -439,8 +439,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
-   "delta_followers": 10
+   "delta_stars": 27,
+   "delta_followers": 43
   },
   {
    "login": "mckaywrigley",
@@ -460,14 +460,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7298,
    "public_repos": 66,
-   "total_stars": 50130,
+   "total_stars": 50128,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33352,
+     "stars": 33351,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -475,7 +475,7 @@
      "name": "ai-code-translator",
      "url": "https://github.com/mckaywrigley/ai-code-translator",
      "desc": "Use AI to translate code from one language to another.",
-     "stars": 4172,
+     "stars": 4171,
      "lang": "TypeScript",
      "pushed_at": "2023-12-21T00:19:08Z"
     },
@@ -599,7 +599,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": -2,
    "delta_followers": 0
   },
   {
@@ -674,89 +674,94 @@
    ],
    "feed": [
     {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-03T21:28:37Z",
-     "detail": ""
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
      "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:22:08Z",
-     "detail": ""
+     "at": "2026-10-04T05:51:05Z",
+     "detail": "opened · "
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
      "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:22:06Z",
-     "detail": "merged · "
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:19:28Z",
+     "at": "2026-10-04T05:31:25Z",
      "detail": "opened · "
     },
     {
      "type": "CreateEvent",
      "label": "新建仓库/分支",
      "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:19:26Z",
-     "detail": "branch claude/remove-jesse-genet-featured-a87659"
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:17:57Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:13:40Z",
-     "detail": "merged · "
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:11:20Z",
-     "detail": "merged · "
+     "at": "2026-10-04T05:31:23Z",
+     "detail": "branch claude/assessment-country"
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:10:34Z",
+     "at": "2026-10-03T21:11:21Z",
      "detail": "",
      "count": 0
     },
     {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:08:26Z",
-     "detail": "opened · "
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "transitive-bullshit/doom-or-bloom",
-     "at": "2026-10-03T21:08:23Z",
-     "detail": "branch claude/banding-followups"
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
+     "type": "PushEvent",
+     "label": "推送提交",
      "repo": "transitive-bullshit/dotfiles",
-     "at": "2026-10-03T21:07:22Z",
-     "detail": "merged · "
+     "at": "2026-10-03T21:08:40Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "transitive-bullshit/dotfiles",
+     "at": "2026-10-03T21:04:11Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-03T20:32:04Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-10-04T04:25:54Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/personal-site",
+     "at": "2026-10-04T04:23:54Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/doom-or-bloom",
+     "at": "2026-10-02T10:03:21Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-10-04T02:03:42Z",
+     "detail": ""
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-10-04T01:31:47Z",
+     "detail": "closed · "
     }
    ],
    "ok": true,
@@ -834,6 +839,13 @@
     }
    ],
    "feed": [
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-04T05:11:20Z",
+     "detail": ""
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -918,14 +930,6 @@
      "repo": "dubinc/dub",
      "at": "2026-10-02T04:43:56Z",
      "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-10-03T02:35:27Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
@@ -935,7 +939,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 702311,
+  "stars": 702357,
   "events": 62
  }
 }
