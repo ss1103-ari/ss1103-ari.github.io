@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-17T20:35:39.897414+00:00",
- "generated_at_cst": "2026-10-18 04:35 CST",
+ "generated_at": "2026-10-17T23:07:13.880860+00:00",
+ "generated_at_cst": "2026-10-18 07:07 CST",
  "latest_activity_at": "2026-10-17T13:29:32Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -26,14 +26,14 @@
    "bio": "AI tinkerer",
    "followers": 14846,
    "public_repos": 19,
-   "total_stars": 57250,
+   "total_stars": 57254,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 30813,
+     "stars": 30815,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6901,
+     "stars": 6900,
      "lang": "JavaScript",
      "pushed_at": "2026-10-17T06:38:31Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5693,
+     "stars": 5692,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4801,
+     "stars": 4802,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -134,19 +134,11 @@
      "at": "2026-09-17T21:02:40Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "zarazhangrui/zarazhangrui",
-     "at": "2026-09-16T01:44:24Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 36,
-   "delta_followers": 1
+   "delta_stars": 4,
+   "delta_followers": 0
   },
   {
    "login": "simonw",
@@ -164,16 +156,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17313,
+   "followers": 17317,
    "public_repos": 993,
-   "total_stars": 40714,
+   "total_stars": 40717,
    "repo_count": 94,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12631,
+     "stars": 12633,
      "lang": "Python",
      "pushed_at": "2026-10-15T00:38:55Z"
     },
@@ -313,8 +305,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": 1
+   "delta_stars": 3,
+   "delta_followers": 4
   },
   {
    "login": "karpathy",
@@ -332,16 +324,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 226505,
+   "followers": 226518,
    "public_repos": 63,
-   "total_stars": 497659,
+   "total_stars": 497671,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 98062,
+     "stars": 98064,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -349,7 +341,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63886,
+     "stars": 63889,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -357,7 +349,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58716,
+     "stars": 58720,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -381,15 +373,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25519,
+     "stars": 25518,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 31,
-   "delta_followers": 27
+   "delta_stars": 12,
+   "delta_followers": 13
   },
   {
    "login": "mckaywrigley",
@@ -513,7 +505,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -673,7 +665,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -692,7 +684,7 @@
    "name": "Steven Tey",
    "avatar": "https://avatars.githubusercontent.com/u/28986134?v=4",
    "bio": "building @dubinc | prev: @vercel",
-   "followers": 6156,
+   "followers": 6155,
    "public_repos": 108,
    "total_stars": 24623,
    "repo_count": 35,
@@ -747,6 +739,14 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-16T23:19:59Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
@@ -829,23 +829,16 @@
      "repo": "dubinc/dub",
      "at": "2026-10-16T23:55:55Z",
      "detail": "merged · "
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-10-15T19:24:10Z",
-     "detail": ""
     }
    ],
    "ok": true,
-   "delta_stars": -1,
-   "delta_followers": 1
+   "delta_stars": 0,
+   "delta_followers": -1
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 705979,
-  "events": 51
+  "stars": 705998,
+  "events": 50
  }
 }
