@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-17T23:07:13.880860+00:00",
- "generated_at_cst": "2026-10-18 07:07 CST",
- "latest_activity_at": "2026-10-17T13:29:32Z",
+ "generated_at": "2026-10-18T04:32:11.885617+00:00",
+ "generated_at_cst": "2026-10-18 12:32 CST",
+ "latest_activity_at": "2026-10-18T03:12:58Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14846,
+   "followers": 14850,
    "public_repos": 19,
-   "total_stars": 57254,
+   "total_stars": 57296,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 30815,
+     "stars": 30825,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6900,
+     "stars": 6899,
      "lang": "JavaScript",
      "pushed_at": "2026-10-17T06:38:31Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5692,
+     "stars": 5694,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -73,7 +73,7 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1805,
+     "stars": 1806,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
@@ -137,8 +137,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 4,
-   "delta_followers": 0
+   "delta_stars": 42,
+   "delta_followers": 4
   },
   {
    "login": "simonw",
@@ -156,16 +156,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17317,
+   "followers": 17319,
    "public_repos": 993,
-   "total_stars": 40717,
+   "total_stars": 40719,
    "repo_count": 94,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12633,
+     "stars": 12635,
      "lang": "Python",
      "pushed_at": "2026-10-15T00:38:55Z"
     },
@@ -199,7 +199,7 @@
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
      "stars": 1910,
      "lang": "HTML",
-     "pushed_at": "2026-10-15T20:57:25Z"
+     "pushed_at": "2026-10-18T03:13:56Z"
     },
     {
      "name": "til",
@@ -211,6 +211,28 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/web-edit",
+     "at": "2026-10-17T13:15:52Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/tools",
+     "at": "2026-10-18T03:12:58Z",
+     "detail": "merged · "
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/tools",
+     "at": "2026-10-18T03:11:19Z",
+     "detail": "opened · "
+    },
     {
      "type": "ReleaseEvent",
      "label": "发布版本",
@@ -278,35 +300,11 @@
      "repo": "simonw/tools",
      "at": "2026-10-15T20:57:26Z",
      "detail": "branch sqlite-sparql-playground"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-10-15T17:51:59Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-10-16T02:06:47Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/research",
-     "at": "2026-10-15T17:29:56Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 3,
-   "delta_followers": 4
+   "delta_stars": 2,
+   "delta_followers": 2
   },
   {
    "login": "karpathy",
@@ -324,16 +322,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 226518,
+   "followers": 226543,
    "public_repos": 63,
-   "total_stars": 497671,
+   "total_stars": 497691,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 98064,
+     "stars": 98067,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -341,7 +339,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63889,
+     "stars": 63891,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -349,7 +347,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58720,
+     "stars": 58724,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -373,15 +371,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25518,
+     "stars": 25521,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 12,
-   "delta_followers": 13
+   "delta_stars": 20,
+   "delta_followers": 25
   },
   {
    "login": "mckaywrigley",
@@ -401,14 +399,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7300,
    "public_repos": 66,
-   "total_stars": 50101,
+   "total_stars": 50100,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33330,
+     "stars": 33329,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -505,7 +503,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": -1,
    "delta_followers": 0
   },
   {
@@ -524,9 +522,9 @@
    "name": "Travis Fischer",
    "avatar": "https://avatars.githubusercontent.com/u/552829?v=4",
    "bio": "My heart is open source 💕",
-   "followers": 4598,
+   "followers": 4600,
    "public_repos": 370,
-   "total_stars": 35632,
+   "total_stars": 35639,
    "repo_count": 67,
    "top_repos": [
     {
@@ -579,6 +577,29 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-10-17T10:21:31Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-10-17T10:15:21Z",
+     "detail": "branch claude/verify-skill"
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "transitive-bullshit/cultural-alignment",
+     "at": "2026-10-17T10:44:31Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PublicEvent",
      "label": "仓库转公开",
@@ -641,32 +662,11 @@
      "repo": "transitive-bullshit/cultural-alignment",
      "at": "2026-10-17T10:40:45Z",
      "detail": ""
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-17T10:40:47Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-17T10:32:10Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestReviewCommentEvent",
-     "label": "PullRequestReviewCommentEvent",
-     "repo": "transitive-bullshit/cultural-alignment",
-     "at": "2026-10-17T10:32:07Z",
-     "detail": ""
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": 0
+   "delta_stars": 7,
+   "delta_followers": 2
   },
   {
    "login": "steven-tey",
@@ -740,6 +740,28 @@
    ],
    "feed": [
     {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-16T13:39:15Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-16T13:39:13Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-16T23:20:01Z",
+     "detail": ""
+    },
+    {
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
@@ -806,39 +828,16 @@
      "repo": "dubinc/dub",
      "at": "2026-10-15T18:25:38Z",
      "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-10-15T18:24:23Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/docs",
-     "at": "2026-10-15T23:03:13Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-10-16T23:55:55Z",
-     "detail": "merged · "
     }
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": -1
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 705998,
+  "stars": 706068,
   "events": 50
  }
 }
