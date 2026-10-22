@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-21T21:41:50.256918+00:00",
- "generated_at_cst": "2026-10-22 05:41 CST",
- "latest_activity_at": "2026-10-21T20:34:56Z",
+ "generated_at": "2026-10-22T04:43:11.057918+00:00",
+ "generated_at_cst": "2026-10-22 12:43 CST",
+ "latest_activity_at": "2026-10-21T23:11:15Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14901,
+   "followers": 14908,
    "public_repos": 19,
-   "total_stars": 57649,
+   "total_stars": 57671,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 31039,
+     "stars": 31053,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6917,
+     "stars": 6918,
      "lang": "JavaScript",
      "pushed_at": "2026-10-21T06:43:02Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4834,
+     "stars": 4836,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2727,
+     "stars": 2728,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -73,7 +73,7 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1807,
+     "stars": 1808,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
@@ -113,8 +113,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 8,
-   "delta_followers": 0
+   "delta_stars": 22,
+   "delta_followers": 7
   },
   {
    "login": "simonw",
@@ -132,16 +132,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17398,
+   "followers": 17405,
    "public_repos": 995,
-   "total_stars": 40685,
+   "total_stars": 40691,
    "repo_count": 94,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12648,
+     "stars": 12650,
      "lang": "Python",
      "pushed_at": "2026-10-21T14:29:00Z"
     },
@@ -157,7 +157,7 @@
      "name": "shot-scraper",
      "url": "https://github.com/simonw/shot-scraper",
      "desc": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
-     "stars": 2596,
+     "stars": 2597,
      "lang": "Python",
      "pushed_at": "2026-10-14T03:21:49Z"
     },
@@ -279,7 +279,7 @@
    ],
    "ok": true,
    "delta_stars": 6,
-   "delta_followers": 6
+   "delta_followers": 7
   },
   {
    "login": "karpathy",
@@ -297,16 +297,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 227199,
+   "followers": 227232,
    "public_repos": 63,
-   "total_stars": 498634,
+   "total_stars": 498688,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 98312,
+     "stars": 98335,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -314,7 +314,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 63980,
+     "stars": 63989,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -322,7 +322,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58832,
+     "stars": 58834,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -338,7 +338,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31198,
+     "stars": 31202,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -346,14 +346,14 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25724,
+     "stars": 25733,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 29,
+   "delta_stars": 54,
    "delta_followers": 33
   },
   {
@@ -372,16 +372,16 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7295,
+   "followers": 7297,
    "public_repos": 66,
-   "total_stars": 50095,
+   "total_stars": 50092,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33326,
+     "stars": 33324,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -389,7 +389,7 @@
      "name": "ai-code-translator",
      "url": "https://github.com/mckaywrigley/ai-code-translator",
      "desc": "Use AI to translate code from one language to another.",
-     "stars": 4166,
+     "stars": 4165,
      "lang": "TypeScript",
      "pushed_at": "2023-12-21T00:19:08Z"
     },
@@ -461,18 +461,11 @@
      "repo": "TakeoffAI/agentshare-updates",
      "at": "2026-09-23T02:57:33Z",
      "detail": "v0.1.37"
-    },
-    {
-     "type": "ReleaseEvent",
-     "label": "发布版本",
-     "repo": "TakeoffAI/agentshare-updates",
-     "at": "2026-09-21T17:30:35Z",
-     "detail": "v0.1.36"
     }
    ],
    "ok": true,
-   "delta_stars": -2,
-   "delta_followers": 1
+   "delta_stars": -3,
+   "delta_followers": 2
   },
   {
    "login": "transitive-bullshit",
@@ -499,7 +492,7 @@
      "name": "agentic",
      "url": "https://github.com/transitive-bullshit/agentic",
      "desc": "Your API ⇒ Paid MCP. Instantly.",
-     "stars": 18088,
+     "stars": 18086,
      "lang": "TypeScript",
      "pushed_at": "2026-02-11T04:50:03Z"
     },
@@ -523,7 +516,7 @@
      "name": "awesome-ffmpeg",
      "url": "https://github.com/transitive-bullshit/awesome-ffmpeg",
      "desc": "👻 A curated list of awesome FFmpeg resources.",
-     "stars": 1195,
+     "stars": 1196,
      "lang": null,
      "pushed_at": "2026-09-18T02:53:31Z"
     },
@@ -634,7 +627,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -112,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -709,6 +702,36 @@
    ],
    "feed": [
     {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-21T03:09:43Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-21T01:53:42Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-21T02:56:50Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-21T23:11:15Z",
+     "detail": ""
+    },
+    {
      "type": "PullRequestEvent",
      "label": "处理 PR",
      "repo": "dubinc/dub",
@@ -765,46 +788,16 @@
      "repo": "dubinc/dub",
      "at": "2026-10-21T01:08:33Z",
      "detail": "merged · "
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-10-21T01:02:32Z",
-     "detail": ""
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-10-21T00:14:53Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-10-21T00:14:31Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-10-19T22:40:36Z",
-     "detail": ""
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 707207,
-  "events": 46
+  "stars": 707286,
+  "events": 45
  }
 }
