@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-24T15:56:11.207092+00:00",
- "generated_at_cst": "2026-10-24 23:56 CST",
- "latest_activity_at": "2026-10-24T14:21:25Z",
+ "generated_at": "2026-10-24T20:48:09.519412+00:00",
+ "generated_at_cst": "2026-10-25 04:48 CST",
+ "latest_activity_at": "2026-10-24T18:13:33Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14954,
+   "followers": 14956,
    "public_repos": 19,
-   "total_stars": 57907,
+   "total_stars": 57928,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 31196,
+     "stars": 31213,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6937,
+     "stars": 6940,
      "lang": "JavaScript",
      "pushed_at": "2026-10-24T06:39:43Z"
     },
@@ -89,7 +89,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 32,
+   "delta_stars": 21,
    "delta_followers": 2
   },
   {
@@ -108,9 +108,9 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17452,
+   "followers": 17455,
    "public_repos": 995,
-   "total_stars": 40694,
+   "total_stars": 40696,
    "repo_count": 94,
    "top_repos": [
     {
@@ -125,7 +125,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11521,
+     "stars": 11522,
      "lang": "Python",
      "pushed_at": "2026-10-23T13:04:41Z"
     },
@@ -163,6 +163,29 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/battledrones",
+     "at": "2026-10-24T18:13:33Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/battledrones",
+     "at": "2026-10-24T14:47:47Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/python-lib",
+     "at": "2026-10-23T15:03:50Z",
+     "detail": "branch fix-readme-test-extra"
+    },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
@@ -232,33 +255,11 @@
      "at": "2026-10-24T00:28:59Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/battledrones",
-     "at": "2026-10-23T22:39:53Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "ReleaseEvent",
-     "label": "发布版本",
-     "repo": "simonw/battledrones",
-     "at": "2026-10-24T03:59:57Z",
-     "detail": "v14"
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "simonw/battledrones",
-     "at": "2026-10-24T03:57:44Z",
-     "detail": "merged · "
     }
    ],
    "ok": true,
-   "delta_stars": 5,
-   "delta_followers": 4
+   "delta_stars": 2,
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -276,16 +277,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 227633,
+   "followers": 227668,
    "public_repos": 63,
-   "total_stars": 499229,
+   "total_stars": 499267,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 98511,
+     "stars": 98520,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -293,7 +294,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64051,
+     "stars": 64056,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -301,7 +302,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58891,
+     "stars": 58899,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -317,7 +318,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31209,
+     "stars": 31211,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -325,7 +326,7 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25864,
+     "stars": 25873,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
@@ -333,7 +334,7 @@
    "feed": [],
    "ok": true,
    "delta_stars": 38,
-   "delta_followers": 32
+   "delta_followers": 35
   },
   {
    "login": "mckaywrigley",
@@ -353,14 +354,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7296,
    "public_repos": 66,
-   "total_stars": 50075,
+   "total_stars": 50076,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33323,
+     "stars": 33324,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -429,7 +430,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 1,
    "delta_followers": 0
   },
   {
@@ -448,9 +449,9 @@
    "name": "Travis Fischer",
    "avatar": "https://avatars.githubusercontent.com/u/552829?v=4",
    "bio": "My heart is open source 💕",
-   "followers": 4603,
+   "followers": 4604,
    "public_repos": 373,
-   "total_stars": 35554,
+   "total_stars": 35556,
    "repo_count": 69,
    "top_repos": [
     {
@@ -600,8 +601,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": -1
+   "delta_stars": 2,
+   "delta_followers": 1
   },
   {
    "login": "steven-tey",
@@ -675,6 +676,29 @@
    ],
    "feed": [
     {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-24T11:23:47Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-24T12:24:17Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-24T11:23:46Z",
+     "detail": "",
+     "count": 0
+    },
+    {
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "dubinc/dub",
@@ -741,27 +765,6 @@
      "repo": "dubinc/dub",
      "at": "2026-10-24T02:14:35Z",
      "detail": "merged · "
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-10-24T01:42:44Z",
-     "detail": "merged · "
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-10-24T00:35:10Z",
-     "detail": "opened · "
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-10-24T00:31:33Z",
-     "detail": "opened · "
     }
    ],
    "ok": true,
@@ -771,7 +774,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 708091,
+  "stars": 708155,
   "events": 40
  }
 }
