@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-24T20:48:09.519412+00:00",
- "generated_at_cst": "2026-10-25 04:48 CST",
+ "generated_at": "2026-10-24T23:13:07.782486+00:00",
+ "generated_at_cst": "2026-10-25 07:13 CST",
  "latest_activity_at": "2026-10-24T18:13:33Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -26,14 +26,14 @@
    "bio": "AI tinkerer",
    "followers": 14956,
    "public_repos": 19,
-   "total_stars": 57928,
+   "total_stars": 57932,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 31213,
+     "stars": 31216,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5725,
+     "stars": 5726,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -89,8 +89,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 21,
-   "delta_followers": 2
+   "delta_stars": 4,
+   "delta_followers": 0
   },
   {
    "login": "simonw",
@@ -110,14 +110,14 @@
    "bio": "",
    "followers": 17455,
    "public_repos": 995,
-   "total_stars": 40696,
+   "total_stars": 40697,
    "repo_count": 94,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12662,
+     "stars": 12663,
      "lang": "Python",
      "pushed_at": "2026-10-21T14:29:00Z"
     },
@@ -258,8 +258,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
-   "delta_followers": 3
+   "delta_stars": 1,
+   "delta_followers": 0
   },
   {
    "login": "karpathy",
@@ -277,16 +277,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 227668,
+   "followers": 227688,
    "public_repos": 63,
-   "total_stars": 499267,
+   "total_stars": 499286,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 98520,
+     "stars": 98525,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -294,7 +294,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64056,
+     "stars": 64057,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -302,7 +302,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58899,
+     "stars": 58902,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -326,15 +326,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25873,
+     "stars": 25879,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 38,
-   "delta_followers": 35
+   "delta_stars": 19,
+   "delta_followers": 20
   },
   {
    "login": "mckaywrigley",
@@ -352,16 +352,16 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7296,
+   "followers": 7295,
    "public_repos": 66,
-   "total_stars": 50076,
+   "total_stars": 50077,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33324,
+     "stars": 33325,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -431,7 +431,7 @@
    ],
    "ok": true,
    "delta_stars": 1,
-   "delta_followers": 0
+   "delta_followers": -1
   },
   {
    "login": "transitive-bullshit",
@@ -601,8 +601,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 2,
-   "delta_followers": 1
+   "delta_stars": 0,
+   "delta_followers": 0
   },
   {
    "login": "steven-tey",
@@ -622,7 +622,7 @@
    "bio": "building @dubinc | prev: @vercel",
    "followers": 6160,
    "public_repos": 108,
-   "total_stars": 24632,
+   "total_stars": 24633,
    "repo_count": 35,
    "top_repos": [
     {
@@ -637,7 +637,7 @@
      "name": "precedent",
      "url": "https://github.com/steven-tey/precedent",
      "desc": "An opinionated collection of components, hooks, and utilities for your Next.js project.",
-     "stars": 5114,
+     "stars": 5115,
      "lang": "TypeScript",
      "pushed_at": "2024-10-02T20:28:59Z"
     },
@@ -675,6 +675,22 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-24T13:45:17Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/dub",
+     "at": "2026-10-24T12:40:30Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
@@ -751,30 +767,16 @@
      "at": "2026-10-24T02:14:36Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/dub",
-     "at": "2026-10-24T02:14:38Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "dubinc/dub",
-     "at": "2026-10-24T02:14:35Z",
-     "detail": "merged · "
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": 1,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 708155,
+  "stars": 708181,
   "events": 40
  }
 }
