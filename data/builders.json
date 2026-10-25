@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-25T20:49:47.637883+00:00",
- "generated_at_cst": "2026-10-26 04:49 CST",
+ "generated_at": "2026-10-25T23:15:55.664713+00:00",
+ "generated_at_cst": "2026-10-26 07:15 CST",
  "latest_activity_at": "2026-10-25T15:21:26Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -24,9 +24,9 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14971,
+   "followers": 14972,
    "public_repos": 19,
-   "total_stars": 58035,
+   "total_stars": 58037,
    "repo_count": 18,
    "top_repos": [
     {
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6963,
+     "stars": 6966,
      "lang": "JavaScript",
      "pushed_at": "2026-10-25T06:39:25Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5731,
+     "stars": 5730,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -80,8 +80,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 16,
-   "delta_followers": 3
+   "delta_stars": 2,
+   "delta_followers": 1
   },
   {
    "login": "simonw",
@@ -99,9 +99,9 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17471,
+   "followers": 17474,
    "public_repos": 996,
-   "total_stars": 40689,
+   "total_stars": 40690,
    "repo_count": 94,
    "top_repos": [
     {
@@ -248,7 +248,7 @@
    ],
    "ok": true,
    "delta_stars": 1,
-   "delta_followers": 7
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -266,16 +266,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 227820,
+   "followers": 227829,
    "public_repos": 63,
-   "total_stars": 499476,
+   "total_stars": 499491,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 98563,
+     "stars": 98565,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -283,7 +283,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64076,
+     "stars": 64078,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -291,7 +291,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58921,
+     "stars": 58924,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -299,7 +299,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37477,
+     "stars": 37476,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -315,15 +315,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25925,
+     "stars": 25931,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 23,
-   "delta_followers": 27
+   "delta_stars": 15,
+   "delta_followers": 9
   },
   {
    "login": "mckaywrigley",
@@ -576,8 +576,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
-   "delta_followers": -1
+   "delta_stars": 0,
+   "delta_followers": 0
   },
   {
    "login": "steven-tey",
@@ -745,7 +745,7 @@
  ],
  "totals": {
   "builders": 6,
-  "stars": 708471,
+  "stars": 708489,
   "events": 37
  }
 }
