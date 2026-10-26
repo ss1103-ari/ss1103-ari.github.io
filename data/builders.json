@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T04:45:32.261778+00:00",
- "generated_at_cst": "2026-10-26 12:45 CST",
+ "generated_at": "2026-10-26T13:00:39.664653+00:00",
+ "generated_at_cst": "2026-10-26 21:00 CST",
  "latest_activity_at": "2026-10-26T01:48:26Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 14978,
+   "followers": 14988,
    "public_repos": 19,
-   "total_stars": 58068,
+   "total_stars": 58127,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 31300,
+     "stars": 31336,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,15 +41,15 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 6968,
+     "stars": 6974,
      "lang": "JavaScript",
-     "pushed_at": "2026-10-25T06:39:25Z"
+     "pushed_at": "2026-10-26T06:55:28Z"
     },
     {
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5730,
+     "stars": 5732,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4860,
+     "stars": 4867,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2747,
+     "stars": 2750,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -80,8 +80,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 31,
-   "delta_followers": 6
+   "delta_stars": 59,
+   "delta_followers": 10
   },
   {
    "login": "simonw",
@@ -99,16 +99,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17478,
+   "followers": 17481,
    "public_repos": 996,
-   "total_stars": 40695,
+   "total_stars": 40701,
    "repo_count": 94,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12671,
+     "stars": 12672,
      "lang": "Python",
      "pushed_at": "2026-10-21T14:29:00Z"
     },
@@ -116,7 +116,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11523,
+     "stars": 11524,
      "lang": "Python",
      "pushed_at": "2026-10-23T13:04:41Z"
     },
@@ -140,7 +140,7 @@
      "name": "tools",
      "url": "https://github.com/simonw/tools",
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
-     "stars": 1918,
+     "stars": 1919,
      "lang": "HTML",
      "pushed_at": "2026-10-25T15:11:15Z"
     },
@@ -246,8 +246,8 @@
     }
    ],
    "ok": true,
-   "delta_stars": 5,
-   "delta_followers": 4
+   "delta_stars": 6,
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -265,16 +265,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 227856,
+   "followers": 227931,
    "public_repos": 63,
-   "total_stars": 499527,
+   "total_stars": 499613,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 98583,
+     "stars": 98602,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -282,7 +282,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64078,
+     "stars": 64084,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -290,7 +290,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 58929,
+     "stars": 58942,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -306,7 +306,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31217,
+     "stars": 31220,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -314,15 +314,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 25932,
+     "stars": 25945,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 36,
-   "delta_followers": 27
+   "delta_stars": 86,
+   "delta_followers": 75
   },
   {
    "login": "mckaywrigley",
@@ -342,14 +342,14 @@
    "bio": "Founder, Takeoff AI. I build AI tools.",
    "followers": 7295,
    "public_repos": 66,
-   "total_stars": 50072,
+   "total_stars": 50075,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33322,
+     "stars": 33323,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -357,7 +357,7 @@
      "name": "ai-code-translator",
      "url": "https://github.com/mckaywrigley/ai-code-translator",
      "desc": "Use AI to translate code from one language to another.",
-     "stars": 4164,
+     "stars": 4165,
      "lang": "TypeScript",
      "pushed_at": "2023-12-21T00:19:08Z"
     },
@@ -404,7 +404,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -4,
+   "delta_stars": 3,
    "delta_followers": 0
   },
   {
@@ -425,14 +425,14 @@
    "bio": "My heart is open source 💕",
    "followers": 4604,
    "public_repos": 373,
-   "total_stars": 35560,
+   "total_stars": 35566,
    "repo_count": 69,
    "top_repos": [
     {
      "name": "agentic",
      "url": "https://github.com/transitive-bullshit/agentic",
      "desc": "Your API ⇒ Paid MCP. Instantly.",
-     "stars": 18085,
+     "stars": 18086,
      "lang": "TypeScript",
      "pushed_at": "2026-02-11T04:50:03Z"
     },
@@ -440,7 +440,7 @@
      "name": "nextjs-notion-starter-kit",
      "url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit",
      "desc": "Deploy your own Notion-powered website in minutes with Next.js and Vercel.",
-     "stars": 7032,
+     "stars": 7033,
      "lang": "TypeScript",
      "pushed_at": "2026-10-18T14:50:56Z"
     },
@@ -448,7 +448,7 @@
      "name": "awesome-puppeteer",
      "url": "https://github.com/transitive-bullshit/awesome-puppeteer",
      "desc": "A curated list of awesome puppeteer resources.",
-     "stars": 2582,
+     "stars": 2583,
      "lang": null,
      "pushed_at": "2024-07-19T07:36:39Z"
     },
@@ -456,7 +456,7 @@
      "name": "awesome-ffmpeg",
      "url": "https://github.com/transitive-bullshit/awesome-ffmpeg",
      "desc": "👻 A curated list of awesome FFmpeg resources.",
-     "stars": 1198,
+     "stars": 1200,
      "lang": null,
      "pushed_at": "2026-09-18T02:53:31Z"
     },
@@ -575,7 +575,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 6,
    "delta_followers": 0
   },
   {
@@ -594,16 +594,16 @@
    "name": "Steven Tey",
    "avatar": "https://avatars.githubusercontent.com/u/28986134?v=4",
    "bio": "building @dubinc | prev: @vercel",
-   "followers": 6161,
+   "followers": 6163,
    "public_repos": 108,
-   "total_stars": 24635,
+   "total_stars": 24638,
    "repo_count": 35,
    "top_repos": [
     {
      "name": "novel",
      "url": "https://github.com/steven-tey/novel",
      "desc": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-     "stars": 16457,
+     "stars": 16459,
      "lang": "TypeScript",
      "pushed_at": "2025-01-18T14:26:33Z"
     },
@@ -611,7 +611,7 @@
      "name": "precedent",
      "url": "https://github.com/steven-tey/precedent",
      "desc": "An opinionated collection of components, hooks, and utilities for your Next.js project.",
-     "stars": 5117,
+     "stars": 5118,
      "lang": "TypeScript",
      "pushed_at": "2024-10-02T20:28:59Z"
     },
@@ -649,6 +649,13 @@
     }
    ],
    "feed": [
+    {
+     "type": "DeleteEvent",
+     "label": "DeleteEvent",
+     "repo": "dubinc/dub",
+     "at": "2026-10-25T10:59:21Z",
+     "detail": ""
+    },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
@@ -727,24 +734,16 @@
      "repo": "dubinc/dub",
      "at": "2026-10-24T14:26:16Z",
      "detail": "closed · "
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "dubinc/dub",
-     "at": "2026-10-24T13:45:17Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": -1,
-   "delta_followers": 0
+   "delta_stars": 3,
+   "delta_followers": 2
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 708557,
+  "stars": 708720,
   "events": 37
  }
 }
