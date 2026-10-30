@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-30T17:59:40.011702+00:00",
- "generated_at_cst": "2026-10-31 01:59 CST",
- "latest_activity_at": "2026-10-29T19:23:48Z",
+ "generated_at": "2026-10-30T22:18:18.375424+00:00",
+ "generated_at_cst": "2026-10-31 06:18 CST",
+ "latest_activity_at": "2026-10-30T18:31:15Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 15058,
+   "followers": 15061,
    "public_repos": 19,
-   "total_stars": 58550,
+   "total_stars": 58557,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 31605,
+     "stars": 31612,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -80,7 +80,7 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 27,
+   "delta_stars": 7,
    "delta_followers": 3
   },
   {
@@ -99,9 +99,9 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17535,
+   "followers": 17537,
    "public_repos": 996,
-   "total_stars": 40751,
+   "total_stars": 40753,
    "repo_count": 94,
    "top_repos": [
     {
@@ -110,7 +110,7 @@
      "desc": "Access large language models from the command-line",
      "stars": 12684,
      "lang": "Python",
-     "pushed_at": "2026-10-21T14:29:00Z"
+     "pushed_at": "2026-10-30T18:31:54Z"
     },
     {
      "name": "datasette",
@@ -124,7 +124,7 @@
      "name": "shot-scraper",
      "url": "https://github.com/simonw/shot-scraper",
      "desc": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
-     "stars": 2598,
+     "stars": 2599,
      "lang": "Python",
      "pushed_at": "2026-10-14T03:21:49Z"
     },
@@ -154,6 +154,13 @@
     }
    ],
    "feed": [
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/llm",
+     "at": "2026-10-30T18:31:15Z",
+     "detail": "opened · "
+    },
     {
      "type": "IssuesEvent",
      "label": "处理 issue",
@@ -236,18 +243,11 @@
      "at": "2026-10-25T15:21:26Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "simonw/battledrones",
-     "at": "2026-10-24T03:56:20Z",
-     "detail": "branch v14-release-shots"
     }
    ],
    "ok": true,
-   "delta_stars": 6,
-   "delta_followers": 6
+   "delta_stars": 2,
+   "delta_followers": 2
   },
   {
    "login": "karpathy",
@@ -265,16 +265,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 228866,
+   "followers": 228898,
    "public_repos": 63,
-   "total_stars": 500959,
+   "total_stars": 501022,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 98894,
+     "stars": 98901,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -282,7 +282,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64242,
+     "stars": 64251,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -290,7 +290,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 59119,
+     "stars": 59126,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -298,7 +298,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37468,
+     "stars": 37469,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -306,7 +306,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31299,
+     "stars": 31306,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -314,15 +314,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 26088,
+     "stars": 26092,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 153,
-   "delta_followers": 89
+   "delta_stars": 63,
+   "delta_followers": 32
   },
   {
    "login": "mckaywrigley",
@@ -340,7 +340,7 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7294,
+   "followers": 7293,
    "public_repos": 66,
    "total_stars": 50085,
    "repo_count": 63,
@@ -349,7 +349,7 @@
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33325,
+     "stars": 33326,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -396,7 +396,7 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": -1
   },
   {
@@ -415,16 +415,16 @@
    "name": "Travis Fischer",
    "avatar": "https://avatars.githubusercontent.com/u/552829?v=4",
    "bio": "My heart is open source 💕",
-   "followers": 4607,
+   "followers": 4608,
    "public_repos": 373,
-   "total_stars": 35584,
+   "total_stars": 35587,
    "repo_count": 69,
    "top_repos": [
     {
      "name": "agentic",
      "url": "https://github.com/transitive-bullshit/agentic",
      "desc": "Your API ⇒ Paid MCP. Instantly.",
-     "stars": 18085,
+     "stars": 18086,
      "lang": "TypeScript",
      "pushed_at": "2026-02-11T04:50:03Z"
     },
@@ -456,7 +456,7 @@
      "name": "ffmpeg-concat",
      "url": "https://github.com/transitive-bullshit/ffmpeg-concat",
      "desc": "Concats a list of videos together using ffmpeg with sexy OpenGL transitions.",
-     "stars": 990,
+     "stars": 991,
      "lang": "JavaScript",
      "pushed_at": "2026-01-24T03:05:04Z"
     },
@@ -568,7 +568,7 @@
    ],
    "ok": true,
    "delta_stars": 3,
-   "delta_followers": 0
+   "delta_followers": 1
   },
   {
    "login": "steven-tey",
@@ -588,14 +588,14 @@
    "bio": "building @dubinc | prev: @vercel",
    "followers": 6164,
    "public_repos": 108,
-   "total_stars": 24640,
+   "total_stars": 24641,
    "repo_count": 35,
    "top_repos": [
     {
      "name": "novel",
      "url": "https://github.com/steven-tey/novel",
      "desc": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-     "stars": 16461,
+     "stars": 16462,
      "lang": "TypeScript",
      "pushed_at": "2025-01-18T14:26:33Z"
     },
@@ -731,13 +731,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": 1,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 710569,
+  "stars": 710645,
   "events": 36
  }
 }
