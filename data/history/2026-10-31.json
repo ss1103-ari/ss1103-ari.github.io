@@ -1,20 +1,20 @@
 {
  "date": "2026-10-31",
- "at": "2026-10-31T05:38:56.255990+00:00",
+ "at": "2026-10-31T12:26:37.371515+00:00",
  "stars": {
-  "zarazhangrui": 58567,
-  "simonw": 40755,
-  "karpathy": 501101,
-  "mckaywrigley": 50085,
-  "transitive-bullshit": 35588,
+  "zarazhangrui": 58588,
+  "simonw": 40757,
+  "karpathy": 501161,
+  "mckaywrigley": 50083,
+  "transitive-bullshit": 35586,
   "steven-tey": 24641
  },
  "followers": {
-  "zarazhangrui": 15067,
-  "simonw": 17540,
-  "karpathy": 228931,
+  "zarazhangrui": 15076,
+  "simonw": 17545,
+  "karpathy": 228972,
   "mckaywrigley": 7293,
   "transitive-bullshit": 4608,
-  "steven-tey": 6164
+  "steven-tey": 6165
  }
 }
