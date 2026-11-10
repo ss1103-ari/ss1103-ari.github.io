@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-09T19:48:21.878561+00:00",
- "generated_at_cst": "2026-11-10 03:48 CST",
- "latest_activity_at": "2026-11-09T05:43:23Z",
+ "generated_at": "2026-11-10T03:33:22.429409+00:00",
+ "generated_at_cst": "2026-11-10 11:33 CST",
+ "latest_activity_at": "2026-11-09T23:58:46Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 15209,
+   "followers": 15215,
    "public_repos": 19,
-   "total_stars": 59408,
+   "total_stars": 59426,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 32130,
+     "stars": 32139,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 7103,
+     "stars": 7105,
      "lang": "JavaScript",
      "pushed_at": "2026-11-09T06:36:43Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5789,
+     "stars": 5790,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4960,
+     "stars": 4961,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2809,
+     "stars": 2810,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -73,15 +73,15 @@
      "name": "tab-out",
      "url": "https://github.com/zarazhangrui/tab-out",
      "desc": "Keep tabs on your tabs. Turn your \"New tabs\" page into a mission control, so you can close them easily. Built for people who open too many tabs and never close them.",
-     "stars": 1815,
+     "stars": 1816,
      "lang": "JavaScript",
      "pushed_at": "2026-04-14T22:27:23Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 49,
-   "delta_followers": 14
+   "delta_stars": 18,
+   "delta_followers": 6
   },
   {
    "login": "simonw",
@@ -99,16 +99,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17833,
-   "public_repos": 997,
-   "total_stars": 40865,
+   "followers": 17838,
+   "public_repos": 998,
+   "total_stars": 40874,
    "repo_count": 94,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12734,
+     "stars": 12737,
      "lang": "Python",
      "pushed_at": "2026-11-06T05:27:38Z"
     },
@@ -116,7 +116,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11552,
+     "stars": 11554,
      "lang": "Python",
      "pushed_at": "2026-11-09T05:43:23Z"
     },
@@ -142,7 +142,7 @@
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
      "stars": 1928,
      "lang": "HTML",
-     "pushed_at": "2026-11-08T05:31:49Z"
+     "pushed_at": "2026-11-10T00:31:55Z"
     },
     {
      "name": "til",
@@ -154,6 +154,68 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/datasette",
+     "at": "2026-11-08T23:54:09Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/datasette",
+     "at": "2026-11-08T23:29:54Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PublicEvent",
+     "label": "仓库转公开",
+     "repo": "simonw/beep-locator",
+     "at": "2026-11-09T18:56:04Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/datasette",
+     "at": "2026-11-08T22:14:38Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "ReleaseEvent",
+     "label": "发布版本",
+     "repo": "simonw/llm-anthropic",
+     "at": "2026-11-09T23:58:46Z",
+     "detail": "0.31"
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/datasette",
+     "at": "2026-11-08T21:31:23Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/sqlite-dateutil",
+     "at": "2026-11-08T06:21:33Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/datasette",
+     "at": "2026-11-08T06:54:27Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "PushEvent",
      "label": "推送提交",
@@ -185,75 +247,11 @@
      "at": "2026-11-09T05:13:58Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-07T19:53:58Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-08T22:04:20Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-07T20:37:11Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-08T23:07:35Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-08T21:55:55Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-08T21:18:38Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-09T02:13:37Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-08T19:33:23Z",
-     "detail": "",
-     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": 14,
-   "delta_followers": 8
+   "delta_stars": 9,
+   "delta_followers": 5
   },
   {
    "login": "karpathy",
@@ -271,16 +269,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 231176,
+   "followers": 231236,
    "public_repos": 63,
-   "total_stars": 504917,
+   "total_stars": 504968,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 99680,
+     "stars": 99699,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -288,7 +286,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64577,
+     "stars": 64583,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -296,7 +294,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 60398,
+     "stars": 60407,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -312,7 +310,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31415,
+     "stars": 31416,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -320,15 +318,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 26368,
+     "stars": 26371,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 154,
-   "delta_followers": 114
+   "delta_stars": 51,
+   "delta_followers": 60
   },
   {
    "login": "mckaywrigley",
@@ -402,7 +400,7 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": -3,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -567,7 +565,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -588,14 +586,14 @@
    "bio": "building @dubinc | prev: @vercel",
    "followers": 6171,
    "public_repos": 108,
-   "total_stars": 24642,
+   "total_stars": 24643,
    "repo_count": 35,
    "top_repos": [
     {
      "name": "novel",
      "url": "https://github.com/steven-tey/novel",
      "desc": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-     "stars": 16464,
+     "stars": 16465,
      "lang": "TypeScript",
      "pushed_at": "2025-01-18T14:26:33Z"
     },
@@ -734,13 +732,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": -1
+   "delta_stars": 1,
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 715492,
+  "stars": 715571,
   "events": 36
  }
 }
