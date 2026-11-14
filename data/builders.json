@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-14T15:48:02.219094+00:00",
- "generated_at_cst": "2026-11-14 23:48 CST",
- "latest_activity_at": "2026-11-14T04:38:21Z",
+ "generated_at": "2026-11-14T22:22:41.753768+00:00",
+ "generated_at_cst": "2026-11-15 06:22 CST",
+ "latest_activity_at": "2026-11-14T22:00:54Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 15273,
+   "followers": 15276,
    "public_repos": 19,
-   "total_stars": 59745,
+   "total_stars": 59753,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 32324,
+     "stars": 32329,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5805,
+     "stars": 5806,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4991,
+     "stars": 4993,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -80,8 +80,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 27,
-   "delta_followers": 6
+   "delta_stars": 8,
+   "delta_followers": 3
   },
   {
    "login": "simonw",
@@ -99,16 +99,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17786,
-   "public_repos": 999,
-   "total_stars": 40114,
+   "followers": 17789,
+   "public_repos": 1000,
+   "total_stars": 40113,
    "repo_count": 93,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12756,
+     "stars": 12758,
      "lang": "Python",
      "pushed_at": "2026-11-11T18:13:34Z"
     },
@@ -116,15 +116,15 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11568,
+     "stars": 11569,
      "lang": "Python",
-     "pushed_at": "2026-11-14T04:38:19Z"
+     "pushed_at": "2026-11-14T22:00:51Z"
     },
     {
      "name": "shot-scraper",
      "url": "https://github.com/simonw/shot-scraper",
      "desc": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
-     "stars": 2606,
+     "stars": 2607,
      "lang": "Python",
      "pushed_at": "2026-10-14T03:21:49Z"
     },
@@ -140,7 +140,7 @@
      "name": "tools",
      "url": "https://github.com/simonw/tools",
      "desc": "Assorted useful tools, almost entirely generated using LLMs",
-     "stars": 1934,
+     "stars": 1932,
      "lang": "HTML",
      "pushed_at": "2026-11-11T21:17:18Z"
     },
@@ -155,96 +155,95 @@
    ],
    "feed": [
     {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/sqlite-utils",
-     "at": "2026-11-12T16:44:23Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
      "repo": "simonw/datasette",
-     "at": "2026-11-12T16:32:23Z",
-     "detail": "branch claude/great-pasteur-rvxpiy"
+     "at": "2026-11-14T22:00:51Z",
+     "detail": "labeled · "
     },
     {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "simonw/sqlite-utils",
-     "at": "2026-11-12T16:32:21Z",
-     "detail": "branch claude/great-pasteur-rvxpiy"
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "prime-radiant-inc/external-sandbox-v86",
-     "at": "2026-11-13T20:58:49Z",
-     "detail": "",
-     "count": 0
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-14T22:00:54Z",
+     "detail": "closed · Database download missing content-length header and is sent chunked"
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
      "repo": "simonw/datasette",
-     "at": "2026-11-14T04:38:21Z",
+     "at": "2026-11-14T22:00:50Z",
+     "detail": "merged · "
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-14T22:00:52Z",
+     "detail": "closed · Database download doesn't show progress bar in browsers"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-14T21:54:47Z",
+     "detail": "labeled · Homepage and database page should be visually consistent"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-14T21:54:47Z",
+     "detail": "labeled · Homepage and database page should be visually consistent"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-14T21:54:39Z",
+     "detail": "closed · Homepage and database page should be visually consistent"
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/llm-gemini",
+     "at": "2026-11-12T22:29:03Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-14T21:51:31Z",
+     "detail": "opened · Homepage and database page should be visually consistent"
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/llm-gemini",
+     "at": "2026-11-12T22:23:56Z",
+     "detail": "branch claude/busy-euler-id0j4r"
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/datasette",
+     "at": "2026-11-14T21:38:33Z",
      "detail": "opened · "
     },
     {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "simonw/datasette",
-     "at": "2026-11-14T04:31:01Z",
-     "detail": "merged · "
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "simonw/datasette",
-     "at": "2026-11-14T04:19:15Z",
-     "detail": "merged · "
-    },
-    {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "simonw/datasette-lite",
-     "at": "2026-11-14T02:50:00Z",
+     "repo": "simonw/llm-gemini",
+     "at": "2026-11-12T22:53:44Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "simonw/datasette-lite",
-     "at": "2025-08-16T12:24:45Z",
-     "detail": "closed · "
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette-lite",
-     "at": "2026-11-14T03:14:16Z",
-     "detail": "closed · Character `%2F` is automatically converted to `/` in URL param"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette-lite",
-     "at": "2026-11-14T03:14:14Z",
-     "detail": "closed · developer-experience: gitignores"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette-lite",
-     "at": "2026-11-14T03:14:12Z",
-     "detail": "closed · jupyterlite and emscripten-forge"
     }
    ],
    "ok": true,
-   "delta_stars": 7,
-   "delta_followers": 5
+   "delta_stars": -1,
+   "delta_followers": 3
   },
   {
    "login": "karpathy",
@@ -262,16 +261,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 232283,
+   "followers": 232329,
    "public_repos": 63,
-   "total_stars": 506288,
+   "total_stars": 506348,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 100039,
+     "stars": 100051,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -279,7 +278,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64743,
+     "stars": 64754,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -303,7 +302,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31472,
+     "stars": 31473,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -311,15 +310,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 26506,
+     "stars": 26526,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 80,
-   "delta_followers": 68
+   "delta_stars": 60,
+   "delta_followers": 46
   },
   {
    "login": "mckaywrigley",
@@ -393,7 +392,7 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -412,7 +411,7 @@
    "name": "Travis Fischer",
    "avatar": "https://avatars.githubusercontent.com/u/552829?v=4",
    "bio": "My heart is open source 💕",
-   "followers": 4619,
+   "followers": 4618,
    "public_repos": 373,
    "total_stars": 35600,
    "repo_count": 69,
@@ -559,7 +558,7 @@
    ],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 0
+   "delta_followers": -1
   },
   {
    "login": "steven-tey",
@@ -724,13 +723,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 716453,
+  "stars": 716520,
   "events": 36
  }
 }
