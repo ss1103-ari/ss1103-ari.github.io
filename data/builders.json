@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-15T22:47:42.440319+00:00",
- "generated_at_cst": "2026-11-16 06:47 CST",
- "latest_activity_at": "2026-11-15T22:47:18Z",
+ "generated_at": "2026-11-16T06:26:42.834496+00:00",
+ "generated_at_cst": "2026-11-16 14:26 CST",
+ "latest_activity_at": "2026-11-16T04:49:46Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 15288,
+   "followers": 15294,
    "public_repos": 19,
-   "total_stars": 59796,
+   "total_stars": 59822,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 32359,
+     "stars": 32375,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,7 +41,7 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 7143,
+     "stars": 7146,
      "lang": "JavaScript",
      "pushed_at": "2026-11-15T06:26:57Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5807,
+     "stars": 5810,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4996,
+     "stars": 4998,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2825,
+     "stars": 2826,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -80,8 +80,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 13,
-   "delta_followers": 2
+   "delta_stars": 26,
+   "delta_followers": 6
   },
   {
    "login": "simonw",
@@ -99,16 +99,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17809,
+   "followers": 17815,
    "public_repos": 1000,
-   "total_stars": 40168,
+   "total_stars": 40167,
    "repo_count": 95,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12762,
+     "stars": 12764,
      "lang": "Python",
      "pushed_at": "2026-11-15T02:31:33Z"
     },
@@ -116,9 +116,9 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11575,
+     "stars": 11576,
      "lang": "Python",
-     "pushed_at": "2026-11-15T22:47:15Z"
+     "pushed_at": "2026-11-16T05:26:57Z"
     },
     {
      "name": "shot-scraper",
@@ -155,93 +155,95 @@
    ],
    "feed": [
     {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-llm",
+     "at": "2026-11-14T23:59:04Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
      "repo": "simonw/datasette",
-     "at": "2026-11-15T22:47:18Z",
-     "detail": "closed · Sorted pagination skips or repeats numeric rows without column affinity"
+     "at": "2026-11-16T04:46:53Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/datasette",
+     "at": "2026-11-14T23:02:01Z",
+     "detail": "branch claude/intelligent-brahmagupta-3w188l"
+    },
+    {
+     "type": "CreateEvent",
+     "label": "新建仓库/分支",
+     "repo": "simonw/datasette-vega",
+     "at": "2026-11-13T23:53:19Z",
+     "detail": "branch main"
     },
     {
      "type": "IssuesEvent",
      "label": "处理 issue",
      "repo": "simonw/datasette",
-     "at": "2026-11-15T22:30:03Z",
-     "detail": "labeled · Sorted pagination skips or repeats numeric rows without column affinity"
+     "at": "2026-11-16T04:49:46Z",
+     "detail": "closed · Documentation and unit tests for urls.row() urls.row_blob() methods"
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/datasette",
+     "at": "2026-11-16T04:49:44Z",
+     "detail": "merged · "
     },
     {
      "type": "PullRequestReviewEvent",
      "label": "PullRequestReviewEvent",
      "repo": "simonw/datasette",
-     "at": "2026-11-15T22:28:58Z",
+     "at": "2026-11-16T04:45:32Z",
      "detail": ""
     },
     {
      "type": "PullRequestReviewCommentEvent",
      "label": "PullRequestReviewCommentEvent",
      "repo": "simonw/datasette",
-     "at": "2026-11-15T22:28:56Z",
+     "at": "2026-11-16T04:45:29Z",
      "detail": ""
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
      "repo": "simonw/datasette",
-     "at": "2026-11-15T22:27:03Z",
-     "detail": "labeled · "
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette",
-     "at": "2026-11-15T22:19:38Z",
-     "detail": "labeled · Numeric filters raise OverflowError for integers outside SQLite signed 64-bit range"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette",
-     "at": "2026-11-15T22:19:25Z",
-     "detail": "closed · Numeric filters raise OverflowError for integers outside SQLite signed 64-bit range"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette",
-     "at": "2026-11-15T22:03:57Z",
-     "detail": "closed · Improvements to /db/table/pk.json row page"
+     "at": "2026-11-16T04:45:26Z",
+     "detail": "opened · "
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
      "repo": "simonw/datasette",
-     "at": "2026-11-15T22:03:53Z",
-     "detail": "merged · "
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette",
-     "at": "2026-11-15T22:03:56Z",
-     "detail": "closed · Redesign row default JSON"
-    },
-    {
-     "type": "IssuesEvent",
-     "label": "处理 issue",
-     "repo": "simonw/datasette",
-     "at": "2026-11-15T21:59:42Z",
-     "detail": "closed · Rename settings to `default_allow_facet` and `default_allow_download` and `default_allow_c"
+     "at": "2026-11-16T04:42:35Z",
+     "detail": "opened · "
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
      "repo": "simonw/datasette",
-     "at": "2026-11-15T21:59:39Z",
-     "detail": "merged · "
+     "at": "2026-11-16T04:41:12Z",
+     "detail": "opened · "
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-16T04:38:39Z",
+     "detail": "closed · Drop format_bytes for Jinja filesizeformat filter"
     }
    ],
    "ok": true,
-   "delta_stars": 16,
-   "delta_followers": 9
+   "delta_stars": -1,
+   "delta_followers": 6
   },
   {
    "login": "karpathy",
@@ -259,16 +261,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 232530,
+   "followers": 232558,
    "public_repos": 63,
-   "total_stars": 506617,
+   "total_stars": 506695,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 100089,
+     "stars": 100101,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -276,7 +278,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64794,
+     "stars": 64805,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -284,7 +286,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 60581,
+     "stars": 60588,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -300,7 +302,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31482,
+     "stars": 31487,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -308,15 +310,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 26580,
+     "stars": 26595,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 69,
-   "delta_followers": 71
+   "delta_stars": 78,
+   "delta_followers": 28
   },
   {
    "login": "mckaywrigley",
@@ -334,16 +336,16 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7302,
+   "followers": 7303,
    "public_repos": 66,
-   "total_stars": 50056,
+   "total_stars": 50057,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33305,
+     "stars": 33306,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -390,8 +392,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": -4,
-   "delta_followers": 0
+   "delta_stars": 1,
+   "delta_followers": 1
   },
   {
    "login": "transitive-bullshit",
@@ -555,7 +557,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 3,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -721,13 +723,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 716889,
+  "stars": 716993,
   "events": 36
  }
 }
