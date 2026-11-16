@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-16T06:26:42.834496+00:00",
- "generated_at_cst": "2026-11-16 14:26 CST",
- "latest_activity_at": "2026-11-16T04:49:46Z",
+ "generated_at": "2026-11-16T19:35:28.870290+00:00",
+ "generated_at_cst": "2026-11-17 03:35 CST",
+ "latest_activity_at": "2026-11-16T16:21:28Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 15294,
+   "followers": 15309,
    "public_repos": 19,
-   "total_stars": 59822,
+   "total_stars": 59870,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 32375,
+     "stars": 32408,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -41,9 +41,9 @@
      "name": "follow-builders",
      "url": "https://github.com/zarazhangrui/follow-builders",
      "desc": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-     "stars": 7146,
+     "stars": 7150,
      "lang": "JavaScript",
-     "pushed_at": "2026-11-15T06:26:57Z"
+     "pushed_at": "2026-11-16T06:42:20Z"
     },
     {
      "name": "codebase-to-course",
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 4998,
+     "stars": 5007,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -65,7 +65,7 @@
      "name": "lark-coding-agent-bridge",
      "url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
      "desc": "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces",
-     "stars": 2826,
+     "stars": 2828,
      "lang": "TypeScript",
      "pushed_at": "2026-08-31T12:16:43Z"
     },
@@ -80,8 +80,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 26,
-   "delta_followers": 6
+   "delta_stars": 48,
+   "delta_followers": 15
   },
   {
    "login": "simonw",
@@ -99,24 +99,24 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17815,
+   "followers": 17819,
    "public_repos": 1000,
-   "total_stars": 40167,
+   "total_stars": 40185,
    "repo_count": 95,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12764,
+     "stars": 12767,
      "lang": "Python",
-     "pushed_at": "2026-11-15T02:31:33Z"
+     "pushed_at": "2026-11-16T16:18:00Z"
     },
     {
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11576,
+     "stars": 11586,
      "lang": "Python",
      "pushed_at": "2026-11-16T05:26:57Z"
     },
@@ -132,7 +132,7 @@
      "name": "sqlite-utils",
      "url": "https://github.com/simonw/sqlite-utils",
      "desc": "Python CLI utility and library for manipulating SQLite databases",
-     "stars": 2197,
+     "stars": 2199,
      "lang": "Python",
      "pushed_at": "2026-11-12T16:44:22Z"
     },
@@ -157,93 +157,95 @@
     {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "datasette/datasette-llm",
-     "at": "2026-11-14T23:59:04Z",
+     "repo": "Abelo9996/llm",
+     "at": "2026-11-16T16:08:39Z",
      "detail": "",
      "count": 0
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:46:53Z",
+     "repo": "simonw/llm",
+     "at": "2026-11-16T16:01:50Z",
      "detail": "",
      "count": 0
     },
     {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "simonw/datasette",
-     "at": "2026-11-14T23:02:01Z",
-     "detail": "branch claude/intelligent-brahmagupta-3w188l"
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "simonw/datasette-vega",
-     "at": "2026-11-13T23:53:19Z",
-     "detail": "branch main"
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/llm",
+     "at": "2026-09-02T18:32:14Z",
+     "detail": "closed · "
     },
     {
      "type": "IssuesEvent",
      "label": "处理 issue",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:49:46Z",
-     "detail": "closed · Documentation and unit tests for urls.row() urls.row_blob() methods"
+     "repo": "simonw/llm",
+     "at": "2026-11-16T16:21:28Z",
+     "detail": "closed · _BaseResponse.log_to_db() uses stale loop variable -- multi-tool runs log wrong toolbox me"
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:49:44Z",
-     "detail": "merged · "
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:45:32Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestReviewCommentEvent",
-     "label": "PullRequestReviewCommentEvent",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:45:29Z",
-     "detail": ""
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:45:26Z",
-     "detail": "opened · "
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:42:35Z",
-     "detail": "opened · "
-    },
-    {
-     "type": "PullRequestEvent",
-     "label": "处理 PR",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:41:12Z",
-     "detail": "opened · "
+     "repo": "simonw/llm-gguf",
+     "at": "2026-05-29T08:36:09Z",
+     "detail": "labeled · "
     },
     {
      "type": "IssuesEvent",
      "label": "处理 issue",
-     "repo": "simonw/datasette",
-     "at": "2026-11-16T04:38:39Z",
-     "detail": "closed · Drop format_bytes for Jinja filesizeformat filter"
+     "repo": "simonw/llm",
+     "at": "2026-11-16T16:20:36Z",
+     "detail": "closed · [Issue] --no-stream enters pdb breakpoint"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-11-16T16:19:50Z",
+     "detail": "closed · `llm logs` crashes on legacy tool results with attachments under SQLite 3.54"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/llm",
+     "at": "2026-11-16T16:19:32Z",
+     "detail": "closed · schema_dsl() raises IndexError when a field has no name before the colon"
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/llm",
+     "at": "2026-11-04T09:59:50Z",
+     "detail": "labeled · "
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/llm",
+     "at": "2026-11-16T11:27:49Z",
+     "detail": "labeled · "
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-agent",
+     "at": "2026-11-15T23:28:42Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-agent",
+     "at": "2026-11-15T23:27:41Z",
+     "detail": "",
+     "count": 0
     }
    ],
    "ok": true,
-   "delta_stars": -1,
-   "delta_followers": 6
+   "delta_stars": 18,
+   "delta_followers": 4
   },
   {
    "login": "karpathy",
@@ -261,16 +263,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 232558,
+   "followers": 232622,
    "public_repos": 63,
-   "total_stars": 506695,
+   "total_stars": 506899,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 100101,
+     "stars": 100130,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -278,7 +280,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64805,
+     "stars": 64824,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -286,7 +288,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 60588,
+     "stars": 60602,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -294,7 +296,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37471,
+     "stars": 37473,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -302,7 +304,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31487,
+     "stars": 31490,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -310,15 +312,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 26595,
+     "stars": 26627,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 78,
-   "delta_followers": 28
+   "delta_stars": 204,
+   "delta_followers": 64
   },
   {
    "login": "mckaywrigley",
@@ -336,16 +338,16 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7303,
+   "followers": 7304,
    "public_repos": 66,
-   "total_stars": 50057,
+   "total_stars": 50058,
    "repo_count": 63,
    "top_repos": [
     {
      "name": "chatbot-ui",
      "url": "https://github.com/mckaywrigley/chatbot-ui",
      "desc": "AI chat for any model.",
-     "stars": 33306,
+     "stars": 33307,
      "lang": "TypeScript",
      "pushed_at": "2024-08-03T00:38:07Z"
     },
@@ -413,7 +415,7 @@
    "bio": "My heart is open source 💕",
    "followers": 4618,
    "public_repos": 373,
-   "total_stars": 35606,
+   "total_stars": 35607,
    "repo_count": 69,
    "top_repos": [
     {
@@ -428,7 +430,7 @@
      "name": "nextjs-notion-starter-kit",
      "url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit",
      "desc": "Deploy your own Notion-powered website in minutes with Next.js and Vercel.",
-     "stars": 7042,
+     "stars": 7041,
      "lang": "TypeScript",
      "pushed_at": "2026-10-18T14:50:56Z"
     },
@@ -452,7 +454,7 @@
      "name": "ffmpeg-concat",
      "url": "https://github.com/transitive-bullshit/ffmpeg-concat",
      "desc": "Concats a list of videos together using ffmpeg with sexy OpenGL transitions.",
-     "stars": 992,
+     "stars": 993,
      "lang": "JavaScript",
      "pushed_at": "2026-01-24T03:05:04Z"
     },
@@ -557,7 +559,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
+   "delta_stars": 1,
    "delta_followers": 0
   },
   {
@@ -576,16 +578,16 @@
    "name": "Steven Tey",
    "avatar": "https://avatars.githubusercontent.com/u/28986134?v=4",
    "bio": "building @dubinc | prev: @vercel",
-   "followers": 6176,
+   "followers": 6177,
    "public_repos": 108,
-   "total_stars": 24646,
+   "total_stars": 24650,
    "repo_count": 35,
    "top_repos": [
     {
      "name": "novel",
      "url": "https://github.com/steven-tey/novel",
      "desc": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-     "stars": 16465,
+     "stars": 16468,
      "lang": "TypeScript",
      "pushed_at": "2025-01-18T14:26:33Z"
     },
@@ -609,7 +611,7 @@
      "name": "extrapolate",
      "url": "https://github.com/steven-tey/extrapolate",
      "desc": "Age transformation AI app powered by Next.js, Vercel, Replicate, Upstash, and Cloudflare R2 + Workers.",
-     "stars": 698,
+     "stars": 699,
      "lang": "TypeScript",
      "pushed_at": "2024-12-15T18:24:02Z"
     },
@@ -723,13 +725,13 @@
     }
    ],
    "ok": true,
-   "delta_stars": 0,
-   "delta_followers": 0
+   "delta_stars": 4,
+   "delta_followers": 1
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 716993,
+  "stars": 717269,
   "events": 36
  }
 }
