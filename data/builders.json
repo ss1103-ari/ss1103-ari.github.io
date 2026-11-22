@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-21T19:14:28.408425+00:00",
- "generated_at_cst": "2026-11-22 03:14 CST",
- "latest_activity_at": "2026-11-20T22:07:35Z",
+ "generated_at": "2026-11-22T01:17:10.663155+00:00",
+ "generated_at_cst": "2026-11-22 09:17 CST",
+ "latest_activity_at": "2026-11-22T00:05:00Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 15358,
+   "followers": 15359,
    "public_repos": 19,
-   "total_stars": 60313,
+   "total_stars": 60320,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 32727,
+     "stars": 32733,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 5037,
+     "stars": 5038,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -80,7 +80,7 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 25,
+   "delta_stars": 7,
    "delta_followers": 1
   },
   {
@@ -99,16 +99,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17894,
+   "followers": 17896,
    "public_repos": 1000,
-   "total_stars": 40296,
+   "total_stars": 40303,
    "repo_count": 95,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12790,
+     "stars": 12791,
      "lang": "Python",
      "pushed_at": "2026-11-17T19:00:39Z"
     },
@@ -116,9 +116,9 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11627,
+     "stars": 11630,
      "lang": "Python",
-     "pushed_at": "2026-11-20T20:11:32Z"
+     "pushed_at": "2026-11-22T01:15:58Z"
     },
     {
      "name": "shot-scraper",
@@ -132,7 +132,7 @@
      "name": "sqlite-utils",
      "url": "https://github.com/simonw/sqlite-utils",
      "desc": "Python CLI utility and library for manipulating SQLite databases",
-     "stars": 2210,
+     "stars": 2212,
      "lang": "Python",
      "pushed_at": "2026-11-12T16:44:22Z"
     },
@@ -155,17 +155,17 @@
    ],
    "feed": [
     {
-     "type": "PullRequestReviewCommentEvent",
-     "label": "PullRequestReviewCommentEvent",
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
      "repo": "simonw/datasette",
-     "at": "2026-11-20T03:07:53Z",
-     "detail": ""
+     "at": "2026-11-22T00:05:00Z",
+     "detail": "opened · "
     },
     {
      "type": "PushEvent",
      "label": "推送提交",
-     "repo": "simonw/llm-gemini",
-     "at": "2026-11-20T03:01:10Z",
+     "repo": "simonw/datasette",
+     "at": "2026-11-21T22:27:13Z",
      "detail": "",
      "count": 0
     },
@@ -173,15 +173,7 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "simonw/datasette",
-     "at": "2026-11-19T00:05:32Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/llm-prices",
-     "at": "2026-11-18T23:06:11Z",
+     "at": "2026-11-21T22:23:19Z",
      "detail": "",
      "count": 0
     },
@@ -189,7 +181,7 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "simonw/datasette",
-     "at": "2026-11-18T15:00:30Z",
+     "at": "2026-11-21T20:31:43Z",
      "detail": "",
      "count": 0
     },
@@ -197,59 +189,64 @@
      "type": "PushEvent",
      "label": "推送提交",
      "repo": "simonw/datasette",
-     "at": "2026-11-18T13:16:33Z",
+     "at": "2026-11-21T20:19:43Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-20T03:09:27Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-20T03:07:47Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette",
-     "at": "2026-11-18T15:32:18Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "simonw/datasette",
-     "at": "2026-11-18T15:19:31Z",
-     "detail": ""
     },
     {
      "type": "PullRequestEvent",
      "label": "处理 PR",
      "repo": "simonw/datasette",
-     "at": "2026-11-20T03:15:38Z",
-     "detail": "labeled · "
+     "at": "2026-11-21T22:39:22Z",
+     "detail": "opened · "
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "simonw/datasette",
+     "at": "2026-11-21T19:56:54Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PullRequestEvent",
+     "label": "处理 PR",
+     "repo": "simonw/datasette",
+     "at": "2026-11-21T22:28:15Z",
+     "detail": "merged · "
     },
     {
      "type": "IssuesEvent",
      "label": "处理 issue",
      "repo": "simonw/datasette",
-     "at": "2026-11-20T03:15:38Z",
-     "detail": "closed · Panel tab buttons should show currently selected state"
+     "at": "2026-11-21T22:28:17Z",
+     "detail": "closed · render_cell plugin hook's row object is not a sqlite.Row"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-21T22:19:25Z",
+     "detail": "closed · Sensible `cache-control` headers for static assets, including those served by plugins"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-21T22:17:00Z",
+     "detail": "closed · Separate out \"debug\" options from \"root\" options"
+    },
+    {
+     "type": "IssuesEvent",
+     "label": "处理 issue",
+     "repo": "simonw/datasette",
+     "at": "2026-11-21T22:16:35Z",
+     "detail": "closed · Turn off suggest facets on tables with large numbers of columns"
     }
    ],
    "ok": true,
-   "delta_stars": 6,
-   "delta_followers": 3
+   "delta_stars": 7,
+   "delta_followers": 2
   },
   {
    "login": "karpathy",
@@ -267,16 +264,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 233391,
+   "followers": 233416,
    "public_repos": 63,
-   "total_stars": 507990,
+   "total_stars": 508033,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 100374,
+     "stars": 100384,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -284,7 +281,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 64978,
+     "stars": 64982,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -292,7 +289,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 60749,
+     "stars": 60756,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -308,7 +305,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31518,
+     "stars": 31520,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -316,15 +313,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 26823,
+     "stars": 26832,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 61,
-   "delta_followers": 69
+   "delta_stars": 43,
+   "delta_followers": 25
   },
   {
    "login": "mckaywrigley",
@@ -342,7 +339,7 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7307,
+   "followers": 7308,
    "public_repos": 66,
    "total_stars": 50058,
    "repo_count": 63,
@@ -399,7 +396,7 @@
    "feed": [],
    "ok": true,
    "delta_stars": 0,
-   "delta_followers": 0
+   "delta_followers": 1
   },
   {
    "login": "transitive-bullshit",
@@ -565,7 +562,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": 1,
+   "delta_stars": 0,
    "delta_followers": 0
   },
   {
@@ -639,6 +636,14 @@
     }
    ],
    "feed": [
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "dubinc/docs",
+     "at": "2026-11-19T18:32:54Z",
+     "detail": "",
+     "count": 0
+    },
     {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
@@ -720,23 +725,16 @@
      "at": "2026-11-02T20:30:21Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PullRequestReviewEvent",
-     "label": "PullRequestReviewEvent",
-     "repo": "dubinc/docs",
-     "at": "2026-11-03T17:15:43Z",
-     "detail": ""
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": 0,
    "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 718915,
+  "stars": 718972,
   "events": 36
  }
 }
