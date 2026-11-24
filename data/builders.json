@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-24T13:41:09.856627+00:00",
- "generated_at_cst": "2026-11-24 21:41 CST",
- "latest_activity_at": "2026-11-24T04:00:02Z",
+ "generated_at": "2026-11-24T23:53:17.850830+00:00",
+ "generated_at_cst": "2026-11-25 07:53 CST",
+ "latest_activity_at": "2026-11-24T21:05:05Z",
  "source": "GitHub REST API v3 (public)",
  "builders": [
   {
@@ -24,16 +24,16 @@
    "name": "Zara Zhang",
    "avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
    "bio": "AI tinkerer",
-   "followers": 15395,
+   "followers": 15398,
    "public_repos": 19,
-   "total_stars": 60489,
+   "total_stars": 60511,
    "repo_count": 18,
    "top_repos": [
     {
      "name": "frontend-slides",
      "url": "https://github.com/zarazhangrui/frontend-slides",
      "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
-     "stars": 32839,
+     "stars": 32852,
      "lang": "JavaScript",
      "pushed_at": "2026-06-23T20:08:19Z"
     },
@@ -49,7 +49,7 @@
      "name": "codebase-to-course",
      "url": "https://github.com/zarazhangrui/codebase-to-course",
      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
-     "stars": 5823,
+     "stars": 5824,
      "lang": "CSS",
      "pushed_at": "2026-03-30T18:26:09Z"
     },
@@ -57,7 +57,7 @@
      "name": "beautiful-html-templates",
      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
      "desc": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
-     "stars": 5053,
+     "stars": 5054,
      "lang": "HTML",
      "pushed_at": "2026-06-09T23:59:37Z"
     },
@@ -80,8 +80,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 39,
-   "delta_followers": 14
+   "delta_stars": 22,
+   "delta_followers": 3
   },
   {
    "login": "simonw",
@@ -99,16 +99,16 @@
    "name": "Simon Willison",
    "avatar": "https://avatars.githubusercontent.com/u/9599?v=4",
    "bio": "",
-   "followers": 17951,
+   "followers": 17955,
    "public_repos": 1001,
-   "total_stars": 39923,
+   "total_stars": 39934,
    "repo_count": 95,
    "top_repos": [
     {
      "name": "llm",
      "url": "https://github.com/simonw/llm",
      "desc": "Access large language models from the command-line",
-     "stars": 12816,
+     "stars": 12820,
      "lang": "Python",
      "pushed_at": "2026-11-17T19:00:39Z"
     },
@@ -116,7 +116,7 @@
      "name": "datasette",
      "url": "https://github.com/simonw/datasette",
      "desc": "An open source multi-tool for exploring and publishing data",
-     "stars": 11649,
+     "stars": 11650,
      "lang": "Python",
      "pushed_at": "2026-11-23T16:45:19Z"
     },
@@ -124,7 +124,7 @@
      "name": "shot-scraper",
      "url": "https://github.com/simonw/shot-scraper",
      "desc": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
-     "stars": 2610,
+     "stars": 2611,
      "lang": "Python",
      "pushed_at": "2026-10-14T03:21:49Z"
     },
@@ -132,7 +132,7 @@
      "name": "sqlite-utils",
      "url": "https://github.com/simonw/sqlite-utils",
      "desc": "Python CLI utility and library for manipulating SQLite databases",
-     "stars": 2225,
+     "stars": 2228,
      "lang": "Python",
      "pushed_at": "2026-11-12T16:44:22Z"
     },
@@ -157,6 +157,85 @@
     {
      "type": "PushEvent",
      "label": "推送提交",
+     "repo": "datasette/datasette-charts",
+     "at": "2026-11-24T06:03:55Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-charts",
+     "at": "2026-11-24T03:58:35Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-agent",
+     "at": "2026-11-24T03:42:58Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-charts",
+     "at": "2026-11-24T06:06:48Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PublicEvent",
+     "label": "仓库转公开",
+     "repo": "datasette/dblayer",
+     "at": "2026-11-24T02:35:58Z",
+     "detail": ""
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-charts",
+     "at": "2026-11-24T04:17:10Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-charts",
+     "at": "2026-11-24T04:21:41Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-agent",
+     "at": "2026-11-23T05:56:06Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/datasette-agent-edit",
+     "at": "2026-11-23T05:26:09Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
+     "repo": "datasette/ready-for-datasette",
+     "at": "2026-11-23T05:04:15Z",
+     "detail": "",
+     "count": 0
+    },
+    {
+     "type": "PushEvent",
+     "label": "推送提交",
      "repo": "simonw/micropython-wasm",
      "at": "2026-11-23T06:02:02Z",
      "detail": "",
@@ -169,90 +248,11 @@
      "at": "2026-11-23T04:43:38Z",
      "detail": "",
      "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette-psutil",
-     "at": "2026-11-23T04:42:31Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette-psutil",
-     "at": "2026-11-23T04:35:56Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "datasette/ready-for-datasette",
-     "at": "2026-11-23T04:10:22Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "datasette/ready-for-datasette",
-     "at": "2026-11-23T05:10:23Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "datasette/datasette-agent-charts",
-     "at": "2026-11-23T02:40:59Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "datasette/datasette-agent",
-     "at": "2026-11-23T02:34:00Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "datasette/datasette-agent",
-     "at": "2026-11-23T02:23:41Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "simonw/datasette.io",
-     "at": "2026-11-23T02:06:53Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "PushEvent",
-     "label": "推送提交",
-     "repo": "datasette/datasette-charts",
-     "at": "2026-11-24T04:00:02Z",
-     "detail": "",
-     "count": 0
-    },
-    {
-     "type": "CreateEvent",
-     "label": "新建仓库/分支",
-     "repo": "datasette/datasette-agent",
-     "at": "2026-11-24T03:40:04Z",
-     "detail": "branch panel-fragment-links"
     }
    ],
    "ok": true,
-   "delta_stars": 17,
-   "delta_followers": 11
+   "delta_stars": 11,
+   "delta_followers": 4
   },
   {
    "login": "karpathy",
@@ -270,16 +270,16 @@
    "name": "Andrej",
    "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
    "bio": "I like to train Deep Neural Nets on large datasets.",
-   "followers": 233922,
+   "followers": 234016,
    "public_repos": 63,
-   "total_stars": 508594,
+   "total_stars": 508681,
    "repo_count": 54,
    "top_repos": [
     {
      "name": "autoresearch",
      "url": "https://github.com/karpathy/autoresearch",
      "desc": "AI agents running research on single-GPU nanochat training automatically",
-     "stars": 100522,
+     "stars": 100545,
      "lang": "Python",
      "pushed_at": "2026-03-26T00:07:37Z"
     },
@@ -287,7 +287,7 @@
      "name": "nanoGPT",
      "url": "https://github.com/karpathy/nanoGPT",
      "desc": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
-     "stars": 65047,
+     "stars": 65052,
      "lang": "Python",
      "pushed_at": "2025-11-12T19:52:34Z"
     },
@@ -295,7 +295,7 @@
      "name": "nanochat",
      "url": "https://github.com/karpathy/nanochat",
      "desc": "The best ChatGPT that $100 can buy.",
-     "stars": 60830,
+     "stars": 60837,
      "lang": "Python",
      "pushed_at": "2026-09-07T20:06:43Z"
     },
@@ -303,7 +303,7 @@
      "name": "LLM101n",
      "url": "https://github.com/karpathy/LLM101n",
      "desc": "LLM101n: Let's build a Storyteller",
-     "stars": 37483,
+     "stars": 37484,
      "lang": null,
      "pushed_at": "2024-08-01T01:20:33Z"
     },
@@ -311,7 +311,7 @@
      "name": "llm.c",
      "url": "https://github.com/karpathy/llm.c",
      "desc": "LLM training in simple, raw C/CUDA",
-     "stars": 31532,
+     "stars": 31534,
      "lang": "Cuda",
      "pushed_at": "2025-06-26T17:03:40Z"
     },
@@ -319,15 +319,15 @@
      "name": "llm-council",
      "url": "https://github.com/karpathy/llm-council",
      "desc": "LLM Council works together to answer your hardest questions",
-     "stars": 26930,
+     "stars": 26947,
      "lang": "Python",
      "pushed_at": "2025-11-22T23:35:21Z"
     }
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 112,
-   "delta_followers": 194
+   "delta_stars": 87,
+   "delta_followers": 94
   },
   {
    "login": "mckaywrigley",
@@ -345,9 +345,9 @@
    "name": "Mckay Wrigley",
    "avatar": "https://avatars.githubusercontent.com/u/29221284?v=4",
    "bio": "Founder, Takeoff AI. I build AI tools.",
-   "followers": 7308,
+   "followers": 7311,
    "public_repos": 66,
-   "total_stars": 50056,
+   "total_stars": 50055,
    "repo_count": 63,
    "top_repos": [
     {
@@ -362,7 +362,7 @@
      "name": "ai-code-translator",
      "url": "https://github.com/mckaywrigley/ai-code-translator",
      "desc": "Use AI to translate code from one language to another.",
-     "stars": 4158,
+     "stars": 4157,
      "lang": "TypeScript",
      "pushed_at": "2023-12-21T00:19:08Z"
     },
@@ -401,8 +401,8 @@
    ],
    "feed": [],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 0
+   "delta_stars": -1,
+   "delta_followers": 3
   },
   {
    "login": "transitive-bullshit",
@@ -422,14 +422,14 @@
    "bio": "My heart is open source 💕",
    "followers": 4614,
    "public_repos": 373,
-   "total_stars": 35611,
+   "total_stars": 35609,
    "repo_count": 69,
    "top_repos": [
     {
      "name": "agentic",
      "url": "https://github.com/transitive-bullshit/agentic",
      "desc": "Your API ⇒ Paid MCP. Instantly.",
-     "stars": 18082,
+     "stars": 18080,
      "lang": "TypeScript",
      "pushed_at": "2026-02-11T04:50:03Z"
     },
@@ -568,7 +568,7 @@
     }
    ],
    "ok": true,
-   "delta_stars": -1,
+   "delta_stars": -2,
    "delta_followers": 0
   },
   {
@@ -642,6 +642,13 @@
     }
    ],
    "feed": [
+    {
+     "type": "PullRequestReviewEvent",
+     "label": "PullRequestReviewEvent",
+     "repo": "dubinc/docs",
+     "at": "2026-11-24T21:05:05Z",
+     "detail": ""
+    },
     {
      "type": "DeleteEvent",
      "label": "DeleteEvent",
@@ -723,23 +730,16 @@
      "repo": "dubinc/docs",
      "at": "2026-11-18T05:49:24Z",
      "detail": ""
-    },
-    {
-     "type": "DeleteEvent",
-     "label": "DeleteEvent",
-     "repo": "dubinc/docs",
-     "at": "2026-11-11T01:58:08Z",
-     "detail": ""
     }
    ],
    "ok": true,
-   "delta_stars": 1,
-   "delta_followers": 1
+   "delta_stars": 0,
+   "delta_followers": 0
   }
  ],
  "totals": {
   "builders": 6,
-  "stars": 719321,
+  "stars": 719438,
   "events": 36
  }
 }
